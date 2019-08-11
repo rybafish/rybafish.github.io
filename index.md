@@ -1,7 +1,7 @@
 ## Do you miss HANA load charts as much as we did?
 ![demo screen](http://rybafish.github.io/demoscreen.png)
 
-Ryba Fish Charts allow monitoring of multitanant HANA DB with similar to SAP HANA Studio performance load charts user interface. For more details please check [about page](/about) and [planned](/todo) features list.
+Ryba Fish Charts a stand-alone application for monitoring of multitanant HANA installations. For more details please check [about page](/about) and [planned](/todo) features list.
 
 ### Key Features
 It works.
