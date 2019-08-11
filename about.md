@@ -1,0 +1,30 @@
+## Key Features
+* Multitenant Support
+* Faster refresh due to SQL interface instead of trc file parsing
+* No Java/Eclipse legacy: reduced memory requirements
+* It actually works for scale-out installations, i.e. even 10+ nodes.
+* No random refresh/rescale/adjust events
+* More precise time scale: HANA Studio is known for putting stuff on wrong timestamps (sometimes 20-30 seconds off)
+* Correct and more accurate time/date labels 
+* Dynamic KPIs: list of available KPIs depends on DB revision: new metrics available right away and do not require the tool update
+* Check some minor little thinks on [Tips and Tricks](/tips) page
+
+## Known Limitations
+### Limitations
+* All the network calls are synchronous
+* Single select statement per host - design limitation
+
+### Missing functionality
+* Not correct per-sample metrics display: it's smth/sample and not smth/sec (example statements/per second), Absolute values for such metrics are note the same as in SAP HANA Studio.
+* Most of the metrics not scaled down (disk size is 30000000000 bytes)
+* No Y-Scale grid **yet**
+* No auto-refresh available
+* Increase/Decrease and manual scale only works for memory metrics
+* KPIs table does not have hierarchy
+* KPIs columns Average and Sum do not work (does anybody ever need those?)
+
+### Bugs
+* KPI highlighted point might be bit off: first left point selected and not the closest to the mouse
+rest of the bucks see/report on project's [issues](https://github.com/rybafish/rybafish/issues) page.
+
+You can also review future plans in [TODO](/todo) list.
