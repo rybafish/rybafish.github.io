@@ -9,7 +9,7 @@ It works.
 ### Download
 **Windows**
 
-Download executable [https://github.com/rybafish/rybafish/releases/download/03/RybaFish_03.7z](0.3 beta), 12.08.2019 build. 
+Download executable [(0.3 beta)](https://github.com/rybafish/rybafish/releases/download/03/RybaFish_03.7z), 12.08.2019 build. 
 
 **macOS & Linux**
 
