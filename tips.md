@@ -4,5 +4,6 @@
 * Pressing the Enter key while in "from:" or "to:" fields will submit reload request with the new time
 * Alt+click in KPIs table will enable the KPI but will not perform request: useful to select several KPIs and do single request
 * Click on the chart line will highlight it and display the exact time and value
+* Sinle click in chart area will redraw the chart without refresh
 * Right mouse click in the chart area shows some potentiously useful options
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
