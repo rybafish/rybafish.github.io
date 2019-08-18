@@ -1,7 +1,7 @@
 ## Do you miss HANA load charts as much as we did?
 ![demo screen](http://rybafish.github.io/demoscreen.png)
 
-Ryba Fish Charts a stand-alone application for monitoring of multitanant HANA installations. For more details please check [about page](/about) and [planned](/todo) features list.
+Ryba Fish Charts a stand-alone application for monitoring of multitanant HANA installations. It gives HANA Performance Load Charts ability with tenants support. For more details please check [about page](/about) and [planned](/todo) features list.
 
 ### Key Features
 It works.
