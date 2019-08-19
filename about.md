@@ -15,7 +15,7 @@
 * Single select statement per host - design limitation
 
 ### Missing functionality
-* Not correct per-sample metrics display: it's smth/sample and not smth/sec (example statements/per second), Absolute values for such metrics are note the same as in SAP HANA Studio.
+* Not correct per-sample metrics display: it's smth/sample and not smth/sec (example statements/per second), Absolute values for such metrics are not the same as in SAP HANA Studio.
 * Most of the metrics not scaled down (disk size is 30000000000 bytes)
 * ~~No Y-Scale grid~~
 * ~~No auto-refresh available~~
