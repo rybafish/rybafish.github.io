@@ -1,18 +1,18 @@
 ## Key Features
-* Multitenant Support
+* Multitenant HANA MDC Support
 * Faster refresh due to SQL interface instead of trc file parsing
 * No Java/Eclipse legacy: reduced memory requirements
 * It actually works for scale-out installations, i.e. even 10+ nodes.
 * No random refresh/rescale/adjust events
-* More precise time scale: HANA Studio is known for putting stuff on wrong timestamps (sometimes 20-30 seconds off)
-* Correct and more accurate time/date labels 
+* More precise time scale: HANA Studio is known for putting stuff on wrong timestamps (sometimes 20-30 seconds off!)
+* Accurate time/date labels 
 * Dynamic KPIs: list of available KPIs depends on DB revision: new metrics available right away and do not require the tool update
 * Check some minor little things on [Tips and Tricks](/tips) page
 
 ## Known Limitations
 ### Limitations
 * All the network calls are synchronous
-* Single select statement per host - design limitation
+* Separate select statement per host - design limitation
 
 ### Missing functionality
 * Not correct per-sample metrics display: it's smth/sample and not smth/sec (example statements/per second), Absolute values for such metrics are not the same as in SAP HANA Studio.
