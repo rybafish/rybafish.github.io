@@ -1,3 +1,5 @@
+RybaFish Charts is an open source software for monitoring HANA MDC. It returns load graph functionay for multitenant installations.
+
 ## Key Features
 * Multitenant HANA MDC Support
 * Faster refresh due to SQL interface instead of trc file parsing
