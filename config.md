@@ -7,6 +7,11 @@ fontSize: 8
 
 Integer. Font size for the chart labels.
 
+#### experimental
+experimental: True
+
+Boolean. Enables experimental functionality.
+
 ### Experimental stuff
 #### memoryGB
 memoryGB: True
@@ -15,6 +20,6 @@ memoryGB: True
 Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 
 #### fontScale
-
 fontScale: 1.25
-Decimal number. Default scaling factor for "Adjust Fonts" action.
+
+Decimal. Default scaling factor for "Adjust Fonts" action.
