@@ -22,4 +22,4 @@ Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 #### fontScale
 fontScale: 1.25
 
-Decimal. Default scaling factor for "Adjust Fonts" action.
+Decimal. Default scaling factor for the "Adjust Fonts" action.
