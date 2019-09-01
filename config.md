@@ -4,10 +4,14 @@
 
 #### fontSize
 fontSize: 8
+
 Integer. Font size for the chart labels.
 
 ### Experimental stuff
 #### memoryGB
+memoryGB: True
+
+
 Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 
 #### fontScale
