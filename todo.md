@@ -23,12 +23,13 @@
 * standardize time scales (1 minute, 10 minutes etc)
 
 ## Changelog
-### Planned for the next release
-* *right-mouse click error*
-* *wrong custom sql*
-* *Ignore exception option*
+#### 0.4 beta (01.09.2019)
+* now full support of sample unit / display unit and "per sample" kpis (like Network In/Out)
+* now zoom with ctrl+mouse scroll 
+* can check for the last version in "About"
+* some crashes fixed
 
-#### 0.3 beta (*not yet, planned 12.08.2019*)
+#### 0.3 beta (12.08.2019)
 * Auto Refresh Feature
 * Y-Scale grid
 * Fixed some bugs exceptions
