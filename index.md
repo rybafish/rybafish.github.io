@@ -1,4 +1,4 @@
-## Do you miss HANA performance load charts as much as we?
+## Do you miss HANA load graph as much as we?
 ![demo screen](http://rybafish.github.io/demoscreen.png)
 
 Ryba Fish Charts a stand-alone application for monitoring of multitanant HANA MDC installations. It gives HANA Performance Load Charts ability with tenants support. For more details please check [about page](/about) and [planned](/todo) features list.
