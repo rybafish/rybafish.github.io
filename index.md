@@ -15,7 +15,7 @@ Previous build [0.3 beta](https://github.com/rybafish/rybafish/releases/download
 
 **macOS & Linux**
 
-Not exact date yet.
+Not available yet.
 
 ### Support
 To report/view known bugs check the project's [issues page](https://github.com/rybafish/rybafish/issues).
