@@ -7,6 +7,11 @@ fontSize: 8
 
 Integer. Font size for the chart labels.
 
+#### locale
+locale: 'fr_FR'
+
+By default system locale used for number formatting: decimal and thousands separators. This can be changed by enforsing different locale. Examples: 'en_US', 'fr_FR', etc.
+
 #### experimental
 experimental: True
 
