@@ -38,6 +38,11 @@ sql: >
         effective_allocation_limit
     from _sys_statistics.host_service_memory
 ```
+
+YAML files with custom KPI definitions must be stored in sql folder. When sub-folders created corresponding KPI groups will be created in KPIs table.
+
+One YAML file can have several custom KPIs but all coming from the same SQL statement. All KPIs have to have one type (host or service, see below).
+
 ## YAML file structure
 ### type
 Can only have one of two values: 'service' or 'host'
@@ -66,3 +71,6 @@ KPI Name in KPI table
 
 ### description
 Free form KPI description for the KPI table
+
+### sql
+SQL statement providing host, time optionally port and one or more integer kpi values. The time column has to have timestamp sql type. Note: according to YAML formatting rules the sql statement as to start with '>' character and must be idented.
