@@ -1,4 +1,4 @@
-## Custom KPIs
+# Custom KPIs
 Since v05 Ryba Fish Charts supports custom kpis metrics.
 
 **Currently the feature available only if the experimental mode is enabled: check the config.yaml file**
@@ -79,3 +79,6 @@ Free form KPI description for the KPI table.
 
 ### sql
 SQL statement providing host, time optionally port and one or more integer kpi values. The time column has to have timestamp sql type. Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented.
+
+## Known Issues
+Reload KPIs feature still a but bumpy. For example KPI table refresh sometimes missed, etc.
