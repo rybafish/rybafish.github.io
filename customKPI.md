@@ -1,6 +1,8 @@
 ## Custom KPIs
 Since v05 Ryba Fish Charts supports custom kpis metrics.
 
+**Currently the feature wowks only if the experimental mode is enabled: check the config.yaml file**
+
 This means you can define custom SQL statement providing time, host, optionally service port and some numeric values do be displayed on the chart along with  the standard ones. For instance you can extract additional data from statistics service tables to display.
 
 Such statement needs to be defined with some additional KPI details like units of measure, color, name, etc. Let's see an example for memory information based on host_service_memory statistics service table:
