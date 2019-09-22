@@ -41,12 +41,12 @@ sql: >
 
 YAML files with custom KPI definitions must be stored in sql folder. When sub-folders created corresponding KPI groups will be created in KPIs table.
 
-One YAML file can have several custom KPIs but all coming from the same SQL statement. All KPIs have to have one type (host or service, see below).
+One YAML file can have several custom KPIs but all coming from the same sql statement. All KPIs have to have the same type (host or service, see below).
 
 ## YAML file structure
 ### type
-Can only have one of two values: 'service' or 'host'
-When sql provides service-level metric - port must be one of the returned columns.
+Can only have one of two values: 'service' or 'host'.
+When sql provides service-level metric - port must be one of the returned columns. 
 
 ### name
 KPI internal name: it will be used internally by the ryba fish, must be unique.
@@ -55,7 +55,7 @@ KPI internal name: it will be used internally by the ryba fish, must be unique.
 KPI Group used for Y-Scale. Useful pre-defined values are mem for all memory metrics, thr - for threads. Zero means no grouping used.
 
 ### sUnit/dUnit
-Sample unit and display unit. The only pre-defined values are Bytes/MB usually used for memory metrics.
+Sample unit and display unit. The only pre-defined values are Bytes/MB usually used for memory metrics. See examples in m_load_history_info.
 
 ### sqlname
 Name of the corresponding column in sql statement.
@@ -64,13 +64,13 @@ Name of the corresponding column in sql statement.
 KPI style color in form of #RGB. #F00 - red, #0FF - cyan, etc.
 
 ### style
-By default all kpis are solid lines. Style options are: solid, dashed, dotted, dotline.
+By default all kpis displayed using solid lines. Available style options are: solid, dashed, dotted, dotline.
 
 ### label
-KPI Name in KPI table
+KPI Name in KPI table.
 
 ### description
-Free form KPI description for the KPI table
+Free form KPI description for the KPI table.
 
 ### sql
 SQL statement providing host, time optionally port and one or more integer kpi values. The time column has to have timestamp sql type. Note: according to YAML formatting rules the sql statement as to start with '>' character and must be idented.
