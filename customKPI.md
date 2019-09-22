@@ -44,6 +44,9 @@ YAML files with custom KPI definitions must be stored in sql folder. When sub-fo
 One YAML file can have several custom KPIs but all coming from the same sql statement. All KPIs have to have the same type (host or service, see below).
 
 ## YAML file structure
+### kpis
+Mandatory field with list of KPI descriptions.
+
 ### type
 Can only have one of two values: 'service' or 'host'.
 When sql provides service-level metric - port must be one of the returned columns. 
