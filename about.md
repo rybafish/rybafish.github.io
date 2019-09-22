@@ -2,6 +2,7 @@
 
 ## Key Features
 * Multitenant HANA MDC Support
+* [Custom KPIs](/customKPI) support
 * Faster refresh due to SQL interface instead of trc file parsing
 * No Java/Eclipse legacy: reduced memory requirements
 * It actually works for scale-out installations, i.e. even 10+ nodes.
@@ -17,8 +18,8 @@
 * Separate select statement per host - design limitation
 
 ### Missing functionality
-* Not correct per-sample metrics display: it's smth/sample and not smth/sec (example statements/per second), Absolute values for such metrics are not the same as in SAP HANA Studio.
-* Most of the metrics not scaled down (disk size is 30000000000 bytes)
+* ~~Not correct per-sample metrics display: it's smth/sample and not smth/sec (example statements/per second), Absolute values for such metrics are not the same as in SAP HANA Studio.~~
+* ~~Most of the metrics not scaled down (disk size is 30000000000 bytes)~~
 * ~~No Y-Scale grid~~
 * ~~No auto-refresh available~~
 * Increase/Decrease and manual scale only works for memory metrics
