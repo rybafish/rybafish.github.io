@@ -9,9 +9,9 @@ It works.
 ### Download
 **Windows**
 
-Last version: [0.4 beta](https://github.com/rybafish/rybafish/releases/download/04/RybaFish_04.7z), 01.09.2019.
+Last version: [0.45](https://github.com/rybafish/rybafish/releases/download/045/RybaFish_045.7z), 23.09.2019
 
-Previous build [0.3 beta](https://github.com/rybafish/rybafish/releases/download/03/RybaFish_03.7z), 12.08.2019. 
+Previous build: [0.4 beta](https://github.com/rybafish/rybafish/releases/download/04/RybaFish_04.7z), 01.09.2019.
 
 **macOS & Linux**
 
@@ -21,7 +21,4 @@ Not available yet.
 To report/view known bugs check the project's [issues page](https://github.com/rybafish/rybafish/issues).
 
 ### License
-Ryba Fish Charts is free open source software released under GPLv3 license.
-
---  
-Development Team
+Ryba Fish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind.
