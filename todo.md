@@ -23,6 +23,11 @@
 * standardize time scales (1 minute, 10 minutes etc)
 
 ## Changelog
+#### 0.45 (23.09.2019)
+* built-in screenshot feature
+* chart performance improvements
+* custom KPIs support (experimental mode)
+
 #### 0.4 beta (01.09.2019)
 * now full support of sample unit / display unit and "per sample" kpis (like Network In/Out)
 * now zoom with ctrl+mouse scroll 
