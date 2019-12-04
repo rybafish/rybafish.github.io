@@ -1,4 +1,4 @@
-Note: for custom KPIs documentation go [customKPI](customKPI).
+Note: for custom KPIs documentation go to the [customKPI](customKPI) page.
 
 ## Configuration options description
 
@@ -14,10 +14,10 @@ locale: 'fr_FR'
 
 By default system locale used for number formatting: decimal and thousands separators. This can be changed by enforsing different locale. Examples: 'en_US', 'fr_FR', etc.
 
-#### locale
+#### color-bg
 color-bg: '#EEE'
 
-Changes the default chart background to specified value. Useful for dark XP-like color schemes.
+Changes the default chart background to the specified value. Useful for dark XP-like color schemes.
 
 #### experimental
 experimental: True
