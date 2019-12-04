@@ -81,4 +81,4 @@ Free form KPI description for the KPI table.
 SQL statement providing host, time optionally port and one or more integer kpi values. The time column has to have timestamp sql type. Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented.
 
 ## Known Issues
-Reload KPIs feature still a but bumpy... KPI table refresh sometimes missed, etc.
+"Reload KPIs" feature still a bit bumpy...
