@@ -1,3 +1,5 @@
+Note: for custom KPIs documentation go [customKPI](customKPI).
+
 ## Configuration options description
 
 ### Main Stuff
