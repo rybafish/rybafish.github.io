@@ -10,12 +10,12 @@ fontSize: 8
 Integer. Font size for the chart labels.
 
 #### locale
-locale: 'fr_FR'
+> locale: 'fr_FR'
 
 By default system locale used for number formatting: decimal and thousands separators. This can be changed by enforsing different locale. Examples: 'en_US', 'fr_FR', etc.
 
 #### color-bg
-color-bg: '#EEE'
+> color-bg: '#EEE'
 
 Changes the default chart background to the specified value. Useful for dark XP-like color schemes.
 
