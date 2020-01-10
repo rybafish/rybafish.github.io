@@ -43,7 +43,7 @@ Decimal. Default scaling factor for the "Adjust Fonts" action.
 Number of rows fetched for the result set
 
 #### nullString
-`nullString: ?`
+`nullString: '?'`
 
 SQL NULL value representation for table output
 
