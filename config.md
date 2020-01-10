@@ -35,3 +35,19 @@ Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 `fontScale: 1.25`
 
 Decimal. Default scaling factor for the "Adjust Fonts" action.
+
+### SQL Console related (also experimental, v.05 requred, not released yet)
+#### maxResultSize
+`maxResultSize: 1000`
+
+Number of rows fetched for the result set
+
+#### nullString
+`nullString: ?`
+
+SQL NULL value representation for table output
+
+#### nullStringCSV
+`nullStringCSV: ''`
+
+SQL NULL value representation for CSV or Copy
