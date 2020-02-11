@@ -17,7 +17,17 @@ By default system locale used for number formatting: decimal and thousands separ
 #### color-bg
 `color-bg: '#FFF'`
 
-Changes the default chart background to the specified value. Useful for dark XP-like color schemes.
+Changes the chart background to the specified value. Useful for dark XP-like color schemes.
+
+#### keepalive
+`keepalive: 1200`
+
+Enables chart to send keep alive dummy queries to avoid disconnection due to inactivity.
+
+#### keepalive
+`keepalive-cons: 1800`
+
+Enables sql console to send keep alive dummy queries to avoid disconnection due to inactivity.
 
 #### experimental
 `experimental: True`
@@ -27,7 +37,6 @@ Boolean. Enables experimental functionality.
 ### Experimental stuff
 #### memoryGB
 `memoryGB: True`
-
 
 Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 
