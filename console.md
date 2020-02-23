@@ -1,4 +1,4 @@
-Since version 0.49 Ryba Fish Charts has built in SQL Console. It is simple tool for executing statements and it is not intended to be the only administrative tool.
+Since version 0.49 Ryba Fish Charts has built in SQL console. It is simple tool for executing statements and it is not intended to be the only administrative tool.
 
 ## Key features
 * Lightweight and fast
