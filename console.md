@@ -1,10 +1,10 @@
-Since version 0.49 Ryba Fish Charts comes with simple SQL Console. It is simple tool for executing statements and it is not intended to be the only administrative tool.
+Since version 0.49 Ryba Fish Charts comes with SQL Console. It is simple tool for executing statements and it is not intended to be the only administrative tool.
 
 ## Key features
 * Lightweight and fast
 * Syntax highlight
 * Notepad++ style features: move line, duplicate line, etc.
-* Braket pairs highlighter
+* Brackest highlighter
 
 ## Missing functionality, but planned
 * Code completition
