@@ -10,6 +10,7 @@
 * More precise time scale: HANA Studio is known for putting stuff on wrong timestamps (sometimes 20-30 seconds off!)
 * Accurate time/date labels 
 * Dynamic KPIs: list of available KPIs depends on DB revision: new metrics available right away and do not require the tool update
+* Simple SQL Console
 * Check some minor little things on [Tips and Tricks](/tips) page
 
 ## Known Limitations
