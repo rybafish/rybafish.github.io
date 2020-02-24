@@ -12,5 +12,5 @@
 
 ### SQL Console Tabs
 * select top NNN automaticaly adjusts the limit so you can get more result rows than configured
-* ctrl+up ctrl+down, mowes current line
+* ctrl+up/ctrl+down, moves current line
 * ctrl+d duplicates current line or selection
