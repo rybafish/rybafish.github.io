@@ -1,4 +1,5 @@
 ## Tips and Tricks
+### Chart Tab
 * Ctrl mouse wheel makes zoom-in/zoom-out while in chart area
 * F5 and Ctrl+R will triggers reload request
 * You can use relative number in hours instead of timestamp in "from:" field, example : "-12" to keep just last twelve hours
@@ -8,3 +9,8 @@
 * Sinle click in chart area will redraw the chart without refresh
 * Right mouse click in the chart area shows some potentiously useful options, try it!
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
+
+### SQL Console Tabs
+* select top NNN automaticaly adjusts the limit so you can get more result rows than configured
+* ctrl+up ctrl+down, mowes current line
+* ctrl+d duplicates current line or selection
