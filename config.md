@@ -47,7 +47,7 @@ Decimal. Default scaling factor for the "Adjust Fonts" action.
 
 ### SQL Console related (also experimental, v.05 requred, not released yet)
 #### maxResultSize
-`maxResultSize: 1000`
+`resultSize: 1000`
 
 Number of rows fetched for the result set
 
