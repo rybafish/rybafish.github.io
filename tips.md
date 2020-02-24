@@ -11,6 +11,6 @@
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
 
 ### SQL Console Tabs
-* select top NNN automaticaly adjusts the limit so you can get more result rows than configured
+* if you start statement as "select top NNN" result limit will be automaticaly adjusted for this execution
 * ctrl+up/ctrl+down moves current line
 * ctrl+d duplicates current line or selection
