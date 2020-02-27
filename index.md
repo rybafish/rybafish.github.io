@@ -21,4 +21,4 @@ Not available yet.
 To report/view known bugs check the project's [issues page](https://github.com/rybafish/rybafish/issues).
 
 ### License
-Ryba Fish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind.
+RybaFish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind.
