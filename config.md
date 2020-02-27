@@ -51,6 +51,11 @@ Decimal. Default scaling factor for the "Adjust Fonts" action.
 
 Number of rows fetched for the result set
 
+#### highlightLOBs
+`highlightLOBs: True`
+
+Sets light gray backgtound for LOB fields just to be aware
+
 #### nullString
 `nullString: '?'`
 
