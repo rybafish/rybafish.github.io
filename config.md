@@ -46,6 +46,11 @@ Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 Decimal. Default scaling factor for the "Adjust Fonts" action.
 
 ### SQL Console related (also experimental, v.05 requred, not released yet)
+#### console-fontSize
+`console-fontSize: 10`
+
+Console editor font scale
+
 #### maxResultSize
 `resultSize: 1000`
 
