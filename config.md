@@ -65,3 +65,8 @@ SQL NULL value representation for table output
 `nullStringCSV: ''`
 
 SQL NULL value representation for CSV or Copy
+
+#### noWordHighlighting
+`noWordHighlighting: True`
+
+Set this to True to disable word highlighting
