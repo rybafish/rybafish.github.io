@@ -69,4 +69,4 @@ SQL NULL value representation for CSV or Copy
 #### noWordHighlighting
 `noWordHighlighting: True`
 
-Set this to True to disable word highlighting
+Set this to True to disable word highlighting. By default words are highlighted on selection.
