@@ -23,6 +23,12 @@
 * standardize time scales (1 minute, 10 minutes etc)
 
 ## Changelog
+#### 0.5 poehali (12.04.2020)
+* sql console (experimental mode only)
+* custom KPIs available as standard feature
+* bug and crash fixes
+* minor interface improvements
+
 #### 0.45 (23.09.2019)
 * built-in screenshot feature
 * chart performance improvements
