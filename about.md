@@ -24,11 +24,9 @@
 * KPIs columns Average and Sum do not work (does anybody ever need those?)
 
 ### Bugs
-#### Charts
 * KPI highlighting feature is not really perfect
-#### SQL Console 
-* no multiple resultsets supported for procedures - driver limitation
-* 32000 output rows limit (probably driver issue)
+* console: no multiple resultsets supported for procedures - driver limitation
+* console: 32000 output rows limit (probably driver limitation)
 
 You can also review future plans in [TODO](/todo) list.
 
