@@ -15,20 +15,20 @@
 
 ## Known Limitations
 ### Limitations
-* All the network calls are synchronous
+* Some of the network calls are synchronous (chart, connects)
 * Separate select statement per host - design limitation
 
 ### Missing functionality
-* ~~Not correct per-sample metrics display: it's smth/sample and not smth/sec (example statements/per second), Absolute values for such metrics are not the same as in SAP HANA Studio.~~
-* ~~Most of the metrics not scaled down (disk size is 30000000000 bytes)~~
-* ~~No Y-Scale grid~~
-* ~~No auto-refresh available~~
 * Increase/Decrease and manual scale only works for memory metrics
 * KPIs table does not have hierarchy
 * KPIs columns Average and Sum do not work (does anybody ever need those?)
 
 ### Bugs
+#### Charts
 * KPI highlighting feature is not really perfect
+#### SQL Console 
+* no multiple resultsets supported for procedures - driver limitation
+* 32000 output rows limit (probably driver issue)
 
 You can also review future plans in [TODO](/todo) list.
 
