@@ -10,7 +10,7 @@ It works.
 **Windows**
 
 
-Last version: [0.5 poehali!](https://github.com/rybafish/rybafish/releases/download/05/RybaFish05poehali.7z), 12.04.2020
+Last version: [0.51 poehali!](https://github.com/rybafish/rybafish/releases/download/v051/RybaFish051poehali.7z), 12.04.2020
 
 Previous build: [0.45](https://github.com/rybafish/rybafish/releases/download/045/RybaFish_045.7z), 24.09.2019
 
