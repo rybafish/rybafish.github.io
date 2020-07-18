@@ -1,7 +1,7 @@
 ## Do you miss HANA load graph as much as we do?
 ![demo screen](http://rybafish.github.io/demoscreen.png)
 
-RybaFish Charts is a stand-alone application for monitoring of multitanant HANA MDC installations. It gives HANA Performance Load Graph ability with tenants support. For more details please check [about page](/about) and [planned](/todo) features list.
+RybaFish Charts is a stand-alone application for monitoring of multitanant HANA MDC installations. It provides HANA Performance Load Graph functionality with tenants support. RybaFish is an open source software not affiliated with SAP. For more details please check [about page](/about) and [planned](/todo) features list.
 
 ### Key Features
 It works.
@@ -19,7 +19,7 @@ Previous build: [0.45](https://github.com/rybafish/rybafish/releases/download/04
 Not available yet.
 
 ### Support
-To report/view known bugs check the project's [issues page](https://github.com/rybafish/rybafish/issues).
+RybaFish is not SAP software, no SAP support is provided in any kind. To report/view known bugs check the project's [issues page](https://github.com/rybafish/rybafish/issues).
 
 ### License
-RybaFish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind.
+RybaFish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind, you can use it at your own risk.
