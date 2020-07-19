@@ -13,3 +13,5 @@ Everything is actually an integer in m_load_history... but some values are recal
 ### Why the chart jumps to the end of the period?
 If the end of period is empty,  the most recent data selected. If you want to avoid this just put some date as the end of the period and position will not change on refresh.
 
+### SQL Console: how the statement execution time measured?
+It is client-side measurement. Therefore it includes: prepare, execute and fetch. Highly depends on the network and the result size.
