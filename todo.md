@@ -1,26 +1,15 @@
 ## TODO
 ### Short Term
-* configurable KPI units of measure (for network, disks, etc.)
-* Fix per sample metrics to consider sample rates
-* Automate metrics scaling based on sample unit/display unit 
-* Major Output/Logs cleanup
 * Save the interface layout (including selected KPIs?) feature
 * "Save the connection details" option
-
-## Long Term
-* Custom KPIs
-* simple SQL console
 * Single-point event markers (star, round, arrow, etc)
 * resurrect import of nameserver trc files functionality (it existed before public release).
-* Asynchronous network calls
-* "copy image" option (or export as png)
+* Asynchronous network calls for charts
+
+## Long Term
+* Major Output/Logs cleanup
 * MacOS and Linux builds (help needed!)
-* Codeclean-up and refactoring
-* verify getHostKpis performance (type cast check)
-* check type cast/kpi value issues (probably will crash whole app)
-* make "Ignore exception" option?
-* verify drawing speed + check scrolling/drawing issues
-* standardize time scales (1 minute, 10 minutes etc)
+* make "Ignore the exception" option, fork tabs as a separate threads?
 
 ## Changelog
 #### 0.5 poehali (12.04.2020)
@@ -59,3 +48,6 @@
 
 #### 01. alpha (2019-07-15)
 * Initial release
+
+#### 00. initial (2019-05-02)
+* First code line put to test if Qt will be any good for charts.
