@@ -11,6 +11,12 @@
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
 
 ### SQL Console Tabs
-* if you start statement as "select top NNN" result limit will be automaticaly adjusted for this execution
+Warning: SQL Console is only available in Experimental mode. It is potentially dangerous as it can leave hanging statements affecting the system operations. 
+
+* if you start statement as "select top NNN" result limit will be automaticaly adjusted for this execution, no configuration change requred
 * ctrl+up/ctrl+down moves current line
 * ctrl+d duplicates current line or selection
+* ctrl+u lowercases the string
+
+### Not released yet, planned 0.6
+* f12 switches the console/result/log scales. When repeated - returns the previous layout: useful for managing long statements.
