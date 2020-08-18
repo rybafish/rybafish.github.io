@@ -10,6 +10,9 @@
 * Right mouse click in the chart area shows some potentiously useful options, try it!
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
 
+#### Not released yet (scheduled for v06):
+* Shift + mouse wheel scrolls the area
+
 ### SQL Console Tabs
 Warning: SQL Console is only available in Experimental mode. It is potentially dangerous as it can leave hanging statements affecting the system operations. 
 
