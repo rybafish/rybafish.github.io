@@ -40,26 +40,31 @@ Boolean. Enables experimental functionality.
 
 Decimal. Default scaling factor for the "Adjust Fonts" action.
 
-### SQL Console related (also experimental, v.05 requred, not released yet)
-#### keepalive
-`keepalive-cons: 1800`
-
-Enables sql console to send keep alive dummy queries to avoid disconnection due to inactivity.
-
+### SQL Console related (experimental mode only, v.51 requred)
 #### console-fontSize
 `console-fontSize: 10`
 
 Console editor font scale
 
-#### maxResultSize
-`resultSize: 1000`
-
-Number of rows fetched for the result set
-
 #### highlightLOBs
 `highlightLOBs: True`
 
 Sets light gray backgtound for LOB fields just to be aware
+
+#### keepalive
+`keepalive-cons: 1800`
+
+Enables sql console to send keep alive dummy queries to avoid disconnection due to inactivity.
+
+#### lowercase-columns (v 0.6)
+`lowercase-columns: False`
+
+Lowercase column names when possible. We seriously think about the environment, lets safe some ink when possible. Uppercase is bad for environment.
+
+#### maxResultSize
+`resultSize: 1000`
+
+Number of rows fetched for the result set
 
 #### nullString
 `nullString: '?'`
