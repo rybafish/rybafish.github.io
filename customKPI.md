@@ -1,5 +1,6 @@
 # Custom KPIs
 Since v 0.45 Ryba Fish Charts supports custom KPI metrics.
+Since v 0.52 gantt [KPIs suported:customKPIgantt].
 
 **Currently the feature is only available when the experimental mode is enabled: check your config.yaml file**
 
