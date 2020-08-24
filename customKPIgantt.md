@@ -65,7 +65,7 @@ Free form KPI description for the KPI table.
 ### sql
 SQL statement providing host, START, STOP, entity and description. Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented.
 
-START and STOP columns are timestamp formats.
+START and STOP columns are timestamp format.
 
 entitiy: this column will be used to group processes.
 
