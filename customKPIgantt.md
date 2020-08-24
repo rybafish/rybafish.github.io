@@ -1,6 +1,8 @@
 # Custom KPIs with gantt subtype
 Since v 0.52 Ryba Fish Charts supports custom KPI metrics with subtype gantt.
 
+This means if there is some process with the start and end times - in can be displayed. For example expensive statements, delta merges, etc.
+
 file: sql/gantt/01_exp_st.yaml
 ```
 kpis: [
@@ -64,3 +66,7 @@ Free form KPI description for the KPI table.
 SQL statement providing host, START, STOP, entity and description. Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented.
 
 START and STOP columns are timestamp formats.
+
+entitiy: this column will be used to group processes.
+
+description: any additional information to be displayed when the entry is clicked on.
