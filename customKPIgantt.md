@@ -1,5 +1,5 @@
 # Custom KPIs with gantt subtype
-Since v 0.52 Ryba Fish Charts supports custom KPI metrics with subtype gantt.
+Since v 0.52 RybaFish Charts supports custom KPI metrics with subtype gantt.
 
 This means if there is some process with the start and end times - in can be displayed. For example expensive statements, delta merges, etc.
 
@@ -46,7 +46,7 @@ When sql provides service-level metric - port must be one of the returned column
 Must be 'gantt', no other subtypes available yet.
 
 ### name
-KPI internal name: it will be used internally by the ryba fish, must be unique.
+KPI internal name: it will be used internally, must be unique.
 
 ### color
 KPI style color in form of #RGB. #F00 - red, #0FF - cyan, etc.
