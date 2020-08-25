@@ -13,6 +13,7 @@ kpis: [
         color: '#ACF',
         style: 'bar',
         width: 8
+        shift: 2
         y_range: [60, 100],
         label: 'Expensive Statements',
         description: 'Expensive Statements'}
@@ -55,6 +56,9 @@ There are two styles available: bar and candle.
 
 ### width
 Bar width.
+
+### shift
+Y-shift in case of overlapping events for the same entity.
 
 ### label
 KPI Name in KPI table.
