@@ -21,3 +21,6 @@
 You can also review future plans in [TODO](/todo) list.
 
 To see the rest of the bugs or report some - check the project's [issues](https://github.com/rybafish/rybafish/issues) page.
+
+### License
+RybaFish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind, you can use it at your own risk.
