@@ -20,6 +20,7 @@ Warning: SQL Console is only available in Experimental mode. It is potentially d
 * ctrl+up/ctrl+down moves current line
 * ctrl+d duplicates current line or selection
 * ctrl+u lowercases the string
+* there is .log file containing some additional details which may be useful in certain cases. Also crash callstacks stored there.
 
-### Not released yet, planned 0.6
+### Not released yet (scheduled for v06):
 * f12 switches the console/result/log scales. When repeated - returns the previous layout: useful for managing long statements.
