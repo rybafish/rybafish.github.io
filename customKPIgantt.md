@@ -42,11 +42,11 @@ Mandatory field with list of KPI descriptions. In case of gantt - just one KPI a
 Can only have one of two values: 'service' or 'host'.
 When sql provides service-level metric - port must be one of the returned columns. 
 
-### type
+### subtype
 Must be 'gantt', no other subtypes available yet.
 
 ### name
-KPI internal name: it will be used internally, must be unique.
+KPI name: will be used internally, must be unique.
 
 ### color
 KPI style color in form of #RGB. #F00 - red, #0FF - cyan, etc.
