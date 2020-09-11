@@ -77,6 +77,8 @@ Note: according to YAML formatting rules the sql statement has to start with '>'
 
 START and STOP columns are timestamp format.
 
-entitiy: this column will be used to group events.
+entity: this column will be used to group events.
 
-details: mandatory column providing additional information to be displayed when the entry is clicked on.
+details: column providing additional information to be displayed when the entry is clicked on.
+
+All of them are mandatory columns.
