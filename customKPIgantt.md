@@ -9,27 +9,28 @@ kpis: [
     {'type': 'service',
         subtype: 'gantt',
         name: 'exp_st',
-        sqlname: 'none',
-        color: '#ACF',
+        sqlname: 'dasd',
+        color: '#BDF',
         style: 'bar',
-        width: 8
-        shift: 2
+        width: 8,
+        shift: 2,
         y_range: [60, 100],
         label: 'Expensive Statements',
         description: 'Expensive Statements'}
     ]
 
 sql: >
-    select top 250
-    host,
-    port,
-    start,
-    stop,
-    entity,
-    'mem, gb:' || to_varchar(used_memory/1024/1024/1024) details
-    from
-    m_expensive_statements
-    order by start desc
+    select top 1000
+        host,
+        port,
+        start_time "START",
+        add_seconds(start_time, duration_microsec/1000000) "STOP",
+        db_user || '/' || app_user entity,
+        to_varchar(to_integer(memory_size/1024/1024/1024)) || ' GB, ' || to_integer(duration_microsec/1000000) || ' sec, ' || operation || ': '
+        || to_varchar(start_time, 'HH24:MI:SS.FF3') || ' - ' || to_varchar(add_seconds(start_time, duration_microsec/1000000), 'HH24:MI:SS.FF3') || '\n'
+        || REPLACE_REGEXPR('[\n|\r]' in substr(statement_string, 0, 128) with '  ' OCCURRENCE ALL) details
+        from m_expensive_statements
+    order by start_time desc
 ```
 
 Gantt KPIs defined one per yaml file.
