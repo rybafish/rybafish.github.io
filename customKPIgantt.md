@@ -70,10 +70,12 @@ KPI Name in KPI table.
 Free form KPI description for the KPI table.
 
 ### sql
-SQL statement providing host, START, STOP, entity and description. Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented. Note: same character must be used for indentation, we recommend to use spaces in order to avoid yaml parsing issues.
+SQL statement has to provide HOST, START, STOP, ENTITY and DETAISL columns. Column names are case-sensitive and must be uppercase.
+
+Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented. Note: same character must be used for indentation, we recommend to use spaces in order to avoid yaml parsing issues.
 
 START and STOP columns are timestamp format.
 
 entitiy: this column will be used to group events.
 
-description: any additional information to be displayed when the entry is clicked on.
+details: mandatory column providing additional information to be displayed when the entry is clicked on.
