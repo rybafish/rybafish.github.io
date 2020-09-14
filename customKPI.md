@@ -80,4 +80,6 @@ KPI Name in KPI table.
 Free form KPI description for the KPI table.
 
 ### sql
-SQL statement providing host, time optionally port and one or more integer kpi values. The time column has to have timestamp sql type. Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented.
+SQL statement providing host, time optionally port and one or more integer kpi values. The time column has to have timestamp sql type. 
+
+Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented. Only spaces allowed as indentation character, do not use \t to avoid yaml parsing issues.
