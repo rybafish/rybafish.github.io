@@ -73,7 +73,7 @@ Free form KPI description for the KPI table.
 ### sql
 SQL statement has to provide HOST, START, STOP, ENTITY and DETAISL columns. Column names are case-sensitive and must be uppercase.
 
-Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented. Note: same character must be used for indentation, we recommend to use spaces in order to avoid yaml parsing issues.
+Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented. Only spaces allowed as indentation character, do not use \t to avoid yaml parsing issues.
 
 START and STOP columns are timestamp format.
 
