@@ -12,6 +12,10 @@
 * make "Ignore the exception" option, fork tabs as a separate threads?
 
 ## Changelog
+#### 0.6 covid (10.10.2020)
+* gantt chart KPI type support
+* minor improvements and fixes
+
 #### 0.5 poehali (12.04.2020)
 * sql console (experimental mode only)
 * custom KPIs available as standard feature
