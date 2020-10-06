@@ -12,7 +12,7 @@
 * make "Ignore the exception" option, fork tabs as a separate threads?
 
 ## Changelog
-#### 0.6 covid (10.10.2020)
+#### 0.6 (10.10.2020)
 * gantt chart KPI type support
 * minor improvements and fixes
 
