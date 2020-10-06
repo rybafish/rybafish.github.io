@@ -9,7 +9,7 @@ It works.
 ### Download
 **Windows**
 
-**0.6** planned release date: 10.10.2020
+**0.6 Gantt!** planned release date: 10.10.2020
 
 Last version: [0.51 poehali!](https://github.com/rybafish/rybafish/releases/download/v051/RybaFish051poehali.7z), 12.04.2020
 
