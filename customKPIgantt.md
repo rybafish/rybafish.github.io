@@ -74,14 +74,14 @@ KPI Name in KPI table.
 Free form KPI description for the KPI table.
 
 ### sql
-SQL statement has to provide HOST, START, STOP, ENTITY and DETAISL columns. Column names are case-sensitive and must be uppercase.
+SQL statement has to provide HOST, START, STOP, ENTITY and DETAILS columns. Column names are case-sensitive and must be uppercase.
 
 Note: according to YAML formatting rules the sql statement has to start with '>' character and must be idented. Only spaces allowed as indentation character, do not use \t to avoid yaml parsing issues.
 
 START and STOP columns are timestamp format.
 
-entity: this column will be used to group events.
+ENTITY: this column will be used to group events.
 
-details: column providing additional information to be displayed when the entry is clicked on.
+DETAILS: column providing additional information to be displayed when the entry is clicked on.
 
 All of them are mandatory columns.
