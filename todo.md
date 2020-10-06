@@ -14,6 +14,7 @@
 ## Changelog
 #### 0.6 (10.10.2020)
 * gantt chart KPI type support
+* chart legend now available
 * minor improvements and fixes
 
 #### 0.5 poehali (12.04.2020)
