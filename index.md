@@ -11,6 +11,8 @@ It works.
 
 **0.6 EVH** planned release date: 10.10.2020
 
+[//]: #https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z
+
 Last version: [0.51 poehali!](https://github.com/rybafish/rybafish/releases/download/v051/RybaFish051poehali.7z), 12.04.2020
 
 **macOS & Linux**
