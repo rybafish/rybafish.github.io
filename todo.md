@@ -2,14 +2,16 @@
 ### Short Term
 * Save the interface layout (including selected KPIs?) feature
 * "Save the connection details" option
+* Save the encripted passwords
 * Single-point event markers (star, round, arrow, etc)
 * resurrect import of nameserver trc files functionality (it existed before public release).
 * Asynchronous network calls for charts
+* LONGDATE support
+* server processing time support
 
 ## Long Term
 * Major Output/Logs cleanup
 * MacOS and Linux builds (help needed!)
-* make "Ignore the exception" option, fork tabs as a separate threads?
 
 ## Changelog
 #### 0.6 EVH (10.10.2020)
