@@ -10,6 +10,7 @@
 
 ## Known Limitations
 ### Limitations
+* No microseconds support in timestamps (LONGDATE)
 * Some of the network calls are synchronous (chart, connects)
 * Separate select statement per host - design limitation
 
