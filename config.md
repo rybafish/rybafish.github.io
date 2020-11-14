@@ -29,6 +29,17 @@ Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 
 Enables chart to send keep alive dummy queries to avoid disconnection due to inactivity.
 
+#### saveLayout (0.7)
+`saveLayout: True`
+
+Saves the window layout: position, size, etc. Information saved in layout.yaml - delete it in case of problems.
+
+#### saveKPIs (0.7)
+`saveKPIs: True`
+
+Saves enabled KPIs. KPIs saved per host/port pair. Information saved in layout.yaml - delete it in case of problems.
+
+
 #### experimental
 `experimental: True`
 
