@@ -68,7 +68,7 @@ Enables sql console to send keep alive dummy queries to avoid disconnection due 
 
 `lowercase-columns: False`
 
-Lowercase column names when possible. We seriously think about the environment, lets safe some ink when possible. Uppercase is bad for environment.
+Lowercase column names when possible. We seriously think about the environment, lets save some ink when possible. Uppercase is bad for environment.
 
 #### maxResultSize
 `resultSize: 1000`
