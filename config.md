@@ -39,7 +39,6 @@ Saves the window layout: position, size, etc. Information saved in layout.yaml -
 
 Saves enabled KPIs. KPIs saved per host/port pair. Information saved in layout.yaml - delete it in case of problems.
 
-
 #### experimental
 `experimental: True`
 
@@ -67,7 +66,6 @@ Sets light gray backgtound for LOB fields just to be aware
 
 Enables sql console to send keep alive dummy queries to avoid disconnection due to inactivity.
 
-#### lowercase-columns (v 0.6)
 `lowercase-columns: False`
 
 Lowercase column names when possible. We seriously think about the environment, lets safe some ink when possible. Uppercase is bad for environment.
@@ -91,3 +89,8 @@ SQL NULL value representation for CSV or Copy
 `noWordHighlighting: True`
 
 Set this to True to disable word highlighting. By default words are highlighted on selection.
+
+#### longdate
+`longdate: True`
+
+Enables data_format_version2: extended data types including longdate - timestamps with microsecond precision.
