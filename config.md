@@ -39,6 +39,11 @@ Saves the window layout: position, size, etc. Information saved in layout.yaml -
 
 Saves enabled KPIs. KPIs saved per host/port pair. Information saved in layout.yaml - delete it in case of problems.
 
+### saveOpenFiles (v 0.7)
+`saveOpenFiles: True`
+
+When enabled - open consoles will be re-opened after the restart, even if not saved. Backups will be saved in "bkp" folder.
+
 #### experimental
 `experimental: True`
 
