@@ -102,10 +102,11 @@ Set this to True to disable word highlighting. By default words are highlighted 
 
 Enables data_format_version2: extended data types including longdate - timestamps with microsecond precision.
 
-#### longdate
+#### raduga
 ```raduga: ['#20b2aa', '#32cd32', '#7f007f', '#ff0000', '#ff8c00', '#7fff00', '#00fa9a', '#8a2be2', 
         '#dc143c', '#0000ff', '#da70d6', '#d8bfd8', '#ff00ff', '#1e90ff', '#db7093', '#ffff54', 
         '#ff1493', '#7b68ee', '#ffa07a', '#008000', '#3cb371', '#b8860b', '#4682b4', '#000080', 
-        '#9acd32', '#afeeee', '#7fffd4', '#ffdead', '#2f4f4f', '#556b2f', '#a0522d', '#483d8b']```
+        '#9acd32', '#afeeee', '#7fffd4', '#ffdead', '#2f4f4f', '#556b2f', '#a0522d', '#483d8b']
+```
         
 Changes default colours to semi-random list of colors. Potentially useful to distinguish same KPI for different nodes in scale-out env.
