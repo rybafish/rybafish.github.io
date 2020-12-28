@@ -1,4 +1,7 @@
 ## Tips and Tricks
+
+* Did you know? You can switch tabs by clicking on indicator (right bottom corner of the window). Starting v07.
+
 ### Chart Tab
 * Ctrl mouse wheel makes zoom-in/zoom-out while in chart area
 * F5 and Ctrl+R will triggers reload request
