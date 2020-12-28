@@ -4,8 +4,9 @@
 
 ### Chart Tab
 * Ctrl mouse wheel makes zoom-in/zoom-out while in chart area
-* F5 and Ctrl+R will triggers reload request
+* F5 and Ctrl+R triggers reload request
 * You can use relative number in hours instead of timestamp in "from:" field, example : "-12" to keep just last twelve hours
+* You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00 (v07)
 * Pressing the Enter key while in "from:" or "to:" fields will submit reload request with the new time
 * Alt+click in KPIs table will enable the KPI but will not perform request: useful to select several KPIs and do single request
 * Click on the chart line will highlight it and display the exact time and value
