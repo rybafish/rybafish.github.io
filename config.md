@@ -46,6 +46,11 @@ This feature requres saveLayout to be enabled.
 When enabled - open consoles will be re-opened after the restart, even if not saved. Backups will be saved in "bkp" folder.
 This feature requres saveLayout to be enabled.
 
+#### loglevel
+`loglevel: 3`
+
+Log level, maximum is 5 it will dump every executed SQL statement.
+
 #### experimental
 `experimental: True`
 
