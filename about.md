@@ -10,14 +10,14 @@
 
 ## Known Limitations
 ### Limitations
-* No microseconds support in timestamps (LONGDATE)
+* No microseconds support in timestamps (LONGDATE) -- full support planned in v.07
 * Some of the network calls are synchronous (chart, connects)
 * Separate select statement per host - design limitation
 
 ### Bugs
 * KPI highlighting feature is not perfect yet
 * console: no multiple resultsets supported for procedures - driver limitation
-* console: 32000 output rows limit (probably driver limitation)
+* console: 32000 output rows limit (likely a driver limitation)
 
 You can also review future plans in [TODO](/todo) list.
 
