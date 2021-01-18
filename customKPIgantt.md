@@ -68,7 +68,7 @@ Y-shift in case of overlapping events for the same entity.
 Pair of values defining the Y range (percentage) for the chart to be drawn, useful in case of several gantt charts.
 
 ### label
-KPI Name in KPI table.
+KPI Name in KPI table and legend.
 
 ### description
 Free form KPI description for the KPI table.
