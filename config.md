@@ -116,3 +116,8 @@ raduga: ['#20b2aa', '#32cd32', '#7f007f', '#ff0000', '#ff8c00', '#7fff00', '#00f
 ```
         
 The feature changes default colours to semi-random list of colors. Potentially useful to distinguish same KPI for different nodes in scale-out env. When this option is enabled colours will be extracted one by one from the list in this order. In order to have consistent colours for the same KPIs you will need to enable KPIs in the same order.
+
+### detachTimeout
+`detachTimeout: 300`
+
+Timeout for detaching resultsets containing LOB values. Default value is 300 seconds.
