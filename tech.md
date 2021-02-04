@@ -1,5 +1,6 @@
 # Technologies
-PyQt used as main visual library
+PyQt used as UI library.
+
 PyHDB - opensource SAP HANA driver maintained by SAP used to connect to SAP HANA DB
 
 # Features
