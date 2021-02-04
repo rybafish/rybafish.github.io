@@ -6,8 +6,8 @@ PyHDB - opensource SAP HANA driver maintained by SAP used to connect to SAP HANA
 # Features
 Asyncroniouts calls to the DB from SQL console - implemented using QThread
 
-# PyHDB
-It is nice and quite good working library with some limitations.
+## PyHDB
+It is nice and quite good library provided by SAP. Yet for the needs of RybaFish Charts there were several modifications done.
 
 Extentions created:
 - support for long SQL strings
