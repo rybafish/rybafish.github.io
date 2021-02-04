@@ -4,9 +4,9 @@ PyQt used as UI library.
 PyHDB - opensource SAP HANA driver maintained by SAP used to connect to SAP HANA DB
 
 # Features
-Asyncroniouts calls to the DB from SQL console - implemented 
+Asyncroniouts calls to the DB from SQL console - implemented using QThread
 
-#PyHDB
+# PyHDB
 It is nice and quite good working library with some limitations.
 
 Extentions created:
