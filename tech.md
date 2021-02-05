@@ -25,4 +25,7 @@ Features:
 - tabkey for block identation
 - ctrl+arrow to move line up/down
 - ctrl+d to duplicate block
+- ctrl+u/U lowercase/uppercase the selection
 - line numbers implemanted manually, as there's no built in support in Qt
+- brackets highlighting: implemented manually
+- selected word will be highlighetd through the whole document: useful for variables, column names, etc.
