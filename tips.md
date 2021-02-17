@@ -6,16 +6,19 @@
 * Ctrl mouse wheel makes zoom-in/zoom-out while in chart area
 * F5 and Ctrl+R triggers reload request
 * You can use relative number in hours instead of timestamp in "from:" field, example : "-12" to keep just last twelve hours
-* You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00 (v07)
 * Pressing the Enter key while in "from:" or "to:" fields will submit reload request with the new time
 * Alt+click in KPIs table will enable the KPI but will not perform request: useful to select several KPIs and do single request
+* Ctrl+click in KPIs table requst this kpi for the same service (same port) from all nodes
+* Ctrl+Shift in KPIs table request this kpi from all nodes, all services
 * Click on the chart line will highlight it and display the exact time and value
+* Second click on the same chart line calculates the delta between values: check the status bar
 * Sinle click in chart area will redraw the chart without refresh
 * Right mouse click in the chart area shows some potentiously useful options, try it!
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
+* Shift + mouse wheel scrolls the area (v06)
 
-#### Not released yet (scheduled for v06):
-* Shift + mouse wheel scrolls the area
+#### Not released yet (scheduled for v07):
+* You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00
 
 ### SQL Console Tabs
 Warning: SQL Console is only available in Experimental mode. It is potentially dangerous as it can leave hanging statements affecting the system operations. 
