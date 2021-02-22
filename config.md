@@ -73,7 +73,7 @@ Console editor font scale
 
 Sets light gray backgtound for LOB fields just to be aware
 
-#### keepalive
+#### keepalive-cons
 `keepalive-cons: 1800`
 
 Enables sql console to send keep alive dummy queries to avoid disconnection due to inactivity.
