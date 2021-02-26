@@ -5,6 +5,7 @@
 * [Custom KPIs](/customKPI) support
 * Works for big scale-out installations, i.e. even 10+ nodes.
 * Dynamic KPIs: list of available KPIs depends on DB revision: new metrics available right away and do not require the tool update
+* Gantt chart KPIs support
 * Simple SQL Console
 * Check some minor little things on [Tips and Tricks](/tips) page
 
@@ -13,6 +14,7 @@
 * No microseconds support in timestamps (LONGDATE) -- full support planned in v.07
 * Some of the network calls are synchronous (chart, connects)
 * Separate select statement per host - design limitation
+* Bind variables are not supported, only literals
 
 ### Bugs
 * KPI highlighting feature is not perfect yet
