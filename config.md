@@ -49,7 +49,12 @@ This feature requres saveLayout to be enabled.
 #### loglevel
 `loglevel: 3`
 
-Log level, maximum is 5 it will dump every executed SQL statement.
+Log level, maximum is 5 it will dump every executed SQL statement
+
+#### legendTimeScale
+`legendTimeScale: False`
+
+Controls the time scale hint on the chart legend. Set it to False to disable, enabled by default, available in v.07
 
 #### experimental
 `experimental: True`
