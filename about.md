@@ -18,8 +18,8 @@
 
 ### Bugs
 * KPI highlighting feature is not perfect yet
-* console: no multiple resultsets supported for procedures - driver limitation
-* console: 32000 output rows limit (likely a driver limitation)
+* console: no multiple resultsets supported for procedures - PyHDB driver limitation -- this one to be solved in v.07
+* console: 32000 output rows limit (likely a PyHDB limitation)
 
 You can also review future plans in [TODO](/todo) list.
 
