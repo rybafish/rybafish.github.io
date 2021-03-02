@@ -1,9 +1,9 @@
 ## Tips and Tricks
 
-* Did you know? You can switch tabs by clicking on indicator (right bottom corner of the window). Starting v07.
+* Did you know? You can switch tabs by clicking on indicators (right bottom corner of the window). Starting v07.
 
 ### Chart Tab
-* Ctrl mouse wheel makes zoom-in/zoom-out while in chart area
+* Ctrl + mouse wheel makes zoom-in/zoom-out while in chart area
 * F5 and Ctrl+R triggers reload request
 * You can use relative number in hours instead of timestamp in "from:" field, example : "-12" to keep just last twelve hours
 * Pressing the Enter key while in "from:" or "to:" fields will submit reload request with the new time
@@ -28,6 +28,7 @@ Warning: SQL Console is only available in Experimental mode. It is potentially d
 * ctrl+d duplicates current line or selection
 * ctrl+u lowercases the string
 * there is .log file containing some additional details which may be useful in certain cases. Also crash callstacks stored there.
-
-### Not released yet (scheduled for v06):
 * f12 switches the console/result/log scales. When repeated - returns the previous layout: useful for managing long statements.
+
+### Not released yet (scheduled for v07):
+* Shift + mouse wheel scrolls the result set table horizontally
