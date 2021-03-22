@@ -24,7 +24,7 @@ kpis: [
     ]
 
 sql: >
-    select top 1000
+    select
         host,
         port,
         start_time "START",
