@@ -17,6 +17,7 @@ kpis: [
         style: 'bar',
         width: 8,
         shift: 2,
+        nofilter: False,
         y_range: [60, 100],
         label: 'Expensive Statements',
         description: 'Expensive Statements'}
@@ -63,6 +64,9 @@ Bar width.
 
 ### shift
 Y-shift in case of overlapping events for the same entity.
+
+### nofilter
+You can set it to True for KPIs that do not have host/port assigned. For example something from business tables like jobs or similar. In this case no filters on host/port will be applied so the underlying SQL does not have to fake those values. Note: this value applied to the whole sql sorce based on single KPI description, so this setting has to be consistent. In case of gantt chart only one KPI can be defined anyway. Most likely this feature only relevant for Gantt type.
 
 ### y_range
 Pair of values defining the Y range (percentage) for the chart to be drawn, useful in case of several gantt charts.
