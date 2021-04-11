@@ -9,9 +9,11 @@ It works.
 ### Download
 **Windows**
 
-Last version: [0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z), 10.10.2020
+Last version: [0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
 
-Previous version: [0.51 poehali!](https://github.com/rybafish/rybafish/releases/download/v051/RybaFish051poehali.7z), 12.04.2020
+Previous version: [0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z), 10.10.2020
+
+Pre-previous version: [0.51 poehali!](https://github.com/rybafish/rybafish/releases/download/v051/RybaFish051poehali.7z), 12.04.2020
 
 **macOS & Linux**
 
