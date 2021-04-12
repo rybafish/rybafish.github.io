@@ -16,8 +16,10 @@
 * server processing time support for sql console
 
 ## Changelog
-#### 0.7 poehali GL
-* planned release date: 12.04.2020
+#### 0.7 poehali GL (12.04.2021)
+* full sql console support
+* resurrected import of nameserver_history.trc
+* layout feature: same sql tabs open after restart
 
 #### 0.6 EVH (10.10.2020)
 * [gantt KPIs](/customKPIgantt) type support
