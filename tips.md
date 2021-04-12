@@ -12,16 +12,14 @@
 * Ctrl+Shift in KPIs table request this kpi from all nodes, all services
 * Click on the chart line will highlight it and display the exact time and value
 * Second click on the same chart line calculates the delta between values: check the status bar
-* Sinle click in chart area will redraw the chart without refresh
+* Sinle click on the chart area will redraw the chart without refresh
 * Right mouse click in the chart area shows some potentiously useful options, try it!
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
 * Shift + mouse wheel scrolls the area (v06)
-
-#### Not released yet (scheduled for v07):
-* You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00
+* You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00 (v07)
 
 ### SQL Console Tabs
-Warning: SQL Console is only available in Experimental mode. It is potentially dangerous as it can leave hanging statements affecting the system operations. 
+Warning: might be dangerous as it can leave hanging statements affecting the system operations, so pay attention to that. 
 
 * if you start statement as "select top NNN" result limit will be automaticaly adjusted for this execution, no configuration change requred
 * ctrl+up/ctrl+down moves current line
@@ -29,6 +27,4 @@ Warning: SQL Console is only available in Experimental mode. It is potentially d
 * ctrl+u lowercases the string
 * there is .log file containing some additional details which may be useful in certain cases. Also crash callstacks stored there.
 * f12 switches the console/result/log scales. When repeated - returns the previous layout: useful for managing long statements.
-
-### Not released yet (scheduled for v07):
-* Shift + mouse wheel scrolls the result set table horizontally
+* Shift + mouse wheel scrolls the result set table horizontally (v07)
