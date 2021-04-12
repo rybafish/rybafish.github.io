@@ -2,7 +2,7 @@
 Colors and line styles provided by the database. It is not possible to change them, at least for now.
 
 ### Why same KPIs have same colour for the different tenants/hosts?
-First, see the previous question. Secont, it is actually a good thing: CPU is always red and memory is always green.
+First, see the previous question. Second, it is actually a good thing: CPU is always red and memory is always green.
 
 ### Where the data coming from?
 m_load_history_service and m_load_history_host system views.
