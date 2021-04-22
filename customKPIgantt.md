@@ -2,7 +2,7 @@
 Since v 0.6 RybaFish Charts supports custom KPI metrics with subtype gantt.
 ![demo screen](http://rybafish.github.io/gantt.png)
 
-This means if there is a process with the start and stop times - it can be displayed. For example (expensive) statements, delta merges, etc.
+This means if there is a process with the start and stop times - it can be displayed. For example (expensive) statements, delta merges, savepoints, etc.
 
 Can also be some business related data if the sql available: data load times, transformation stages, whatever.
 
@@ -66,7 +66,7 @@ Bar width.
 Y-shift in case of overlapping events for the same entity.
 
 ### nofilter
-You can set it to True for KPIs that do not have host/port assigned. For example something from business tables like jobs or similar. In this case no filters on host/port will be applied so the underlying SQL does not have to fake those values. Note: this value applied to the whole sql sorce based on single KPI description, so this setting has to be consistent. In case of gantt chart only one KPI can be defined anyway. Most likely this feature only relevant for Gantt type.
+You can set it to True for KPIs that do not have host/port assigned. For example something from business tables like jobs or similar. In this case no filters on host/port will be applied so the underlying SQL does not have to fake those values. Note: this value applied to the whole sql sorce based on single KPI description, so this setting has to be consistent. In case of gantt chart only one KPI can be defined anyway. This option only testes for the Gantt type so far.
 
 ### y_range
 Pair of values defining the Y range (percentage) for the chart to be drawn, useful in case of several gantt charts.
