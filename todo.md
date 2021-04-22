@@ -1,9 +1,7 @@
 ## TODO
 ### Short Term
-* Save the interface layout (including selected KPIs?) feature: done in v0.7
-* Save unsaved changes in SQL consoles (Notepad++ like behaviour): done in v0.7
-* LONGDATE support - to enable microseconds in SQL Console: done in v0.7
-* extended procedures suppurt: done in v0.7
+* server processing time support for sql console
+* proper ddl/commits handling in sql console
 
 ## Long Term
 * Major Output/Logs cleanup
@@ -11,15 +9,13 @@
 * "Save the connection details" option
 * Save the encripted passwords
 * Single-point event markers (star, round, arrow, etc)
-* resurrect import of the nameserver_history.trc files: done in 0.7.
 * Asynchronous network calls for charts
-* server processing time support for sql console
 
 ## Changelog
 #### 0.7 poehali GL (12.04.2021)
-* full sql console support
+* full gas sql console support, give it a try! <-
 * resurrected import of nameserver_history.trc
-* layout feature: same sql tabs open after restart
+* layout feature: same sql tabs open after the restart
 
 #### 0.6 EVH (10.10.2020)
 * [gantt KPIs](/customKPIgantt) type support
@@ -56,12 +52,12 @@
 * Connection dialog saves last connection details
 * Clean up of reconnect procedure
 * Single click triggers chart redraw, without data refresh
-* Copy current timestamp feature: right mouse click on chart
-* Configurable keep-alive requests: keepalive option in config.yaml in seconds
+* Copy current timestamp feature: right mouse click on the chart
+* Configurable keep-alive requests: keepalive option in config.yaml
 * Fixed some exceptions (bogus date format, etc)
 
 #### 01. alpha (2019-07-15)
 * Initial release
 
 #### 00. initial (2019-05-02)
-* First code line put to test if Qt will be any good for charts.
+* The first code line put to test if Qt will be any good for charts.
