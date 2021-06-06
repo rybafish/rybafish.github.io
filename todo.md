@@ -12,6 +12,10 @@
 * Asynchronous network calls for charts
 
 ## Changelog
+#### 0.8 no name yet (Planned: September, 2021)
+* major upgrade of the python/qt environment
+* switch to statistis server telemetry feature
+
 #### 0.7 poehali GL (12.04.2021)
 * full gas sql console support, give it a try! <-
 * resurrected import of nameserver_history.trc
