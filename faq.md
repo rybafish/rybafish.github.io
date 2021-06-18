@@ -13,7 +13,7 @@ Since v0.8 it is possible to switch to _sys_statistics.host... views which cover
 Everything is actually an integer in m_load_history... but some values are recalculated for the display ('normalized'). If reclaculated maximum is < 10 - RybaFish puts the decimal point on it. 
 
 ### Why the chart jumps to the end of the period?
-If the end of period is empty,  the most recent data selected and displayed. If you want to avoid this just put some date as the end of the period and position will not change on refresh.
+If "to:" is empty,  the most recent data selected and displayed. If you want to avoid chart re-positioning - just put some date as the end of the period and position will not change on refresh.
 
 ## SQL Console
 
