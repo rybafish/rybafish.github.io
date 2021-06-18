@@ -6,6 +6,7 @@ First, see the previous question. Second, it is actually a good thing: CPU is al
 
 ### Where the data coming from?
 m_load_history_service and m_load_history_host system views.
+Since v0.8 it is possible to switch to _sys_statistics.host... views which cover 42 days.
 
 ### Why some KPIs has fraction and some don't?
 Everything is actually an integer in m_load_history... but some values are recalculated for the display ('normalized'). If reclaculated maximum is < 10 - RybaFish puts the decimal point on it. 
@@ -13,5 +14,14 @@ Everything is actually an integer in m_load_history... but some values are recal
 ### Why the chart jumps to the end of the period?
 If the end of period is empty,  the most recent data selected and displayed. If you want to avoid this just put some date as the end of the period and position will not change on refresh.
 
-### SQL Console: how the statement execution time measured?
+## SQL Console
+
+### How the statement execution time measured?
 It is client-side measurement. Therefore it includes: prepare, execute and fetch. Highly depends on the network and the result size.
+
+### What status bar indicator colors mean?
+Gray - connecred, waiting.
+Blue - synchronous call is running: usually connection or keep-alive execution.
+Green - asynchronous call is running. You can click on the indicator to see current runtime.
+White - rendering the result.
+Red - error or disconnected.
