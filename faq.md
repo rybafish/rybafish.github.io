@@ -24,8 +24,8 @@ It is client-side measurement. Therefore it includes: prepare, execute and fetch
 At the moment - no. You need to do explicit "commit" if you need to persist your changes.
 
 ### What status bar indicator colors mean?
-* Gray - connecred, waiting.
-* Blue - synchronous call is running: usually connection or keep-alive execution.
-* Green - asynchronous call is running. You can click on the indicator to see current runtime.
-* White - rendering the result.
-* Red - error or disconnected.
+* Gray: connected, waiting.
+* Blue: synchronous call is running: usually connection or keep-alive execution.
+* Green: asynchronous call is running. You can click on the indicator to see current runtime.
+* White: rendering the result.
+* Red: error or disconnected.
