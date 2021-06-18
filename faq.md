@@ -1,3 +1,4 @@
+## Chart
 ### Why such colours selected, can I change them?
 Colors and line styles provided by the database. It is not possible to change them, at least for now.
 
