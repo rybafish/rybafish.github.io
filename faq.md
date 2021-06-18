@@ -19,6 +19,9 @@ If the end of period is empty,  the most recent data selected and displayed. If 
 ### How the statement execution time measured?
 It is client-side measurement. Therefore it includes: prepare, execute and fetch. Highly depends on the network and the result size.
 
+### Is it possible to enable auto-commit?
+At the moment - no. You need to do explicit "commit" if you need to persist your changes.
+
 ### What status bar indicator colors mean?
 Gray - connecred, waiting.
 Blue - synchronous call is running: usually connection or keep-alive execution.
