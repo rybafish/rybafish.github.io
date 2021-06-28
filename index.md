@@ -9,6 +9,8 @@ It works.
 ### Download
 **Windows**
 
+08 <span style="color:red">beta</a>: [0.8 beta](https://github.com/rybafish/rybafish/releases/download/08beta/RybaFish08beta.7z), 29.06.2021. Warning: contains known non-critical bugs.
+
 Last version: [0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
 
 Previous version: [0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z), 10.10.2020
