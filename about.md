@@ -13,13 +13,11 @@ Only one installation can be monitored: connection to two or more servers in par
 
 ## Known Limitations
 ### Limitations
-* No microseconds support in timestamps (LONGDATE) -- full support planned in v.07
-* Some of the network calls are synchronous (chart, connects)
+* Some of the network calls are synchronous (chart refresh, new connection, keep-alives)
 * Bind variables are not supported, only literals
 
 ### Bugs
 * KPI highlighting feature is not perfect yet
-* console: no multiple resultsets supported for procedures - PyHDB driver limitation -- fix planned in v.07
 * console: 32000 output rows limit (likely a PyHDB limitation)
 
 You can also review future plans in [TODO](/todo) list.
