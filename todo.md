@@ -12,7 +12,7 @@
 * Asynchronous network calls for charts
 
 ## Changelog
-#### 0.8 NoNameYet (Planned: September, 2021)
+#### 0.8 Plotva (Planned: July, 2021)
 * major upgrade of the python/qt environment
 * switch to statistis server telemetry feature
 
