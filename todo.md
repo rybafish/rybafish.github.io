@@ -12,9 +12,11 @@
 * Asynchronous network calls for charts
 
 ## Changelog
-#### 0.8 Plotva (Planned: July, 2021)
-* major upgrade of the python/qt environment
-* switch to statistis server telemetry feature
+#### 0.8 Plotva (17.07.2021)
+* switch to statistis server telemetry feature (ess)
+* result set autorefresh feature (experimental)
+* major upgrade of the python/qt technology stack
+* minor interface improvements here and there
 
 #### 0.7 poehali GL (12.04.2021)
 * full gas sql console support, give it a try! <-
