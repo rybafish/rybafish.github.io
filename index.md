@@ -11,7 +11,7 @@ RybaFish Charts is a stand-alone application for monitoring of multitanant SAP H
 ### Download
 **Windows**
 
-Planned release: [0.8 <span style="color:red">beta</span>](https://github.com/rybafish/rybafish/releases/download/08beta/RybaFish08beta.7z), 29.06.2021. Warning: contains known non-critical bugs.
+[0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), 22.07.2021
 
 [Previous releases](/releases)
 
