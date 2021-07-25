@@ -1,8 +1,5 @@
 # Release history
 
-[0.8 <span style="color:red">beta</span>](https://github.com/rybafish/rybafish/releases/download/08beta/RybaFish08beta.7z), 29.06.2021.
-ESS kpi history support
-
 [0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
 * full gas sql console support
 * resurrected import of nameserver_history.trc
