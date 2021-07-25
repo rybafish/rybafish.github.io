@@ -1,6 +1,12 @@
 # Release history
 
-[0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
+[0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), 22.07.2021
+* switch to ESS support
+* full stack upgrade
+* auto-refresh result set (experimental)
+* final(?) mvcc fix
+
+* [0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
 * full gas sql console support
 * resurrected import of nameserver_history.trc
 * layout feature: same sql tabs open after the restart
