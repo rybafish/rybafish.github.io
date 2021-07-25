@@ -4,7 +4,7 @@
 * switch to ESS support
 * full stack upgrade
 * auto-refresh result set (experimental)
-* final(?) mvcc fix
+* final mvcc fix
 
 * [0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
 * full gas sql console support
