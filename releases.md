@@ -4,9 +4,9 @@
 * switch to ESS support
 * full stack upgrade
 * auto-refresh result set (experimental)
-* final mvcc fix
+* final (?) suspended statements fix
 
-* [0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
+[0.7 poehali/gl](https://github.com/rybafish/rybafish/releases/download/07/RybaFish_07poehaliGL.7z), 12.04.2021
 * full gas sql console support
 * resurrected import of nameserver_history.trc
 * layout feature: same sql tabs open after the restart
