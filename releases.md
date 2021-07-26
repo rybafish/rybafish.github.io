@@ -1,5 +1,9 @@
-# Release history
+# Planned release
+0.9, planned October, 2021
+* autocomplete feature in SQL Console (Ctrl+Space)
+* can shift highlighted point inside KPI (Alt+arrow)
 
+# Release history
 [0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), 22.07.2021
 * switch to ESS support
 * full stack upgrade
