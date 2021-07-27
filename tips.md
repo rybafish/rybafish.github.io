@@ -1,6 +1,6 @@
 ## Tips and Tricks
 
-* Did you know? You can switch tabs by clicking on indicators (right bottom corner of the window). Starting v07.
+* Did you know? You can switch tabs by clicking on indicators (right bottom corner of the window).
 
 ### Charts
 * Ctrl + mouse wheel makes zoom-in/zoom-out while in chart area
