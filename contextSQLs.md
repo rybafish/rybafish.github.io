@@ -1,12 +1,12 @@
 Sinve v0.9 RybaFish supports context SQLs.
 
-This means you can define a custom sql that can be invoked from righ mouse click menu in results area.
+This means you can define a custom sql that can be invoked from the right mouse click menu in the results area.
 
 ![context sql example](http://rybafish.github.io/contextsql.png)
 
-The list of proposed SQLs depends on the column name.
+List of proposed SQLs depends solely on the column name. Definitions of context sqls stored in ContextSQLs folder.
 
-Definition example:
+Context SQL file definition example (01_statement_hash.yaml):
 ```
 column: 'STATEMENT_HASH'
 
