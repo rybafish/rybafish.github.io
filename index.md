@@ -24,3 +24,6 @@ RybaFish is not SAP software, no SAP support is provided in any kind. To report/
 
 ### License
 RybaFish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind, you can use it at your own risk.
+
+### Questions? Suggestions?
+Report an issue or suggest a feature [here](https://github.com/rybafish/rybafish/issues), or just email me at rybafishcharts@gmail.com
