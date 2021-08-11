@@ -3,7 +3,7 @@
 * [Context SQLs](/contextSQLs): right mouse click on PLAN_ID column in results
 * autocomplete in SQL Console (Ctrl+Space)
 * shift highlighted point inside KPI (Alt+Left/Right)
-* between predicate can be composed if there is already a timestamp in clipboard (right click on chart)
+* compose between predicate when there is already a timestamp in clipboard: right click on the chart
 * improved SQL parsing: leading comments ignored now
 * sleep() pseudo-call for sql consoles
 * fix COMMIT and ROLLBACK calls
