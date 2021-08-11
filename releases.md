@@ -1,13 +1,12 @@
 # Planned release
 0.9, planned October, 2021
-* autocomplete feature in SQL Console (Ctrl+Space)
-* can shift highlighted point inside KPI (Alt+arrow)
 * [Context SQLs](/contextSQLs): right mouse click on PLAN_ID column in results
-* for highlighted KPI alt+left/right moves one step left/right
-* fix supporting COMMIT and ROLLBACK calls
+* autocomplete in SQL Console (Ctrl+Space)
+* shift highlighted point inside KPI (Alt+Left/Right)
 * between predicate can be composed if there is already a timestamp in clipboard (right click on chart)
-* improved parsing: leading comments ignored now
+* improved SQL parsing: leading comments ignored now
 * sleep() pseudo-call for sql consoles
+* fix COMMIT and ROLLBACK calls
 
 # Release history
 [0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), 22.07.2021
