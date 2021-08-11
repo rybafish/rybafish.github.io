@@ -31,5 +31,6 @@ Warning: might be dangerous as it can leave hanging statements affecting the sys
 * f12 switches the console/result/log scales. When repeated - returns the previous layout: useful for managing long statements.
 * Shift + mouse wheel scrolls the result set table horizontally
 * Ctrl + space calls autocomplete dialog (to be released with v09)
-* ctrl+f shows basic search dialog
-* F3 repeats the last search (to be released with v09)
+  * typing  in autocomplete dialog will filter values
+* ctrl+F shows basic search dialog
+  * F3 repeats the last search (to be released with v09)
