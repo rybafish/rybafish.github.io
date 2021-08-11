@@ -11,19 +11,21 @@
 * Ctrl+click in KPIs table requst this kpi for the same service (same port) from all nodes
 * Ctrl+Shift in KPIs table request this kpi from all nodes, all services
 * Click on the chart line will highlight it and display the exact time and value
-* You can move highlighted point with Alt+arrows, (to be released in v09)
+* You can move highlighted point with Alt+Left/Right, (v09)
 * Second click on the same chart line calculates the delta between values: check the status bar
 * Sinle click on the chart area will redraw the chart without refresh
-* Right mouse click in the chart area shows some potentiously useful options, try it!
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
 * Shift + mouse wheel scrolls the area
-* You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00 (v07)
+* You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00
+* Right mouse click in the chart area shows some potentiously useful options, try it!
+  * for example you can copy the exact timestamp in sql ready format
+  * even more: if yo already have timestamp in the clipboard you can compse beween predicate (v09)
 
 
 ### SQL Console
 Warning: might be dangerous as it can leave hanging statements affecting the system operations, so pay attention to that. 
 
-* if you start statement as "select top NNN" result limit will be automaticaly adjusted for this execution, no configuration change requred
+* when you start statement as "select top NNN" result limit will be automaticaly adjusted for this execution, no configuration change requred
 * ctrl+up/ctrl+down moves current line
 * ctrl+d duplicates current line or selection
 * ctrl+u lowercases the string
