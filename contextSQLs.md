@@ -21,13 +21,13 @@ sql: >
 ## File structure
 
 #### column
-Column name 
+Column name. This could be a single value or a list of values.
 
 ### name
 Name of the SQL. This text will be displayed in the context menu.
 
 ### sql
-Statement itself.
+Statement itself. It is also possible to provide a list of statements, in this case they will be executed one after the other in queue. See the example in PLAN_ID_02_explain.yaml
 
 * $value will be replaced by the cell value
 * in case of strings/dates etc. you need to take care on quotation
