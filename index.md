@@ -9,6 +9,8 @@ RybaFish Charts is a stand-alone application for monitoring of multitanant SAP H
 * [Gantt KPIs](/customKPIgantt): whatever having start and stop times - can be put on the chart.
 
 ### Download
+No installation required, just unzip it wherever you are planning to use it.
+
 **Windows**
 
 [0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), 22.07.2021
