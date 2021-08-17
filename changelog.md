@@ -1,8 +1,8 @@
-# Planned release
-0.9, planned October, 2021
-* no delta with 0.9 beta yet
+# Upcoming Release
+0.9, planned date: October 2021
+* Ctrl+Shift+O auto-formats the SQL
 
-[<span style="color:red">0.9 <b>beta</b></span>](https://github.com/rybafish/rybafish/releases/download/09beta/RybaFish09beta.7z) (2021-08-15)
+[0.9 <span style="color:red"><b>beta</b></span>](https://github.com/rybafish/rybafish/releases/download/09beta/RybaFish09beta.7z) (2021-08-15)
 * [Context SQLs](/contextSQLs): right mouse click on PLAN_ID column in results
 * autocomplete in SQL Console (Ctrl+Space)
 * shift highlighted point inside KPI (Alt+Left/Right)
