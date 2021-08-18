@@ -10,6 +10,8 @@
 * improved SQL parsing: leading comments ignored now
 * sleep() pseudo-call for sql consoles
 * COMMIT and ROLLBACK are supported now
+* click on indicator (right part of the status bar) switches to corresponding tab
+* if there is a statement runnig, hovering mouse over indicator reports the run time
 * result set highlighting: highlight particular value +  highlight value changes
 
 # Release history
