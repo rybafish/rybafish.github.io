@@ -2,6 +2,7 @@
 0.9, planned date: October 2021
 * Ctrl+Shift+O auto-formats the SQL
 * Ctrl+Shift+X explains plan of the selected statement
+* error line now highlighted
 * only the highlighted block will have line numbers on DB Exception
 * date in "to" field now transates to YYYY-MM-DD **23:59:59**
 * Bugs fixed
