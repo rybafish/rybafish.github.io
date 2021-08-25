@@ -5,6 +5,7 @@
 * error line now highlighted
 * only the highlighted block will have line numbers on DB Exception
 * date in "to" field now transates to YYYY-MM-DD **23:59:59**
+* skip initial KPIs reload option
 * Bugs fixed
   * syntax highlighter now forced on paste
   * undo/redo queue cleaned up
