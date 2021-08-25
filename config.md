@@ -29,18 +29,18 @@ Boolean. Force memory KPIs to be displayed in GB instead of default MB.
 
 Enables chart to send keep alive dummy queries to avoid disconnection due to inactivity.
 
-#### saveLayout (v 0.7)
+#### saveLayout
 `saveLayout: True`
 
 Saves the window layout: position, size, etc. Information saved in layout.yaml - delete it in case of problems.
 
-#### saveKPIs (v 0.7)
+#### saveKPIs
 `saveKPIs: True`
 
 Saves enabled KPIs. KPIs saved per host/port pair. Information saved in layout.yaml - delete it in case of problems.
 This feature requres saveLayout to be enabled.
 
-### saveOpenTabs (v0.7)
+### saveOpenTabs
 `saveOpenTabs: True`
 
 When enabled - open consoles will be re-opened after the restart, even if not saved. Backups will be saved in "bkp" folder.
@@ -72,7 +72,7 @@ Boolean. Enables experimental functionality.
 
 Decimal. Default scaling factor for the "Adjust Fonts" action.
 
-### SQL Console related (experimental mode only, v.51 requred)
+### SQL Console related
 #### console-fontSize
 `console-fontSize: 10`
 
@@ -133,7 +133,7 @@ The feature changes default colours to semi-random list of colors. Potentially u
 Timeout for detaching resultsets containing LOB values. Default value is 300 seconds.
 
 
-### blockLineNumbers (v09)
+### blockLineNumbers (v 0.9)
 `blockLineNumbers: True`
 
 In case of DB exceptions, like syntax errors, HANA will report the line number of the error. This line number is inside the execured SQL string and not line number of the console. With this option enabled the console line numbers will only be displayed for the highlighted SQL string, so the reported DB error string should correspond to the displayed line numbers. Can be disabled by setting it to False.
