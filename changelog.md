@@ -19,6 +19,7 @@
 * click on indicator (right part of the status bar) switches to corresponding tab
 * if there is a statement runnig, hovering mouse over indicator reports the run time
 * result set highlighting: highlight particular value +  highlight value changes
+* tenant neame now requested and displayed in the window title
 
 # Release history
 [0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), 22.07.2021
