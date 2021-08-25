@@ -3,6 +3,7 @@
 * Ctrl+Shift+O auto-formats the SQL
 * Ctrl+Shift+X explains plan of the selected statement
 * only the highlighted block will have line numbers on DB Exception
+* fixed: syntax highlighter on paste
 
 [0.9 <span style="color:red"><b>beta</b></span>](https://github.com/rybafish/rybafish/releases/download/09beta/RybaFish09beta.7z) (2021-08-15)
 * [Context SQLs](/contextSQLs): right mouse click on PLAN_ID column in results
