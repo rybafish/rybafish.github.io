@@ -91,3 +91,8 @@ ENTITY: this column will be used to group events.
 DETAILS: column providing additional information to be displayed when the entry is clicked on.
 
 All of those are mandatory columns.
+
+## placeholders
+### $duration
+
+It will be replaced by duration string in human readable format.
