@@ -93,6 +93,6 @@ DETAILS: column providing additional information to be displayed when the entry 
 All of those are mandatory columns.
 
 ## placeholders
-### $duration
+### $duration (v 0.9)
 
 It will be replaced by duration string in human readable format.
