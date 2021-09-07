@@ -1,8 +1,8 @@
-Single KPI selected on the example below:
+Single KPI selected in the example below:
 
 ![demo screen](http://rybafish.github.io/multilineKPI.png)
 
-It is not really docummented, but come on, it os obious:
+The "component" column used to split values into several lines on the chart. It is not really docummented, but come on, it is quite obious:
 
 ```
 kpis: [
@@ -39,3 +39,5 @@ sql: >
         component
     order by server_timestamp desc, component_size desc
 ```
+
+Other possible orderby values: "avg" and "deviation".
