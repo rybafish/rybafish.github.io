@@ -3,6 +3,8 @@ Since v 0.45 RybaFish Charts supports regular custom KPI metrics.
 
 Since v 0.6 [gantt KPIs](/customKPIgantt) suported.
 
+Since v 0.9 [multiline KPIs](/customMultiline) suported.
+
 This means you can define custom SQL statement providing time, host, optionally service port and some numeric values do be displayed on the chart along with the standard ones. For instance you can extract additional data from statistics service tables to display.
 
 Such statement needs to be defined with some additional KPI details like units of measure, color, name, etc. Let's see an example for memory information based on host_service_memory statistics service table:
