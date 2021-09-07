@@ -1,4 +1,8 @@
-Not really docummented, but come on, it os obious:
+Single KPI selected on the example below:
+
+![demo screen](http://rybafish.github.io/multilineKPI.png)
+
+It is not really docummented, but come on, it os obious:
 
 ```
 kpis: [
