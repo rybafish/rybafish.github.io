@@ -8,6 +8,7 @@
 * skip initial KPIs reload option
 * $duration placeholder for gantt custom kpis will report human readable duration
 * [multiline](/customMultiline) KPIs support
+* save window layout feature (experimental)
 * Bugs fixed
   * syntax highlighter now forced on paste
   * undo/redo queue cleaned up
