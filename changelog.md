@@ -1,5 +1,9 @@
 # Upcoming Release
 0.9, planned date: October 2021
+
+<i>No unpublished changes yet.</i>
+
+[<b>0.9 beta 4</b>](https://github.com/rybafish/rybafish/releases/download/09beta4/RybaFish_09beta4.7z) (2021-09-14)
 * Ctrl+Shift+O auto-formats the SQL
 * Ctrl+Shift+X explains plan of the selected statement
 * error line now highlighted
@@ -13,7 +17,7 @@
   * syntax highlighter now forced on paste
   * undo/redo queue cleaned up
 
-[0.9 <span style="color:red"><b>beta</b></span>](https://github.com/rybafish/rybafish/releases/download/09beta/RybaFish09beta.7z) (2021-08-15)
+[0.9 beta](https://github.com/rybafish/rybafish/releases/download/09beta/RybaFish09beta.7z) (2021-08-15)
 * [Context SQLs](/contextSQLs): right mouse click on PLAN_ID column in results
 * autocomplete in SQL Console (Ctrl+Space)
 * shift highlighted point inside KPI (Alt+Left/Right)
