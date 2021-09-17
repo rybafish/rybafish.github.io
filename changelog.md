@@ -1,7 +1,7 @@
 # Upcoming Release
 0.9, planned date: October 2021
 
-<i>No unpublished changes yet.</i>
+* ABAP-style results copy (right mouse click in results)
 
 [<b>0.9 beta 4</b>](https://github.com/rybafish/rybafish/releases/download/09beta4/RybaFish_09beta4.7z) (2021-09-14)
 * Ctrl+Shift+O auto-formats the SQL
