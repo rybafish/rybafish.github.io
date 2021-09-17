@@ -37,3 +37,4 @@ Warning: might be dangerous as it can leave hanging statements affecting the sys
   * typing  in autocomplete dialog will filter values
 * ctrl+F shows basic search dialog
   * F3 repeats the last search (to be released with v09)
+* when the column resized to 0 width it will be skipped in result copy (v09)
