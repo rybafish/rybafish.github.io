@@ -13,7 +13,9 @@ No installation required, just unzip it wherever you are planning to use it.
 
 **Windows**
 
-[0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), 22.07.2021
+The most recent beta builds available [here](/changelog).
+
+[0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), last major release, 22.07.2021
 
 [Previous releases](/releases)
 
