@@ -79,6 +79,9 @@ KPI Name in KPI table.
 ### description
 Free form KPI description for the KPI table.
 
+### nofilter
+You can set nofilter to True for KPIs that do not have host/port assigned. For example something coming from business tables. In this case no filters on host/port will be applied so the underlying SQL does not have to have those values. Note: this value applied to the whole sql sorce based on single KPI description.
+
 ### sql
 SQL statement providing host, time optionally port and one or more integer kpi values. The time column has to have timestamp sql type. 
 
