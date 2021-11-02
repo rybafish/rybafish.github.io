@@ -20,6 +20,7 @@ kpis: [
         orderby: 'max',
         desc: True,
         legendCount: 6,
+        nofilter: False,
         label: 'Component Memory Used',
         description: 'Component Memory Used'}
 ]
@@ -40,4 +41,4 @@ sql: >
     order by server_timestamp desc, component_size desc
 ```
 
-Other possible orderby values: "avg" and "deviation".
+Possible orderby values: "avg", "max", "deviation" and "name".
