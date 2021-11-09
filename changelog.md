@@ -1,5 +1,6 @@
 # Upcoming Release
 0.9, planned date: December 2021
+* avg value is now reported in KPIs table
 
 [<b>0.9 beta 5</b>](https://github.com/rybafish/rybafish/releases/download/09beta4/RybaFish_09beta5.7z) (2021-09-30)
 * ABAP-style results copy: right mouse click in results
