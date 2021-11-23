@@ -13,7 +13,7 @@ select '{alert}' from dummy;
 ```
 **Note:** the feature is only available if experimental features are enabled.
 
-There are several settings to configure the feature.
+There are several settings to configure the feature:
 
 ```YAML
 # uncomment to have experimental stuff (like sql console)
