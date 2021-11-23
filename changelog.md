@@ -1,7 +1,7 @@
 # Upcoming Release
 0.9, planned date: December 2021
 
-[<b>0.9 beta 7</b>](https://github.com/rybafish/rybafish.github.io/releases/download/09beta7/RybaFish_09beta7.7z) (2021-11-24)
+[<b>0.9 beta 7</b>](https://github.com/rybafish/rybafish/releases/download/09beta7/RybaFish_09beta7.7z) (2021-11-24)
 * avg value is now reported in KPIs table
 * basic [alerting](/soundAlerts) functionality
 * hosts table enriched with service and tenant information
