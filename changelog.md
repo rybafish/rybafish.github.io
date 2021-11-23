@@ -1,16 +1,19 @@
 # Upcoming Release
 0.9, planned date: December 2021
+
+[<b>0.9 beta 7</b>](https://github.com/rybafish/rybafish.github.io/releases/download/09beta7/RybaFish_09beta7.7z) (2021-11-24)
 * avg value is now reported in KPIs table
 * basic [alerting](/soundAlerts) functionality
 * hosts table enriched with service and tenant information
+* numerous bugfixes…
 
-[<b>0.9 beta 5</b>](https://github.com/rybafish/rybafish/releases/download/09beta4/RybaFish_09beta5.7z) (2021-09-30)
+<b>0.9 beta 5</b> (2021-09-30), withdrawn
 * ABAP-style results copy: right mouse click in results
 * Colorize KPIs option: Actions menu -> Colorize
 * sql console parser fix: first statement was not recognized correctly in beta4.
 * tenant name and revision reported in the window title
 
-[<b>0.9 beta 4</b>](https://github.com/rybafish/rybafish/releases/download/09beta4/RybaFish_09beta4.7z) (2021-09-14)
+<b>0.9 beta 4</b> (2021-09-14), withdrawn
 * Ctrl+Shift+O auto-formats the SQL
 * Ctrl+Shift+X explains plan of the selected statement
 * error line now highlighted
