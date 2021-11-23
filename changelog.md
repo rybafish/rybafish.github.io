@@ -7,13 +7,13 @@
 * hosts table enriched with service and tenant information
 * numerous bugfixes…
 
-<b>0.9 beta 5</b> (2021-09-30), withdrawn
+<b>0.9 beta 5</b> (2021-09-30), <span style="color:blue">withdrawn</span>.
 * ABAP-style results copy: right mouse click in results
 * Colorize KPIs option: Actions menu -> Colorize
 * sql console parser fix: first statement was not recognized correctly in beta4.
 * tenant name and revision reported in the window title
 
-<b>0.9 beta 4</b> (2021-09-14), withdrawn
+<b>0.9 beta 4</b> (2021-09-14), <span style="color:blue">withdrawn</span>.
 * Ctrl+Shift+O auto-formats the SQL
 * Ctrl+Shift+X explains plan of the selected statement
 * error line now highlighted
