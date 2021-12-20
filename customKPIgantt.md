@@ -18,6 +18,7 @@ kpis: [
         width: 8,
         shift: 2,
         nofilter: False,
+        title: False,
         y_range: [60, 100],
         label: 'Expensive Statements',
         description: 'Expensive Statements'}
@@ -64,6 +65,9 @@ Bar width.
 
 ### shift
 Y-shift in case of overlapping events for the same entity.
+
+### title
+By default this option is off but sometimes it is benefitial to put some text right on the bar itself. In this case set title: True, and in this case you need to provide values for the title of each gantt bar in the title column (not used in the examble above).
 
 ### nofilter
 You can set it to True for KPIs that do not have host/port assigned. For example something from business tables like jobs or similar. In this case no filters on host/port will be applied so the underlying SQL does not have to fake those values. Note: this value applied to the whole sql sorce based on single KPI description, so this setting has to be consistent. In case of gantt chart only one KPI can be defined anyway. This option only testes for the Gantt type so far.
