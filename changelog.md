@@ -8,7 +8,7 @@
 [<b>0.9 beta 7</b>](https://github.com/rybafish/rybafish/releases/download/09beta7/RybaFish_09beta7.7z) (2021-11-24)
 * avg value is now reported in KPIs table
 * basic [alerting](/soundAlerts) functionality
-* hosts table enriched with service and tenant information
+* hosts table enriched with service name and tenant information
 * numerous bugfixes…
 
 <b>0.9 beta 5</b> (2021-09-30), <span style="color:blue">withdrawn</span>.
