@@ -1,5 +1,7 @@
 # Upcoming Release
 0.9, planned date: December 2021
+
+[<b>0.9 beta 8</b>](https://github.com/rybafish/rybafish/releases/download/09beta8/RybaFish_09beta8.7z) (2021-12-21) https://github.com/rybafish/rybafish/releases/download/09beta8/RybaFish_09beta8.7z
 * [gantt](/customKPIgantt) bars may have titles: little text labels right inside the bar
 * there is no 32k limit anymore (bug [#181](https://github.com/rybafish/rybafish/issues/181))
 
