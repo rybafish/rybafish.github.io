@@ -1,6 +1,6 @@
 # Upcoming Release
 0.9, planned date: December 2021
-
+* d
 * [gantt](/customKPIgantt) bars may have titles: little text labels right inside the bar
 * there is no 32k limit anymore (bug [#181](https://github.com/rybafish/rybafish/issues/181))
 
