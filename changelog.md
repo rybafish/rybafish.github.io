@@ -6,7 +6,7 @@
 * bugfix affecting multiple resultsets
 * last available beta is now reported in the About dialog
 
-<b>0.9 beta 8</b> (2021-12-21) 
+<b>0.9 beta 8</b> (2021-12-21), <span style="color:blue">withdrawn</span>.
 * [gantt](/customKPIgantt) bars can have titles: little text labels right inside the bar
 * there is no 32k limit anymore (bug [#181](https://github.com/rybafish/rybafish/issues/181))
 
