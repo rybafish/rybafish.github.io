@@ -1,7 +1,12 @@
 # Upcoming Release
 0.9 Paltus, planned date: December 2021
 
-[<b>0.9 beta 8</b>](https://github.com/rybafish/rybafish/releases/download/09beta8/RybaFish_09beta8.7z) (2021-12-21) 
+
+[<b>0.9 beta 9</b>](https://github.com/rybafish/rybafish/releases/download/09beta9/RybaFish_09beta9.7z) (2021-12-23) 
+* bugfix affecting multiple resultsets
+* last available beta is now reported in the About dialog
+
+<b>0.9 beta 8</b> (2021-12-21) 
 * [gantt](/customKPIgantt) bars can have titles: little text labels right inside the bar
 * there is no 32k limit anymore (bug [#181](https://github.com/rybafish/rybafish/issues/181))
 
