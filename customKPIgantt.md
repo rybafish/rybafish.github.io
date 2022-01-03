@@ -1,6 +1,6 @@
 # Custom KPIs with gantt subtype
 Since v 0.6 RybaFish Charts supports custom KPI metrics with subtype gantt.
-![demo screen](http://rybafish.github.io/gantt.png)
+![demo screen](http://rybafish.github.io/gantt09.png)
 
 This means if there is a process with the start and stop times - it can be displayed. For example (expensive) statements, delta merges, savepoints, etc.
 
