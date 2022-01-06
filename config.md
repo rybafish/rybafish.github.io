@@ -56,6 +56,12 @@ Log level, maximum is 5 it will dump every executed SQL statement
 
 Controls the time scale hint on the chart legend. Set it to False to disable, enabled by default, available in v.07
 
+#### legendTenantName, legendServiceName
+`legendTenantName: False`
+`legendServiceName: False`
+
+Enables legend to include service name and tenant name, useful in multi-tenant monitoring from SystemDB. Disabled by default, available since v09
+
 #### skipTenant (v0.9)
 `skipTenant: True`
 
