@@ -2,6 +2,7 @@
 0.9 Paltus, planned date: ~~December 2021~~ Jan 2022.
 
 * legendTenantName and legendServiceName configuration options
+* explain plan for sql plan cache entry now works in console
 
 [<b>0.9 beta 9</b>](https://github.com/rybafish/rybafish/releases/download/09beta9/RybaFish_09beta9.7z) (2021-12-23) 
 * bugfix affecting multiple resultsets
