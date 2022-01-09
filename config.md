@@ -67,6 +67,11 @@ Enables legend to include service name and tenant name, useful in multi-tenant m
 
 Skip the tenant name check for the initial connection. Usually not requred as this is very quick and works even on old non-MDC installations.
 
+
+#### ganttOldImplementation (v 0.9)
+`ganttOldImplementation: True`
+Boolean. Eenable to switch to old gantt render algorithm (potentially slow, see .log file for measurements)
+
 #### experimental
 `experimental: True`
 
