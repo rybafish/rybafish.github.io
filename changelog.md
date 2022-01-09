@@ -4,6 +4,7 @@
 * legendTenantName and legendServiceName configuration options
 * explain plan for sql plan cache entry now works in console
 * manual scales in KPIs table are blue. If you post an empty value manual scale --> autoscale
+* gantt render performance boost: can be disabled by ganttOldImplementation: True
 
 
 [<b>0.9 beta 9</b>](https://github.com/rybafish/rybafish/releases/download/09beta9/RybaFish_09beta9.7z) (2021-12-23) 
