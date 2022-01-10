@@ -17,8 +17,8 @@ Only one installation can be monitored: connection to two or more servers in par
 * Bind variables are not supported, only literals
 
 ### Bugs
-* KPI highlighting feature is not perfect yet
-* console: 32000 output rows limit (likely a PyHDB limitation)
+* KPI highlighting feature is not perfect yet - but you can move highligted point by Alt+Left/Right
+* console: 32000 output rows limit (likely a PyHDB limitation) - will be fixed in v0.9 Paltus
 
 You can also review future plans in [TODO](/todo) list.
 
