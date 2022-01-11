@@ -67,7 +67,6 @@ Enables legend to include service name and tenant name, useful in multi-tenant m
 
 Skip the tenant name check for the initial connection. Usually not requred as this is very quick and works even on old non-MDC installations.
 
-
 #### ganttOldImplementation (v 0.9)
 `ganttOldImplementation: True`
 Boolean. Eenable to switch to old gantt render algorithm (potentially slow, see .log file for measurements)
@@ -75,6 +74,10 @@ Boolean. Eenable to switch to old gantt render algorithm (potentially slow, see 
 #### autorefreshThreshold (v 0.9)
 `autorefreshThreshold: 30`
 Integer threshold in seconds. If refresh takes longer than this value - autorefresh will be disabled. Default is 0 (no threshold).
+
+#### chartWidth (v 0.9)
+`chartWidth: 2`
+Chart line width. In most of the cases the default (1) is fine, but sometimes (for example when colorize enabled) value 2 makes chart more readable.
 
 #### experimental
 `experimental: True`
