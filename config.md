@@ -72,6 +72,10 @@ Skip the tenant name check for the initial connection. Usually not requred as th
 `ganttOldImplementation: True`
 Boolean. Eenable to switch to old gantt render algorithm (potentially slow, see .log file for measurements)
 
+#### autorefreshThreshold (v 0.9)
+`autorefreshThreshold: 30`
+Integer threshold in seconds. If refresh takes longer than this value - autorefresh will be disabled. Default is 0 (no threshold).
+
 #### experimental
 `experimental: True`
 
