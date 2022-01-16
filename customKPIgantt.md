@@ -33,6 +33,7 @@ sql: >
         start_time "START",
         add_seconds(start_time, duration_microsec/1000000) "STOP",
         db_user || '/' || app_user entity,
+        -- memory_size gradient, -- uncomment for GRADIENT: True
         to_varchar(to_integer(memory_size/1024/1024/1024)) || ' GB, ' || to_integer(duration_microsec/1000000) || ' sec, ' || operation || ': '
         || to_varchar(start_time, 'HH24:MI:SS.FF3') || ' - ' || to_varchar(add_seconds(start_time, duration_microsec/1000000), 'HH24:MI:SS.FF3') || '\n'
         || REPLACE_REGEXPR('[\n|\r]' in substr(statement_string, 0, 128) with '  ' OCCURRENCE ALL) details
@@ -72,7 +73,7 @@ Y-shift in case of overlapping events for the same entity.
 By default this option is off but sometimes it is benefitial to put some text right on the bar itself. In this case set title: True, and in this case you need to provide values for the title of each gantt bar in the title column (not used in the examble above).
 
 ### gradient (v.09)
-When this option set to True, the "GRADIENT" column will be selected from the SQL source. This column defines color inside the gradient of the current gantt entry.
+When this option set to True, the "GRADIENT" column will be selected from the SQL source. This column defines color inside the gradient of the current gantt entry. For the expensove statements KPI typical GRADIENT definition is column memory_size.
 
 ### gradientTo (v.09)
 gradientTo: '#F00'
