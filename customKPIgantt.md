@@ -18,9 +18,10 @@ kpis: [
         width: 8,
         shift: 2,
         nofilter: False,
-        title: False, # v.09
-        gradient: False, # v.09
-        gradientTo: '#FDF', # v.09
+        #title: False, # v.09
+        #titleFontSize: 6 # v.09
+        #gradient: False, # v.09
+        #gradientTo: '#FDF', # v.09
         y_range: [60, 100],
         label: 'Expensive Statements',
         description: 'Expensive Statements'}
@@ -71,6 +72,9 @@ Y-shift in case of overlapping events for the same entity.
 
 ### title (v.09)
 By default this option is off but sometimes it is benefitial to put some text right on the bar itself. In this case set title: True, and in this case you need to provide values for the title of each gantt bar in the title column (not used in the examble above).
+
+### titleFontSize (v.09)
+Size of the titles font: value of the gantt entry provided in the "TITLE" column when the KPI option 'title' is true. You must adjust the gantt width manually to match the font size and vice versa.
 
 ### gradient (v.09)
 When this option set to True, the "GRADIENT" column will be selected from the SQL source. This column defines color inside the gradient of the current gantt entry. For the expensove statements KPI typical GRADIENT definition is column memory_size.
