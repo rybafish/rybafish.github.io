@@ -18,7 +18,9 @@ kpis: [
         width: 8,
         shift: 2,
         nofilter: False,
-        title: False,
+        title: False, # v.09
+        gradient: False, # v.09
+        gradientTo: '#FDF', # v.09
         y_range: [60, 100],
         label: 'Expensive Statements',
         description: 'Expensive Statements'}
@@ -66,8 +68,17 @@ Bar width.
 ### shift
 Y-shift in case of overlapping events for the same entity.
 
-### title
+### title (v.09)
 By default this option is off but sometimes it is benefitial to put some text right on the bar itself. In this case set title: True, and in this case you need to provide values for the title of each gantt bar in the title column (not used in the examble above).
+
+### gradient (v.09)
+When this option set to True, the "GRADIENT" column will be selected from the SQL source. This column defines color inside the gradient of the current gantt entry.
+
+### gradientTo (v.09)
+gradientTo: '#F00'
+
+Color in #RGB format of the second part of the gradient (first part taken from the color option itself, #BDF in this case). Depending on the "GRADIENT" column value, color of the gantt bar will be assignef from color to gradientTo value. Entries having minimum "GRADIENT" value will have color of color propertie (#BDF), max entries will have gradientTo, the rest will have something in between.
+
 
 ### nofilter
 You can set it to True for KPIs that do not have host/port assigned. For example something from business tables like jobs or similar. In this case no filters on host/port will be applied so the underlying SQL does not have to fake those values. Note: this value applied to the whole sql sorce based on single KPI description, so this setting has to be consistent. In case of gantt chart only one KPI can be defined anyway. This option only testes for the Gantt type so far.
