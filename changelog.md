@@ -6,7 +6,7 @@
 * manual scales in KPIs table are blue. If you post an empty value manual scale --> autoscale
 * gantt render performance boost: can be disabled by ganttOldImplementation: True
 * gantt gradientfeature: in KPI definitin gradient: True + gradientTo: '#F88',
-* config option _chartWidth_- for cases when the default is not thick enough.
+* config option _chartWidth_ for cases when the default 1 is not thick enough.
 * it is possible now to set Y range other than from 0 to something. To achieve this put, for example, 2000-5000 in Y-Scale.
 
 [<b>0.9 beta 9</b>](https://github.com/rybafish/rybafish/releases/download/09beta9/RybaFish_09beta9.7z) (2021-12-23) 
