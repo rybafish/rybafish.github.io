@@ -30,6 +30,9 @@ alertVolume: 80
 
 # Popup the window on alert
 alertAutoPopup: True
+
+# Play a sound when the autorefresh console is disconnected
+alertDisconnected: 'disconnected.wav'
 ```
 
 Two alert sounds come with RybaFish itelf: default.wav an warning.wav. Those files part of the build and can be used without any additional actions.
