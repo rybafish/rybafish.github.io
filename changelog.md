@@ -1,11 +1,12 @@
 # Upcoming Release
-0.9 Paltus, planned date: ~~December 2021~~ Jan 2022.
+0.9 Paltus, planned date: ~~December 2021~~ ~~Jan~~ Feb 2022.
 
+[<b>0.9 beta XI</b>](https://github.com/rybafish/rybafish/releases/download/09betaXI/RybaFish09betaXI.7z) (2022-01-26)
 * legendTenantName and legendServiceName configuration options
 * explain plan for sql plan cache entry now works in console
-* manual scales in KPIs table are blue. If you post an empty value manual scale --> autoscale
-* gantt render performance boost: can be disabled by ganttOldImplementation: True
-* gantt gradient feature: in KPI definitin gradient: True + gradientTo: '#F88',
+* manual scales in KPIs table are blue. If you post an empty value manual scale --> autoscale itself!
+* gantt render performance **boost**: can be disabled by ganttOldImplementation: True
+* gantt gradient feature: in KPI definitin gradient: True + gradientTo: '#F88' ([details](/customKPIgantt)),
 * config option _chartWidth_ for cases when the default 1 is not thick enough.
 * it is possible now to set Y range other than from 0 to something. To achieve this put, for example, 2000-5000 in Y-Scale.
 
