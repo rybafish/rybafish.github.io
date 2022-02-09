@@ -125,10 +125,11 @@ SQL NULL value representation for table output
 
 SQL NULL value representation for CSV or Copy
 
-#### noWordHighlighting
+#### noWordHighlighting, noBracketsHighlighting
 `noWordHighlighting: True`
+`noBracketsHighlighting: True`
 
-Set this to True to disable word highlighting. By default words are highlighted on selection.
+Set this to True to disable words/brackets highlighting. By default words are highlighted on selection.
 
 #### longdate
 `longdate: True`
