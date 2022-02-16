@@ -15,7 +15,11 @@ No installation required, just unzip it wherever you are planning to use it.
 
 The most recent beta builds available [here](/changelog).
 
-[0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), last major release, 22.07.2021
+[0.9 Plotva](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), last major release, 17.02.2022
+
+[0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), previous major release, 22.07.2021
+
+[changes](/changelog) in 09 Paltus
 
 [Previous releases](/releases)
 
