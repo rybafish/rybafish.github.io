@@ -1,5 +1,10 @@
 # Upcoming Release
-0.9 Paltus, planned date: ~~December 2021~~ ~~Jan~~ Feb 2022.
+Not yet.
+
+# Current Release
+[<b>0.9 Paltus</b>](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z) (2022-02-17)
+
+## Paltus Changelog
 
 [<b>0.9 beta XI</b>](https://github.com/rybafish/rybafish/releases/download/09betaXI/RybaFish09betaXI.7z) (2022-01-26)
 * legendTenantName and legendServiceName configuration options
