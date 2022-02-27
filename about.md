@@ -13,12 +13,12 @@ Only one installation can be monitored: connection to two or more servers in par
 
 ## Known Limitations
 ### Limitations
-* Some of the network calls are synchronous (chart refresh, new connection, keep-alives)
-* Bind variables are not supported, only literals
+* Charts: some of the network calls are synchronous (chart refresh, new connection, keep-alives)
+* SQL console: bind variables are not supported, only literals
 
 ### Bugs
 * KPI highlighting feature is not perfect yet - but you can move highligted point by Alt+Left/Right
-* console: 32000 output rows limit (likely a PyHDB limitation) - will be fixed in v0.9 Paltus
+* console: ~~32000 output rows limit (PyHDB bug)~~ - fixed in v0.9 Paltus
 
 You can also review future plans in [TODO](/todo) list.
 
