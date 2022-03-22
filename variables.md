@@ -33,10 +33,18 @@ Currently only following KPI definition areas considered:
 
 # Runtime
 During usage of RybaFish you can change variables in the KPI Table: top right column. Initial values are loaded from the KPI definition file.
-On exit values will be store in layout.yaml file so next time you start RybaFish you continue working with the same values.
+
+On exit values will be stored in the layout.yaml file, so the next time you start RybaFish you continue working with the same values.
 
 # Troubleshooting
 If something unusual or not clear happens to variables usage you can:
 * open the config.yaml, set the loglevel to 5
+* reload the config (Actions -> Reload config)
 * reproduce the issue and check the .log file, may be you will be able to see unexpected variables values or something like that
-* try to stop RybaFish, delete "variables" from the layout.yaml and start the tool again. By doing so you reload default values from the custom KPI file definition.
+
+The other option is:
+* stop RybaFish
+* delete "variables" from the layout.yaml
+* start the tool again
+
+By doing so you reload default values from the custom KPI file definition so hopefuly you get th eexpected values.
