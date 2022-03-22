@@ -1,4 +1,11 @@
 # [DRAFT] Overview
+
+**Before we start**
+
+**Limitation:** Variable names or values cannot contain coma characters. This will brake parsing.
+
+**Okay, start**
+
 Starting 09 beta 2 RybaFish supports "variables" in custom KPIs.
 
 Variables are placeholders that will be replaced by actual values before usage. Variables defined in the custom KPI yaml file, for example:
