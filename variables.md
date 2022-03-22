@@ -1,3 +1,4 @@
+# Overview
 Starting 09 beta 2 RybaFish supports "variables" in custom KPIs.
 
 Variables are placeholders that will be replaced by actual values before usage. Variables defined in the custom KPI yaml file, for example:
@@ -29,3 +30,13 @@ Currently only following KPI definition areas considered:
 * kpis.label
 * kpis.description
 * sql
+
+# Runtime
+During usage of RybaFish you can change variables in the KPI Table: top right column. Initial values are loaded from the KPI definition file.
+On exit values will be store in layout.yaml file so next time you start RybaFish you continue working with the same values.
+
+# Troubleshooting
+If something unusual or not clear happens to variables usage you can:
+* open the config.yaml, set the loglevel to 5
+* reproduce the issue and check the .log file, may be you will be able to see unexpected variables values or something like that
+* try to stop RybaFish, delete "variables" from the layout.yaml and start the tool again. By doing so you reload default values from the custom KPI file definition.
