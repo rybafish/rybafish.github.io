@@ -38,10 +38,14 @@ Currently only following KPI definition areas considered:
 * kpis.description
 * sql
 
-# Runtime
-During usage of RybaFish you can change variables in the KPI Table: top right column. Initial values are loaded from the KPI definition file.
+# RybaFish Runtime
+During usage of RybaFish you can change variables in the KPI Table last column. Initial values are loaded from the KPI definition file.
 
 On exit values will be stored in the layout.yaml file, so the next time you start RybaFish you continue working with the same values.
+
+When one variable deleted from this definition - the default value from the KPI definition will be used.
+
+When the whole Variables cell deleted - the default definition will be loaded from the KPI definition file. 
 
 # Troubleshooting
 If something unusual or not clear happens to variables usage you can:
