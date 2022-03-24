@@ -6,7 +6,7 @@
 
 **Okay, start**
 
-Starting 09 beta 2 RybaFish supports "variables" in custom KPIs.
+Starting 09 beta 1 (not released yet) RybaFish supports "variables" in custom KPIs.
 
 Variables are placeholders that will be replaced by actual values before usage. Variables defined in the custom KPI yaml file, for example:
 
