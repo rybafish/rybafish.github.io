@@ -1,5 +1,5 @@
 # Upcoming Release
-Not yet.
+* [variables](variables) support.
 
 # Current Release
 [<b>0.9 Paltus</b>](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z) (2022-02-17)
