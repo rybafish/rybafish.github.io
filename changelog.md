@@ -1,4 +1,5 @@
 # Upcoming Release
+**091 beta I**, (not released yet)
 * [variables](variables) support
 * simple connections manager, save encrypted passwords
 * DB interface introduced: can implement alternative connection protocols now
