@@ -1,8 +1,8 @@
 version: "0.9 Paltus"
 date: 2022-02-20
 message: >
-  Changes summary:\n
-  - something\n
+  Changes summary:<br />
+  - <b>something</b>
   - something else\n
   - something third
 
