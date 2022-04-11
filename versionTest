@@ -1,10 +1,10 @@
 version: "0.9 Paltus"
 date: 2022-02-20
 message: >
-  Changes summary:<br />
-  - <b>something</b>
-  - something else\n
-  - something third
+  <br />Changes summary:<br />
+  - <b>something</b><br />
+  - something else<br />
+  - something third<br />
 
 # versionBeta: "0.9 beta XI"
 # dateBeta: 2022-01-26
