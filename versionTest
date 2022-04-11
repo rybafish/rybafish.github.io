@@ -1,5 +1,9 @@
 version: "0.9 Paltus"
 date: 2022-02-20
+message: > Changes summary
+  - something
+  - something else
+  - something third
 
 # versionBeta: "0.9 beta XI"
 # dateBeta: 2022-01-26
