@@ -1,6 +1,7 @@
 version: "0.9 Paltus"
 date: 2022-02-20
-message: > Changes summary
+message: >
+  Vhanges summary:
   - something
   - something else
   - something third
