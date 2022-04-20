@@ -163,3 +163,13 @@ Timeout for detaching resultsets containing LOB values. Default value is 300 sec
 `blockLineNumbers: True`
 
 In case of DB exceptions, like syntax errors, HANA will report the line number of the error. This line number is inside the execured SQL string and not line number of the console. With this option enabled the console line numbers will only be displayed for the highlighted SQL string, so the reported DB error string should correspond to the displayed line numbers. Can be disabled by setting it to False.
+
+### updatesCheckInterval (v 0.91)
+`updatesCheckInterval: 7`
+
+Updates will be checked every 7 days (default). You can set it to 0 in order to disable check of updates.
+
+### updatesCheckBeta: True
+`updatesCheckBeta: True`
+
+By default only major releases will be checked. You can set this parameter to True to also be notified about beta releases. Check period controlled by updatesCheckInterval.
