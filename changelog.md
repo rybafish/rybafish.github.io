@@ -1,11 +1,14 @@
 # Upcoming Release
-**091 beta I**, (not released yet)
+
+(None)
+
+[<b>091 beta I</b>](https://github.com/rybafish/rybafish/releases/download/beta/RybaFish_091betaI.7z) (2022-04-21)
 * [variables](variables) support
 * simple connections manager, save encrypted passwords
 * DB interface introduced: can implement alternative connection protocols now
 * automatic updates checker, set updatesCheckInterval: 0 to disable
 
-# Current Release
+# Current Major Release
 [<b>0.9 Paltus</b>](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z) (2022-02-17)
 
 ## Paltus Changelog
