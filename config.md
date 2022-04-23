@@ -9,6 +9,11 @@ Note: for custom KPIs documentation go to the [customKPI](customKPI) page.
 
 Integer. Font size for the chart labels.
 
+#### DPIAwareness
+`DPIAwareness: True`
+
+Scale graphics and fonts according to system display settings. Enabled by default.
+
 #### locale
 `locale: 'fr_FR'`
 
