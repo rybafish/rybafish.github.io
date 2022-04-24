@@ -1,6 +1,6 @@
 # Upcoming Release
 
-[<b>091 beta I</b>] (2022-04-21), <span style="color:blue">withdrawn temporary</span>
+[<b>091 beta I</b>](https://github.com/rybafish/rybafish/releases/download/beta/RybaFish_091betaI.7z) (2022-04-21)
 * [variables](variables) support
 * simple connections manager, save encrypted passwords
 * DB interface introduced: can implement alternative connection protocols now
