@@ -163,7 +163,6 @@ Potentially useful to distinguish same KPI for different nodes in scale-out env.
 
 Timeout for detaching resultsets containing LOB values. Default value is 300 seconds.
 
-
 ### blockLineNumbers (v 0.9)
 `blockLineNumbers: True`
 
@@ -178,3 +177,11 @@ Updates will be checked every 7 days (default). You can set it to 0 in order to 
 `updatesCheckBeta: True`
 
 By default only major releases will be checked. You can set this parameter to True to also be notified about beta releases. Check period controlled by updatesCheckInterval.
+
+
+
+
+### abap-length (v 0.91)
+`abap-length: 32`
+
+Number of characters limiting value length for ABAP style copy. The default value is 32.
