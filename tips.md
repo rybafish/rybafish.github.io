@@ -1,6 +1,7 @@
 ## Tips and Tricks
 
 * Did you know? You can switch tabs by clicking on indicators (right bottom corner of the window).
+* since 091 beta II it's possible to switch tabs by Alt+1, Alt+2...
 
 ### Charts
 * Ctrl + mouse wheel makes zoom-in/zoom-out while in chart area
