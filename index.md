@@ -23,7 +23,7 @@ The most recent beta builds available [here](/changelog).
 
 **macOS & Linux**
 
-Not available yet.
+Not available yet (let me know if you need one).
 
 ### Support
 RybaFish is not SAP software, no SAP support is provided in any kind. To report/view known bugs check the project's [issues page](https://github.com/rybafish/rybafish/issues).
