@@ -2,6 +2,7 @@
 [<b>091 beta II</b>](https://github.com/rybafish/rybafish/releases/download/091betaII/RybaFish_091betaII.7z) (2022-05-06)
 * Alt+N to switch tabs
 * multiline KPIs have 'others' property: single entry to include everything else
+* profiler to track expensive calls, useProfiler: True.
 
 [<b>091 beta I</b>](https://github.com/rybafish/rybafish/releases/download/beta/RybaFish_091betaI.7z) (2022-04-24)
 * [variables](variables) support
