@@ -89,7 +89,6 @@ Chart line width. In most of the cases the default (1) is fine, but sometimes (f
 
 Boolean. Enables experimental functionality.
 
-### Experimental stuff
 #### fontScale
 `fontScale: 1.25`
 
@@ -185,3 +184,8 @@ By default only major releases will be checked. You can set this parameter to Tr
 `abap-length: 32`
 
 Number of characters limiting value length for ABAP style copy. The default value is 32.
+
+### connectionsFile (v 0.91)
+`connectionsFile: 'C:\Users\somepath\connections.yaml'`
+
+Absolute path to credentials/connections file. The setting might be useful when several RybaFish instances used on the same machine. The default behaviour is to have separate connections.yaml per RybaFish instance (copy).
