@@ -2,13 +2,13 @@
 
 **Before we start**
 
-**Limitation:** Variable names or values cannot contain coma characters. This will brake parsing.
+**Limitation:** Variable names **or values** cannot contain coma characters. Never. This will brake parsing. But... there are replacements possible, see below.
 
-**Okay, start**
+**Okay, now start**
 
-Starting 09 beta 1 (not released yet) RybaFish supports "variables" in custom KPIs.
+Starting 091 beta 1 (not released yet) RybaFish supports "variables" in custom KPIs.
 
-Variables are placeholders that will be replaced by actual values before usage. Variables defined in the custom KPI yaml file, for example:
+Variables are placeholders that will be replaced by actual values before usage. Variables defined in the custom KPI yaml file, for example let's take updated [expensive statements](/customKPIgantt) custom KPI definition exp_st.yaml:
 
 ```
 variables: 'y1: 10, y2: 50, threshold: 30, user: %'
@@ -31,21 +31,52 @@ When used in the KPI definition variables must be prefixed with $ character. Con
 description: 'Expensive Statements > 30 s'}
 ```
 
-Currently only following KPI definition areas considered:
-
-* kpis.y_range
-* kpis.label
-* kpis.description
-* sql
-
 # RybaFish Runtime
-During usage of RybaFish you can change variables in the KPI Table last column. Initial values are loaded from the KPI definition file.
+During the usage of RybaFish you can change variables in the KPI Table last column. Initial values are loaded from the KPI definition file.
+
+There is also a dialog that combines variables for all the custom KPIs: menu -> Variables, or Alt+V.
 
 On exit values will be stored in the layout.yaml file, so the next time you start RybaFish you continue working with the same values.
 
 When one variable deleted from this definition - the default value from the KPI definition will be used.
 
-When the whole Variables cell deleted - the default definition will be loaded from the KPI definition file. 
+When the whole Variables cell deleted - the default definition will be loaded from the KPI definition file. Explicit 'Reset to defaults' option is available in Alt+V dialog.
+
+# Replacements
+Okay, now things get real confusing: what if we want to define a list of values for a specific variable? For example, we only want to get expensive statement for list of specific user names? For example, SASCHA and LUCIA. Naturally we will try to do the following:
+
+```
+variables: 'y1: 10, y2: 50, threshold: 30, userlist: SASCHA,LUCIA'
+```
+But this is not going to work to two reasons. First - comas are allowed only to separate variables. Second - quotes are requred but this will brake parsing of yaml file...
+
+To overcome this limitation there is an option to replace characters in variables:
+```
+variablesReplace: [";", "','"]
+```
+
+This means every `;` inside the variable will be replaced by ```','``` sequence. We also need to adjust variables definition:
+```
+variables: 'y1: 10, y2: 50, threshold: 30, userlist: SASCHA;LUCIA'
+variablesReplace: [";", "','"]
+```
+
+And in the sql statement definition now we can use this (note the quotes around the variable):
+```
+sql> ...
+    where ...
+       and db_user in ('$userlist')
+```
+which will be translated to:
+```
+sql> ...
+    where ...
+       and db_user in ('SASCHA','LUCIA')
+```
+
+
+
+
 
 # Troubleshooting
 If something unusual or not clear happens to variables usage you can:
