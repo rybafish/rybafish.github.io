@@ -1,4 +1,4 @@
-# [DRAFT] Overview
+# Overview
 
 **Before we start**
 
@@ -43,25 +43,25 @@ When one variable deleted from this definition - the default value from the KPI 
 When the whole Variables cell deleted - the default definition will be loaded from the KPI definition file. Explicit 'Reset to defaults' option is available in Alt+V dialog.
 
 # Replacements
-Okay, now things get real confusing: what if we want to define a list of values for a specific variable? For example, we only want to get expensive statement for list of specific user names? For example, SASCHA and LUCIA. Naturally we will try to do the following:
+Okay, but what if we want to define a list of values for a specific variable? For example, we only want to get expensive statements for a list of specific user. Something which result in statement likw `select ... where db_user in ('SASCHA','LUCIA')`. Naturally, we will try to do the following:
 
 ```
-variables: 'y1: 10, y2: 50, threshold: 30, userlist: SASCHA,LUCIA'
+variables: 'y1: 10, y2: 50, threshold: 30, userlist: 'SASCHA','LUCIA''
 ```
-But this is not going to work to two reasons. First - comas are allowed only to separate variables. Second - quotes are requred but this will brake parsing of yaml file...
+But this is not going to work to two reasons. First - comas are allowed only to separate variables. Second - quotes are requred to generate correct SQL but this will brake parsing of yaml file.
 
 To overcome this limitation there is an option to replace characters in variables:
 ```
 variablesReplace: [";", "','"]
 ```
 
-This means every `;` inside the variable will be replaced by ```','``` sequence. We also need to adjust variables definition:
+This means every `;` character inside the variable will be replaced by the ```','``` sequence. We also need to adjust variables definition:
 ```
 variables: 'y1: 10, y2: 50, threshold: 30, userlist: SASCHA;LUCIA'
 variablesReplace: [";", "','"]
 ```
 
-And in the sql statement definition now we can use this (note the quotes around the variable):
+And in the sql statement definition now we can use this (note the quotes around the variable, this is requred to compensate missing ones in the variable):
 ```
 sql> ...
     where ...
@@ -75,16 +75,15 @@ sql> ...
 ```
 
 
-
-
-
 # Troubleshooting
 If something unusual or not clear happens to variables usage you can:
 * open the config.yaml, set the loglevel to 5
 * reload the config (Actions -> Reload config)
 * reproduce the issue and check the .log file, may be you will be able to see unexpected variables values or something like that
 
-The other option is:
+One more way to reset things to defaults is just deleta variables definition in KPIs table, set it to empty string. This should reset variables do the defaults defined in custom KPI yaml file.
+
+And anothe one:
 * stop RybaFish
 * delete "variables" from the layout.yaml
 * start the tool again
