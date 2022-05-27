@@ -1,3 +1,5 @@
+<span style="color:red">Warning: Most recent updates of McAfee Antivirus detects RybaFish Charts as a treat.</span> This is a false-positive detection, ceurrently affected versions are 091 betas, 09 Paltus is not affected (yet?). The investigation team does what it shouls... investigates. Sorry for that, you can also contact your anti-virus vendor and report this issue.
+
 # Upcoming Release
 [<b>091 beta II</b>](https://github.com/rybafish/rybafish/releases/download/091betaII/RybaFish_091betaII.7z) (2022-05-06)
 * Alt+N to switch tabs
