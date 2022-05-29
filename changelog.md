@@ -4,6 +4,8 @@
 <span style="color:red">Update:</span> (2022-05-27) The issue seems to resolved, updated build will be published this weekend.
 
 # Upcoming Release
+* "McAfee Endpoint Security Alert" RybaFish detected as a malware for some reason, beta III should fix this issue, let me know if not.
+
 [<b>091 beta II</b>](https://github.com/rybafish/rybafish/releases/download/091betaII/RybaFish_091betaII.7z) (2022-05-06)
 * Alt+N to switch tabs
 * multiline KPIs have 'others' property: single entry to include everything else
