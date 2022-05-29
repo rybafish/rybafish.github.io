@@ -13,7 +13,7 @@ No installation required, just unzip it wherever you are planning to use it.
 
 **Windows**
 
-The most recent beta builds available [here](/changelog). Note, "McAfee Endpoint Security Alert" reports false positeve malware on most recent betas, beta III should fix this.
+The most recent beta builds available [here](/changelog). Note, "McAfee Endpoint Security Alert" reports false positeve malware on most recent betas, [beta III](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) should fix this.
 
 [0.9 Paltus](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), last major release, 17.02.2022 ([changes](/changelog))
 
