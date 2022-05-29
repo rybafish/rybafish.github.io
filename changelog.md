@@ -1,10 +1,11 @@
 # Breaking news
-<span style="color:red">Warning (2022-05-27): Most recent updates of McAfee Antivirus detects RybaFish Charts as a treat.</span> This is a false-positive detection, currently affected versions are 091 betas. **09 Paltus is not affected** (yet?). The investigation team does what it should... well... it investigates. Sorry for that, you can also contact your anti-virus vendor and report this issue.
-
-<span style="color:red">Update:</span> (2022-05-27) The issue seems to resolved, updated build will be published this weekend.
+<span style="color:red">Warning (2022-05-27): Recent updates of McAfee Antivirus detect RybaFish Charts as a treat.</span> This is a false-positive detection, currently affected versions are 091 beta I-II, . **09 Paltus is not affected** (yet?). Sorry for that, you can also contact your anti-virus vendor and report this issue. 091 beta III should resolve this issue.
 
 # Upcoming Release
-* "McAfee Endpoint Security Alert" RybaFish detected as a malware for some reason, beta III should fix this issue, let me know if not.
+* not yet
+
+[<b>091 beta III</b>](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) (2022-05-29)
+* "McAfee Endpoint Security Alert" RybaFish detected as a malware for no reason, beta III should fix this issue.
 
 [<b>091 beta II</b>](https://github.com/rybafish/rybafish/releases/download/091betaII/RybaFish_091betaII.7z) (2022-05-06)
 * Alt+N to switch tabs
