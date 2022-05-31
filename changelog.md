@@ -1,5 +1,7 @@
 # Breaking news
-<span style="color:red">2022-05-27: Recent updates of McAfee Antivirus detect RybaFish Charts as a treat (facepalm).</span> This is a **false-positive** detection, currently affected versions are 091 beta I-II, . **09 Paltus is not affected** (yet?). Sorry for that, you can also contact your anti-virus vendor and report this issue. 091 beta III should resolve this issue.
+<span style="color:red">2022-05-27: Recent updates of McAfee Antivirus detect RybaFish Charts as a treat (facepalm).</span> This is a **false-positive** detection, currently affected versions are 091 beta I-II, . **09 Paltus is not affected** (yet?). Sorry for that, you can also contact your anti-virus vendor and report this issue.
+
+091 beta III should resolve this misunderstanding.
 
 # Upcoming Release
 * not yet
