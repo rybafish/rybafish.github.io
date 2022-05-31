@@ -15,7 +15,7 @@ No installation required, just unzip it wherever you are planning to use it.
 
 The most recent beta builds available [here](/changelog). Note, "McAfee Endpoint Security Alert" reports false positeve malware on most recent betas, [beta III](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) should fix this.
 
-[091 beta III](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z), <span style="color:blue">current beta</span> build.
+[091 beta III](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z), <span style="color:blue">current beta</span> build (2022-05-29).
 
 [0.9 Paltus](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), <span style="color:blue">last major</span> release, 17.02.2022 ([changes](/changelog))
 
