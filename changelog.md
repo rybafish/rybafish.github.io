@@ -4,7 +4,7 @@
 Update: 091 beta III should resolve this misunderstanding.
 
 # Upcoming Release
-* Alt+Up/Down - to move highlighted point between KPIs. Only regular KPIs supported for now.
+* Alt+Up/Down - to move highlighted point between KPIs. ~~~Only regular KPIs supported for now~~~ Regular+Multiline KPIs supported.
 
 [<b>091 beta III</b>](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) (2022-05-29)
 * "McAfee Endpoint Security Alert" RybaFish detected as a malware for no reason, beta III should fix this issue.
