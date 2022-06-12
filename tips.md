@@ -12,7 +12,8 @@
 * Ctrl+click in KPIs table requst this kpi for the same service (same port) from all nodes
 * Ctrl+Shift in KPIs table request this kpi from all nodes, all services
 * Click on the chart line will highlight it and display the exact time and value
-* You can move highlighted point with Alt+Left/Right, (v09)
+   * You can move highlighted point with Alt+Left/Right, (v09)
+   * Alt+Up/Down to switch to neighbour KPI (v091)
 * Second click on the same chart line calculates the delta between values: check the status bar
 * Sinle click on the chart area will redraw the chart without refresh
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
@@ -22,7 +23,7 @@
 * Right mouse click in the chart area shows some potentiously useful options, try it!
   * for example you can copy the exact timestamp in sql ready format
   * even more: if yo already have timestamp in the clipboard you can compse beween predicate (v09)
-
+ 
 
 ### SQL Console
 Warning: might be dangerous as it can leave hanging statements affecting the system operations, so pay attention to that. 
