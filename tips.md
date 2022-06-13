@@ -19,6 +19,7 @@
 * Pay attention to status bar, all requests that are expected to be long (network) put some message in the status bar
 * Shift + mouse wheel scrolls the area
 * You can use just date in 2020-12-28 format to get 2020-12-28 00:00:00
+* When you put date like 2020-12-28 in "to" field - you will get  2020-12-28 23:59:59
 * When a gantt or multiline KPI selected, context menu allows to copy details of the selected KPI
 * Right mouse click in the chart area shows some potentiously useful options, try it!
   * for example you can copy the exact timestamp in sql ready format
