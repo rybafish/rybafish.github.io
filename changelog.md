@@ -8,10 +8,10 @@ Update: 091 beta III should resolve this misunderstanding.
 * and Gantt as well now
 * beta versions will be checking for newly published betas, can be controlled by updatesCheckBeta: True/False.
 * SQL console syntax highlighter performance boost approx. 2 times
+* Configurable connectionsFile, screensFolder, customKPIsFolder, contextSQLsFolder [settings](/config).
 
 [<b>091 beta III</b>](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) (2022-05-29)
 * "McAfee Endpoint Security Alert" RybaFish detected as a malware for no reason, beta III should fix this issue.
-* connectionsFile, screensFolder, customKPIsFolder, contextSQLsFolder [settings](/config).
 
 [<b>091 beta II</b>](https://github.com/rybafish/rybafish/releases/download/091betaII/RybaFish_091betaII.7z) (2022-05-06)
 * Alt+N to switch tabs
