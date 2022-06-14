@@ -188,7 +188,7 @@ Number of characters limiting value length for ABAP style copy. The default valu
 ### connectionsFile (v 0.91)
 `connectionsFile: 'C:\Users\somepath\connections.yaml'`
 
-Absolute path to credentials/connections file. The setting might be useful when several RybaFish instances used on the same machine. The default behaviour is to have separate connections.yaml per RybaFish instance (copy).
+Optional path to credentials/connections file. The setting might be useful when several RybaFish instances used on the same machine. The default behaviour is to have separate connections.yaml per RybaFish instance (copy).
 
 ### screensFolder (v 0.91)
 `screensFolder: 'C:\Users\somepath\screens'`
@@ -196,7 +196,7 @@ Absolute path to credentials/connections file. The setting might be useful when 
 Optional path for to save screenshots. Might be useful when several instances of RybaFish Charts used.
 
 ### customKPIsFolder (v 0.91)
-`customKPIsFolder: 'C:\Users\somepath\\sql'`
+`customKPIsFolder: 'C:\Users\somepath\sql'`
 
 Optional path to custom KPIs folder. Might be useful when several instances of RybaFish Charts used.
 
