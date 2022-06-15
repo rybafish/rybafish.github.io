@@ -204,3 +204,8 @@ Optional path to custom KPIs folder. Might be useful when several instances of R
 `contextSQLsFolder: 'C:\Users\somepath\ContextSQLs'`
 
 Optional path to context SQLs folder. Might be useful when several instances of RybaFish Charts used.
+
+### scriptsFolder (v 0.91)
+`scriptsFolder: 'C:\Users\somepath\scripts'`
+
+Optional path to sql scripts folder, thde default is local 'scripts'. Used in SQL Browser: menu -> SQL or F11.
