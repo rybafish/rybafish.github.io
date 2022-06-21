@@ -27,7 +27,6 @@
  
 
 ### SQL Console
-Warning: might be dangerous as it can leave hanging statements affecting the system operations, so pay attention to that. 
 
 * when you start statement as "select top NNN" result limit will be automaticaly adjusted for this execution, no configuration change requred
 * ctrl+up/ctrl+down moves current line
@@ -41,3 +40,4 @@ Warning: might be dangerous as it can leave hanging statements affecting the sys
 * ctrl+F shows basic search dialog
   * F3 repeats the last search (to be released with v09)
 * when the column resized to 0 width it will be skipped in result copy (v09)
+* with 091 beta IV there is a SQL Browser available, give it a try! Menu -> SQL (F11)
