@@ -14,7 +14,6 @@ kpis: [
         name: 'exp_st',
         sqlname: 'dasd',
         color: '#BDF',
-        style: 'bar',
         width: 8,
         shift: 2,
         nofilter: False,
@@ -53,16 +52,13 @@ Can only have one of two values: 'service' or 'host'.
 When sql provides service-level metric - port must be one of the returned columns. 
 
 ### subtype
-Must be 'gantt', no other subtypes available yet.
+Must be 'gantt'. The other possible subtype 'multiline', but [this is completely different story](/customMultiline).
 
 ### name
 KPI name: will be used internally, must be unique.
 
 ### color
 KPI style color in form of #RGB. #F00 - red, #0FF - cyan, etc.
-
-### style
-There are two styles available: bar and candle.
 
 ### width
 Bar width.
