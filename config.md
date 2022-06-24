@@ -209,3 +209,9 @@ Optional path to context SQLs folder. Might be useful when several instances of 
 `scriptsFolder: 'C:\Users\somepath\scripts'`
 
 Optional path to sql scripts folder, thde default is local 'scripts'. Used in SQL Browser: menu -> SQL or F11.
+
+
+### sqlConsoleToolbar (v 0.91)
+`sqlConsoleToolbar: True`
+
+You can change it to False in config to manualy disable it. Similar can be acheive by menu -> Actions -> SQL Console Toolbar.
