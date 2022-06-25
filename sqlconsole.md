@@ -2,10 +2,9 @@
 
 ### Table of contents
 * [Basics](#basics)
-    * [Execute](#execute)
+    * [Execute](#execute) statements
     * [Execute without parsing](#executenoparsing)
     * [Execute leaving results](#executeresults)
-
 
 ## Basics<a name="basics"></a>
 Very basics of SQL console are available in the toolbar:
@@ -16,7 +15,7 @@ Let's go through buttons and see how this works.
 
 The main point having SQL console is executiong SQL statements, that is why RybaFish has three different wais doing this.
 
-![F8](https://www.rybafish.net/img/F8_icon.png) `F8` Main *Execute* button.<a name="execute"></a>
+# ![F8](https://www.rybafish.net/img/F8_icon.png) `F8` Main *Execute* button.<a name="execute"></a>
 
 To execute a statement you need to type it, place cursor somewhere inside and press ![F8](https://www.rybafish.net/img/F8_icon.png) (or F8). RybaFish will _try_ to parse the statement and if succesfull - highlight and execute it.
 
@@ -52,7 +51,7 @@ What actually happens in this case - RybaFish still does parsing of the SQLs and
 
 Corrsesponding number of result set tabs will be populated, in this case two of them: Results and Results2
 
-![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) `Alt+F8` *Execute without parsing*.<a name="executenoparsing"></a>
+## Execute without parsing ![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) `Alt+F8` <a name="executenoparsing"></a>
 
 As mentioned, the *Execute* button relies on SQL parsing, which may fail. In some cases, for instance SQLScript CREATE PROCEDURE statements or similar semantically complex constructions parsing may highlight part of the statement which cannot be executed. This is where *Execute without parsing* requred: you just select the statement manually and hit ![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) or `Alt+F8`, that's it: RybaFish will send to the database whatever was selected without any intermediate processing.
 
