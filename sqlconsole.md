@@ -1,7 +1,13 @@
 # SQL Console Help
 
-## Title 1
-not sure
+## Basics
+Very basics of SQL console are available in the toolbar:
+
+![toolbar](https://www.rybafish.net/sql_01_toolbar.png)
+
+Let's go through buttons and see how this works.
+
+
 
 ## Title 2
 also not sure
