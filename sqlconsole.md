@@ -15,9 +15,9 @@ Very basics of SQL console are available in the toolbar:
 
 Let's go through buttons and see how this works. 
 
-The main point having SQL console is executiong SQL statements, that is why RybaFish <font size="4">has three different wais doing this.</font>
+The main point having SQL console is executiong SQL statements, that is why RybaFish <font size="5">has three different wais doing this.</font>
 
-![F8](https://www.rybafish.net/img/F8_icon.png) <font size="2">`F8` Main **Execute** button.<a name="execute"></a></font>
+![F8](https://www.rybafish.net/img/F8_icon.png) <font size="6">`F8` Main **Execute** button.<a name="execute"></a></font>
 
 To execute a statement you need to type it, place cursor somewhere inside and press ![F8](https://www.rybafish.net/img/F8_icon.png) (or F8). RybaFish will _try_ to parse the statement and if succesfull - highlight and execute it.
 
