@@ -9,7 +9,7 @@ Let's go through buttons and see how this works.
 
 The main point having SQL console is executiong SQL statements, that is why RybaFish has three different wais doing this.
 
-1. ![F8](https://www.rybafish.net/img/F8_icon.png) `F8` Main *Execute* button.
+### ![F8](https://www.rybafish.net/img/F8_icon.png) `F8` Main *Execute* button.
 
 To execute a statement you need to type it, place cursor somewhere inside and press ![F8](https://www.rybafish.net/img/F8_icon.png) (or F8). RybaFish will _try_ to parse the statement and if succesfull - highlight and execute it.
 
