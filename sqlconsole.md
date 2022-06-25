@@ -3,8 +3,10 @@
 ### Table of contents
 * [Basics](#basics)
     * [Execute](#execute) statements
+    * [Execute several](#executemany) statements at once
     * [Execute without parsing](#executenoparsing)
     * [Execute leaving results](#executeresults)
+ * [Advanced](#advanced)
 
 ## Basics<a name="basics"></a>
 Very basics of SQL console are available in the toolbar:
@@ -43,7 +45,7 @@ If you move cursor to the line #5 and press the execute button again, the _secon
 
 Once again, you don't need to select the statements, just put cursor somewhere inside the statement.
 
-For example, you have a list of steps to be executed as a single action. In this it will be requred so select statements manually and hit the same button.
+Sometimes it is requred to **execute several statements** at once<a name="executemany" />. For example, you have a list of steps to be executed as a single action. In this case it will be requred so select statements manually and hit the same Execute button.
 
 What actually happens in this case - RybaFish still does parsing of the SQLs and execute them in a queue:
 
@@ -59,21 +61,7 @@ As mentioned, the *Execute* button relies on SQL parsing, which may fail. In som
 
 Sometimes it might be required to keep the results of previous execution and repeat the same SQL in order to compare the results. This is where ![Ctrl+F8](https://www.rybafish.net/img/F8ctrl_icon.png) `Ctrl+F8` can help to save some effort: this execution mode repeats previous query but does not clear the Results tab.
 
-
-## Title 2
-also not sure
-
-```sql
-select 
-    time, 
-    host, 
-    port,
-    cpu, 
-    memory_used,
-    memory_allocation_limit
-from m_load_history_service
-order by time desc;
-```
-
-## Support
-If you have suggestions or see bugs, please report using github page.
+## Advanced
+Not yet, but we will cover:
+* autorefresh
+* alerts
