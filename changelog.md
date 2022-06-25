@@ -10,6 +10,7 @@ Update: 091 beta III should resolve this misunderstanding.
 * SQL console syntax highlighter performance boost approx. 2 times
 * Configurable connectionsFile, screensFolder, customKPIsFolder, contextSQLsFolder [settings](/config).
 * simple SQL scripts organiser, menu->SQL or F11
+* finally, documentation on [sql console](/sqlconsole)
 
 [<b>091 beta III</b>](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) (2022-05-29)
 * "McAfee Endpoint Security Alert" RybaFish detected as a malware for no reason, beta III should fix this issue.
