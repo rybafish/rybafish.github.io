@@ -6,6 +6,8 @@
     * [Execute several](#executemany) statements at once
     * [Execute without parsing](#executenoparsing)
     * [Execute leaving results](#executeresults)
+    * [Beautify](#beautify) code
+    * [SQL Browser](#sqlbrowser) code
  * [Advanced](#advanced)
 
 ## Basics<a name="basics"></a>
@@ -57,9 +59,21 @@ Corrsesponding number of result set tabs will be populated, in this case two of 
 
 As mentioned, the *Execute* button relies on SQL parsing, which may fail. In some cases, for instance SQLScript CREATE PROCEDURE statements or similar semantically complex constructions parsing may highlight part of the statement which cannot be executed. This is where *Execute without parsing* requred: you just select the statement manually and hit ![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) or `Alt+F8`, that's it: RybaFish will send to the database whatever was selected without any intermediate processing.
 
-![Ctrl+F8](https://www.rybafish.net/img/F8ctrl_icon.png) `Ctrl+F8` **Execute creating a new result set**.<a name="executeresults"></a>
+![Ctrl+F8](https://www.rybafish.net/img/F8ctrl_icon.png) `Ctrl+F8` **Execute creating a new result set**.<a name="executeresults" />
 
 Sometimes it might be required to keep the results of previous execution and repeat the same SQL in order to compare the results. This is where ![Ctrl+F8](https://www.rybafish.net/img/F8ctrl_icon.png) `Ctrl+F8` can help to save some effort: this execution mode repeats previous query but does not clear the Results tab.
+
+![beautify](https://www.rybafish.net/img/format.png) `Ctrl+Shift+O` Autoformat or Beautify<a name="beautify" />
+
+RybaFish console contains simple autoformatting function that can be useful to make sql statement readable. To use this function you need to select the statement first.
+
+![sqlBrowser](https://www.rybafish.net/img/sqlbrowser.png) `F11` SQL Browser<a name="sqlbrowser" />
+
+Every DBA has a collection of crafted SQL statements used on a daily basis. RybaaFish gives an option to organize the stuff in folders and files to be consumed in SQL Console. By default RyebaFish `scripts` folder is used for that but it can be changed by setting the `scriptsFolder` setting in config.yaml.
+
+![sqlBrowser](https://www.rybafish.net/img/sql_06_browser.png)
+
+From this dialog you can insert the statement to current cursor position or open in new SQL console. Give it a try.
 
 ## Advanced
 Not yet, but we will cover:
