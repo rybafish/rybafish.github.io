@@ -10,13 +10,14 @@
     * [Execute leaving results](#executeresults)
     * [Beautify](#beautify) code
     * [SQL Browser](#sqlbrowser)
+ * [Result Set](#resultset) Options
  * [Advanced](#advanced)
 
 ## Basics<a name="basics"></a>
 
 To open an SQL Console you need to be already connected to the database, then: File &rarr; New SQL Console or `Alt+S`.
 
-Bye default SQL Console uses basic syntax highlighting, plus, being under heavy influence of Notepad++ there are some minor highlighting features like brakets highlighting and words highlighting.
+By default SQL Console uses basic syntax highlighting, plus, being under heavy influence of Notepad++ there are some minor highlighting features like brakets highlighting and words highlighting.
 
 Most of the functionality is really straighforward and actully can be used without reading the documentation, but, anyways.
 
@@ -105,6 +106,13 @@ Every DBA has a collection of crafted SQL statements used on a daily basis. Ryba
 ![sqlBrowser](https://www.rybafish.net/img/sql_06_browser.png)
 
 From this dialog you can insert the statement to current cursor position or open in new SQL console. Give it a try.
+
+<a name="#resultset" />
+## Result Set
+
+Result set related optiona are available in the context menu when the mouse is over a Results tab:
+
+(image)
 
 ## Advanced
 Not yet, but we will cover:
