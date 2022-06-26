@@ -97,10 +97,10 @@ Sometimes it might be required to keep the results of the previous execution and
 The moment you use regular **Execute** all the previous Results will be cleared (it is [planned](https://github.com/rybafish/rybafish/issues/665) to have a warning in this regards).
 
 <a name="beautify" />
-### Beautify or Autoformat
+### Beautify (autoformat)
 ![beautify](https://www.rybafish.net/img/format.png) `Ctrl+Shift+O` 
 
-RybaFish console contains a simple autoformatting function that can be useful to make SQL statement readable. To use this function you need to select the statement first.
+RybaFish console has a simple autoformatting function that can be useful to make SQL statement readable. To use this function you need to select the statement first.
 
 <a name="sqlbrowser" />
 ## SQL Browser
