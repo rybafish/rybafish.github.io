@@ -7,7 +7,7 @@
     * [Execute without parsing](#executenoparsing)
     * [Execute leaving results](#executeresults)
     * [Beautify](#beautify) code
-    * [SQL Browser](#sqlbrowser) code
+    * [SQL Browser](#sqlbrowser)
  * [Advanced](#advanced)
 
 ## Basics<a name="basics"></a>
