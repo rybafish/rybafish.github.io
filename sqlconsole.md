@@ -3,7 +3,8 @@
 ### Table of contents
 * [Basics](#basics)
     * [Execute](#execute) statements
-    * [Execute several](#executemany) statements at once
+      * [Error highlighting](#errorhighlighting)
+      * [Execute several](#executemany) statements at once
     * [Execute without parsing](#executenoparsing)
     * [Execute leaving results](#executeresults)
     * [Beautify](#beautify) code
@@ -46,6 +47,13 @@ If you move cursor to the line #5 and press the execute button again, the _secon
 ![statement execution](https://www.rybafish.net/img/sql_02_statement.png)
 
 Once again, you don't need to select the statements, just put cursor somewhere inside the statement.
+
+<a name="errorhighlighting" />**Error highlighting.**
+It actually happens automatically when database reports exception during syntax check of the statement. In this case error location extracted from the exception and highlighted inside the statement text:
+
+![Error highlighting](https://www.rybafish.net/img/sql_05_error.png)
+
+In this case source object does not have HOSTNAME column and it is reported/highlighted in the SQL text.
 
 Sometimes it is requred to **execute several statements** at once<a name="executemany" />. For example, you have a list of steps to be executed as a single action. In this case it will be requred so select statements manually and hit the same Execute button.
 
