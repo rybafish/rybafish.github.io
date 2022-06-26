@@ -63,7 +63,7 @@ As mentioned, the *Execute* button relies on SQL parsing, which may fail. In som
 
 Sometimes it might be required to keep the results of previous execution and repeat the same SQL in order to compare the results. This is where ![Ctrl+F8](https://www.rybafish.net/img/F8ctrl_icon.png) `Ctrl+F8` can help to save some effort: this execution mode repeats previous query but does not clear the Results tab.
 
-![beautify](https://www.rybafish.net/img/format.png) `Ctrl+Shift+O` Autoformat or Beautify<a name="beautify" />
+![beautify](https://www.rybafish.net/img/format.png) `Ctrl+Shift+O` Beautify or Autoformat<a name="beautify" />
 
 RybaFish console contains simple autoformatting function that can be useful to make sql statement readable. To use this function you need to select the statement first.
 
