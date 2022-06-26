@@ -2,7 +2,8 @@
 
 ### Table of contents
 * [Basics](#basics)
-    * [Execute](#execute) statements
+    * Executing statements
+      * [Main Execute](#execute) statements button
       * [Error highlighting](#errorhighlighting)
       * [Execute several](#executemany) statements at once
     * [Execute without parsing](#executenoparsing)
@@ -18,7 +19,9 @@ Very basics of SQL console are available in the toolbar:
 
 Let's go through buttons and see how this works. 
 
-The main point having SQL console is executiong SQL statements, that is why RybaFish has three different wais doing this.
+The main point having SQL console is executiong SQL statements, that is why RybaFish has three different ways doing this.
+
+### Main Execute Statements Button
 
 ![F8](https://www.rybafish.net/img/F8_icon.png) `F8` Main **Execute** button.<a name="execute"></a>
 
@@ -62,6 +65,8 @@ What actually happens in this case - RybaFish still does parsing of the SQLs and
 ![statements execution](https://www.rybafish.net/img/sql_04_statements.png)
 
 Corrsesponding number of result set tabs will be populated, in this case two of them: Results and Results2
+
+### Execute without parsing
 
 ![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) `Alt+F8` **Execute without parsing** <a name="executenoparsing"></a>
 
