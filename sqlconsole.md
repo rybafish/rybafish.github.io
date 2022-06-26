@@ -99,9 +99,11 @@ The moment you use regular **Execute** all the previous Results will be cleared 
 
 RybaFish console contains simple autoformatting function that can be useful to make sql statement readable. To use this function you need to select the statement first.
 
-![sqlBrowser](https://www.rybafish.net/img/sqlbrowser.png) `F11` SQL Browser<a name="sqlbrowser" />
+<a name="sqlbrowser" />
+## SQL Browser
+![sqlBrowser](https://www.rybafish.net/img/sqlbrowser.png) `F11`
 
-Every DBA has a collection of crafted SQL statements used on a daily basis. RybaaFish gives an option to organize the stuff in folders and files to be consumed in SQL Console. By default RyebaFish `scripts` folder is used for that but it can be changed by setting the `scriptsFolder` setting in config.yaml.
+Every DBA has it's own collection of crafted over the years SQL statements. RybaaFish gives an option to organize the stuff in a built-in library which is quickli available from the tool itself. The approach is very simple and straight-forward: you keep all the SQLs in flat files on local or network harddrive and just point RybaFish to the root folder of this collection. By default RybaFish uses `scripts` folder for that but this can be changed by setting the `[scriptsFolder](https://www.rybafish.net/config#scriptsFolder)` setting in config.yaml.
 
 ![sqlBrowser](https://www.rybafish.net/img/sql_06_browser.png)
 
