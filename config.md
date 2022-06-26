@@ -205,6 +205,7 @@ Optional path to custom KPIs folder. Might be useful when several instances of R
 
 Optional path to context SQLs folder. Might be useful when several instances of RybaFish Charts used.
 
+<a name="scriptsFolder" />
 ### scriptsFolder (v 0.91)
 `scriptsFolder: 'C:\Users\somepath\scripts'`
 
