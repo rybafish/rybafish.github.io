@@ -2,12 +2,12 @@
 
 ### Table of contents
 * [Basics](#basics)
-    * [Executing statements](#execute)
-      * [Main Execute](#execute) statements button
-      * [Error highlighting](#errorhighlighting)
-      * [Execute several](#executemany) statements at once
-    * [Execute without parsing](#executenoparsing)
-    * [Execute leaving results](#executeresults)
+    * [Executing Statements](#execute)
+      * [Main Execute](#execute) Statements Button
+      * [Error Highlighting](#errorhighlighting)
+      * [Execute Several](#executemany) Statements At Once
+    * [Execute Without Parsing](#executenoparsing)
+    * [Execute Leaving Results](#executeresults)
     * [Beautify](#beautify) code
     * [SQL Browser](#sqlbrowser)
  * [Result Set](#resultset) Options
@@ -17,9 +17,9 @@
 
 To open an SQL Console you need to be already connected to the database, then: File &rarr; New SQL Console or `Alt+S`.
 
-By default SQL Console uses basic syntax highlighting, plus, being under heavy influence of Notepad++ there are some minor highlighting features like brakets highlighting and words highlighting.
+SQL Console uses basic syntax highlighting for SQL keywords comments and literals, plus, being under heavy influence of Notepad++ editor there are additional highlighting features like brakets highlighting and words highlighting.
 
-Most of the functionality is really straighforward and actully can be used without reading the documentation, but, anyways.
+To start using the console no any special training required but to get full power of it you might need to go quickly throught this document, let's jumt right into it!
 
 Very basics of SQL console are available in the toolbar:
 
@@ -103,7 +103,7 @@ RybaFish console contains simple autoformatting function that can be useful to m
 ## SQL Browser
 ![sqlBrowser](https://www.rybafish.net/img/sqlbrowser.png) `F11`
 
-Every DBA has it's own collection of crafted over the years SQL statements. RybaaFish gives an option to organize the stuff in a built-in library which is quickli available from the tool itself. The approach is very simple and straight-forward: you keep all the SQLs in flat files on local or network harddrive and just point RybaFish to the root folder of this collection. By default RybaFish uses `scripts` folder for that but this can be changed by setting the `[scriptsFolder](https://www.rybafish.net/config#scriptsFolder)` setting in config.yaml.
+Every DBA has it's own collection of crafted over the years SQL statements. RybaaFish gives an option to organize the stuff in a built-in library which is quickli available from the tool itself. The approach is very simple and straight-forward: you keep all the SQLs in flat files on local or network harddrive and just point RybaFish to the root folder of this collection. By default RybaFish uses `scripts` folder for that but this can be changed by setting the [scriptsFolder](https://www.rybafish.net/config#scriptsFolder) setting in config.yaml.
 
 ![sqlBrowser](https://www.rybafish.net/img/sql_06_browser.png)
 
