@@ -12,29 +12,28 @@
     * [SQL Browser](#sqlbrowser)
  * [Result Set](#resultset) Options
  * [Advanced](#advanced)
+ * [Editor Hotkeys](#)
 
 ## Basics<a name="basics"></a>
 
 To open an SQL Console you need to be already connected to the database, then: File &rarr; New SQL Console or `Alt+S`.
 
-SQL Console uses basic syntax highlighting for SQL keywords comments and literals, plus, being under heavy influence of Notepad++ editor there are additional highlighting features like brakets highlighting and words highlighting.
+SQL Console uses basic syntax highlighting for SQL keywords, comments and literals. Developed under heavy influence of Notepad++ editor there are additional highlighting features like brakets highlighting and words highlighting.
 
-To start using the console no any special training required but to get full power of it you might need to go quickly throught this document, let's jumt right into it!
+Frankly no special training required to start using the console, but to get the full power of it you might need to go quickly throught this document. So, let's jump right into it!
 
-Very basics of SQL console are available in the toolbar:
+Very basics functions of the console are available in the toolbar:
 
 ![toolbar](https://www.rybafish.net/img/sql_01_toolbar.png)
 
-Let's go through buttons and see how this works. 
-
-The main point having SQL console is executiong SQL statements, that is why RybaFish has three different ways doing this.
+Let's go through the buttons one by one and see what they do. 
 
 <a name="execute"></a>
 ### Main Execute Statements Button
 
 ![F8](https://www.rybafish.net/img/F8_icon.png) `F8`
 
-To execute a statement you need to place cursor somewhere inside and press ![F8](https://www.rybafish.net/img/F8_icon.png) or `F8`. RybaFish will _try_ to parse the statement and if succesfull - highlight and execute it.
+The main point having SQL console is executiong SQL statements, that is why RybaFish has three different ways doing this. To execute a statement you need to place cursor somewhere inside and press ![F8](https://www.rybafish.net/img/F8_icon.png) or `F8`. RybaFish will _try_ to parse the statement and, if succesfull, - highlight and execute it.
 
 To make this work, statements need to be separated by the semicolon: `;` character. This makes it possible to work with several statements in the same console and execute them when required. Let's say we work with the following SQLs:
 ```sql
@@ -54,11 +53,11 @@ When the cursor is on the first line (anywere before semicolon) you can hit ![F8
 
 ![statement execution](https://www.rybafish.net/img/sql_03_statement.png)
 
-If you move cursor to the line #5 and press the execute button again, the _second_ statement will be highlighted and executed:
+If you move the cursor to the line #5 and press the Execute button again, the _second_ statement will be highlighted and executed:
 
 ![statement execution](https://www.rybafish.net/img/sql_02_statement.png)
 
-Once again, you don't need to select the statements, just put cursor somewhere inside the statement.
+Once again, you don't need to select the statement, just put the cursor somewhere inside.
 
 <a name="errorhighlighting" />
 ### Error highlighting
@@ -69,11 +68,15 @@ In case of syntax error during the processing of the statement the reported line
 
 Here the source object does not have the HOSTNAME column and it is reported in console log and highlighted in the SQL text.
 
+Also, if you pay attention to line numbers - numbering adjusted to the statement itself. This makes it way much easier to see what line is reported because the database has no idea what is the statement position inside your console and only able to report position inside the statement.
+
+As soon as you make any change in the console - numbering will reset to the normal mode. This behaviour can be desabled by setting [blockLineNumbers](https://www.rybafish.net/config#blockLineNumbers) to False.
+
 <a name="executemany" />
 ### Execute several statements
-Sometimes it is requred to execute several statements at once. For example, you have a list of steps to be executed as a single action. In this case it will be requred so select statements manually and hit the same Execute button.
+Sometimes it is required to execute several statements at once. For example, you have a list of steps to be executed togather. In this case it will be requred so select statements manually and hit the same Execute button.
 
-What actually happens in this case - RybaFish still does parsing of the SQLs and execute them in a queue:
+What actually happens in this case - RybaFish still does parsing of the SQLs based on the semicolon character, and execute them in a queue:
 
 ![statements execution](https://www.rybafish.net/img/sql_04_statements.png)
 
@@ -83,7 +86,7 @@ Corrsesponding number of result set tabs will be populated, in this case two of 
 ### Execute without parsing
 ![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) `Alt+F8` **Execute without parsing**
 
-As mentioned, the *Execute* button relies on SQL parsing, which may fail. In some cases, for instance SQLScript CREATE PROCEDURE statements or similar semantically complex constructions parsing may highlight incomplete statement which cannot be executed. This is where *Execute without parsing* requred: you just select the statement manually and hit ![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) or `Alt+F8`, that's it: RybaFish will send to the database whatever was selected without any intermediate processing. Currently known parsing issue is nested begin ... end blocks in SQLScript procedures, we have an [open issue](https://github.com/rybafish/rybafish/issues/248) on that.
+As mentioned, the *Execute* button relies on SQL parsing, which may fail. In some cases, for instance SQLScript CREATE PROCEDURE statements or similar semantically complex constructions parsing may highlight incomplete statement which cannot be executed. This is where *Execute without parsing* requred: you just select the statement manually and hit ![Alt+F8](https://www.rybafish.net/img/F8alt_icon.png) or `Alt+F8`, that's it: RybaFish will send to the database whatever was selected without any intermediate processing. Currently known parsing issue is nested begin ... end blocks in SQLScript procedures, there is an [open issue](https://github.com/rybafish/rybafish/issues/248) on that.
 
 <a name="executeresults" />
 ### Execute Creating a New Result Set
@@ -97,17 +100,19 @@ The moment you use regular **Execute** all the previous Results will be cleared 
 ### Beautify or Autoformat
 ![beautify](https://www.rybafish.net/img/format.png) `Ctrl+Shift+O` 
 
-RybaFish console contains simple autoformatting function that can be useful to make sql statement readable. To use this function you need to select the statement first.
+RybaFish console contains a simple autoformatting function that can be useful to make SQL statement readable. To use this function you need to select the statement first.
 
 <a name="sqlbrowser" />
 ## SQL Browser
 ![sqlBrowser](https://www.rybafish.net/img/sqlbrowser.png) `F11`
 
-Every DBA has it's own collection of crafted over the years SQL statements. RybaaFish gives an option to organize the stuff in a built-in library which is quickli available from the tool itself. The approach is very simple and straight-forward: you keep all the SQLs in flat files on local or network harddrive and just point RybaFish to the root folder of this collection. By default RybaFish uses `scripts` folder for that but this can be changed by setting the [scriptsFolder](https://www.rybafish.net/config#scriptsFolder) setting in config.yaml.
+Every DBA has it's own collection of crafted over the years SQL statements. RybaaFish gives an option to organize the stuff in a built-in library which is quickly available from the tool itself. The approach is very straight-forward: you keep all the SQLs in flat files on local or network harddrive and point RybaFish to the root folder of this collection. By default RybaFish uses `scripts` folder for that but this can be changed by setting the [scriptsFolder](https://www.rybafish.net/config#scriptsFolder) setting in config.yaml.
 
 ![sqlBrowser](https://www.rybafish.net/img/sql_06_browser.png)
 
 From this dialog you can insert the statement to current cursor position or open in new SQL console. Give it a try.
+
+If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. To extract all the comments from all the files sometimes requred noticible amount of time, so to avoid freezing a background thread used. While this thread running - statements will not have comments loaded. This threads runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
 
 <a name="#resultset" />
 ## Result Set
