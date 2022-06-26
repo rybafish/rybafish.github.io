@@ -162,6 +162,7 @@ Potentially useful to distinguish same KPI for different nodes in scale-out env.
 
 Timeout for detaching resultsets containing LOB values. Default value is 300 seconds.
 
+<a name="blockLineNumbers" />
 ### blockLineNumbers (v 0.9)
 `blockLineNumbers: True`
 
