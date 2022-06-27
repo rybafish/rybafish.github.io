@@ -120,20 +120,20 @@ From this dialog you can insert the statement in current cursor position or open
 If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. Extracting comments from all the files sometimes requres noticible amount of time, so to avoid freezing a background thread used. Comments will appear in the dialog as soon as background thread finishes. This thread runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
 
 <a name="#connect" />
-![connect](https://www.rybafish.net/img/connect.png)
 ### (re)Connect
+![connect](https://www.rybafish.net/img/connect.png)
 
 This button connects console to the database when disconnected or reconnects when connected. If the console is not connected to the database and you try to execute an SQL - RybaFish will notify you and propose connecting, so this button is not the most often used one.
 
 <a name="#disconnect" />
-![disconnect](https://www.rybafish.net/img/disconnect.png)
 ### Disconnect
+![disconnect](https://www.rybafish.net/img/disconnect.png)
 
 This button disconnects the console from the database. Might be useful when you want to make sure you close the session and release all the transaction-related things, for example. Also it is not the most often used button (because **Execute** is).
 
 <a name="#abort" />
-![sqlBrowser](https://www.rybafish.net/img/abort.png)
 ### Generate Cancel Sesson SQL
+![sqlBrowser](https://www.rybafish.net/img/abort.png)
 
 RybaFish does not have built in abortion mechanism due to several reasons, but there is a button to help you preparing the ALTER statement for this. When pressed it generates cancel session statement related to the current console:
 
@@ -144,8 +144,8 @@ The statement generated in the log area of console. It is ont executed, you need
 By the way, in some cases "cancel session" is not good enough and you might want to use "disconnect session" instead.
 
 <a name="#refresh" />
-![refresh](https://www.rybafish.net/img/refresh.png)
 ### Schedule Automatic Refresh
+![refresh](https://www.rybafish.net/img/refresh.png)
 
 Sometimes it might be required to have the result set updated by itself. For example you are waiting for some event or monitoring particular value. This is where automatic refresh might be useful. To get use of it you need to execute the statemen first and then press ![refresh](https://www.rybafish.net/img/refresh.png). RybaFish will request the refresh period:
 
