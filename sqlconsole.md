@@ -121,7 +121,7 @@ From this dialog you can insert the statement in current cursor position or open
 
 If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. Extracting comments from all the files sometimes requres noticible amount of time, so to avoid freezing a background thread used. Comments will appear in the dialog as soon as background thread finishes. This thread runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
 
-<a name="#connect" />
+<a name="connect" />
 
 ## (re)Connect
 
@@ -129,7 +129,7 @@ If the file starts from a SQL single line comment (started from `--`) this comme
 
 This button connects console to the database when disconnected and re-connects when connected. If you try to execute an SQL in disconnected console - RybaFish will notify you and propose connecting, so this button is not the most often used one.
 
-<a name="#disconnect" />
+<a name="disconnect" />
 
 ## Disconnect
 
@@ -137,7 +137,7 @@ This button connects console to the database when disconnected and re-connects w
 
 This button disconnects the console from the database. Might be useful when you want to make sure you close the session and release all the transaction-related things, for example. Not the most often used button either (because the **Execute** is).
 
-<a name="#abort" />
+<a name="abort" />
 ## Generate Cancel Sesson SQL
 ![sqlBrowser](https://www.rybafish.net/img/abort.png)
 
@@ -149,7 +149,7 @@ The statement generated in the log area of console. It is ont executed, you need
 
 By the way, in some cases "cancel session" is not good enough and you might want to use "disconnect session" instead.
 
-<a name="#refresh" />
+<a name="refresh" />
 ## Schedule Automatic Refresh
 ![refresh](https://www.rybafish.net/img/refresh.png)
 
@@ -170,7 +170,7 @@ By the way, there is a context menu which is available on right mouse click in t
 
 This menu contains mostly the same functions that are available in toolbar except the Explain Plan.
 
-<a name="#resultset" />
+<a name="resultset" />
 
 # Result Set
 
