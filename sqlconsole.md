@@ -31,6 +31,8 @@ Very basics functions of the console are available in the toolbar:
 
 ![toolbar](https://www.rybafish.net/img/sql_01_toolbar.png)
 
+The toolbar can be enabled/disabled by menu Actions &rarr; SQL Console Toolbar, which is equivalent to [sqlConsoleToolbar](https://www.rybafish.net/config#sqlConsoleToolbar) setting.
+
 Let's go through the buttons one by one and see what they do. 
 
 <a name="execute"></a>
@@ -121,7 +123,7 @@ If the file starts from a SQL single line comment (started from `--`) this comme
 
 <a name="#connect" />
 
-### (re)Connect
+## (re)Connect
 
 ![connect](https://www.rybafish.net/img/connect.png)
 
@@ -129,14 +131,14 @@ This button connects console to the database when disconnected and re-connects w
 
 <a name="#disconnect" />
 
-### Disconnect
+## Disconnect
 
 ![disconnect](https://www.rybafish.net/img/disconnect.png)
 
 This button disconnects the console from the database. Might be useful when you want to make sure you close the session and release all the transaction-related things, for example. Not the most often used button either (because the **Execute** is).
 
 <a name="#abort" />
-### Generate Cancel Sesson SQL
+## Generate Cancel Sesson SQL
 ![sqlBrowser](https://www.rybafish.net/img/abort.png)
 
 RybaFish does not have built in abortion mechanism due to several reasons, but there is a button to help you preparing the ALTER statement for this. When pressed it generates cancel session statement related to the current console:
@@ -148,20 +150,20 @@ The statement generated in the log area of console. It is ont executed, you need
 By the way, in some cases "cancel session" is not good enough and you might want to use "disconnect session" instead.
 
 <a name="#refresh" />
-### Schedule Automatic Refresh
+## Schedule Automatic Refresh
 ![refresh](https://www.rybafish.net/img/refresh.png)
 
-Sometimes it might be required to have the result set updated by itself. For example you are waiting for some event or monitoring particular value. This is where automatic refresh might be useful. To get use of it you need to execute the statemen first and then press ![refresh](https://www.rybafish.net/img/refresh.png). RybaFish will request the refresh period:
+Sometimes it might be required to have the result set updated by itself. For example you are waiting for some event or monitoring particular value. This is where the automatic refresh might be useful. To get use of it you need to execute the statemen first and then press ![refresh](https://www.rybafish.net/img/refresh.png). RybaFish will request the refresh interval:
 
 ![Refresh](https://www.rybafish.net/img/sql_08_refresh.png)
 
 This feature shows it's real power when combined with the [alerting](/soundAlerts) functionality: RybaFish can play a sound when certain conditions met.
 
-Logging for this console will be suppressed until autorefresh stopped. To stop the auto-refresh you can press the button again (un-press it) or execute any sql in the same console: this will also disable the auto-refresh mode.
+Logging for this console will be suppressed until the auto-refresh stopped. To stop it you can press the button again (un-press it) or execute any sql in the same console: this will also disable the auto-refresh mode.
 
 There is a limitation: this option can only be used for a single result set queries.
 
-### Context Menu
+## Context Menu
 By the way, there is a context menu which is available on right mouse click in the area of SQL Console:
 
 ![Context Menu](https://www.rybafish.net/img/sql_07_contextmenu.png)
@@ -170,13 +172,13 @@ This menu contains mostly the same functions that are available in toolbar excep
 
 <a name="#resultset" />
 
-## Result Set
+# Result Set
 
 Result set related optiona are available in the context menu when the mouse is over a Results tab:
 
 (image)
 
-## Advanced
+# Advanced
 Not yet, but we will cover:
 * autocommit (disabled by default)
 * autorefresh
