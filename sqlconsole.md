@@ -2,7 +2,7 @@
 
 ### Table of contents
 * [Basics](#basics)
-* #Toolbar(#toolbar)
+* [Toolbar](#toolbar)
     * [Executing Statements](#execute)
       * [Main Execute](#execute) Statements Button
       * [Error Highlighting](#errorhighlighting)
@@ -14,6 +14,7 @@
     * [(re)Connect](#connect)
     * [Disconnect](#disconnect)
     * [Schedule Automatic Refresh](#refresh)
+    * [ABAP Copy](#abap)
  * [Result Set](#resultset) Options
  * [Advanced](#advanced)
  * [Editor Hotkeys](#)
@@ -30,6 +31,7 @@ Each tab in RybaFish has it's own 'indicator' in the status bar: small solid col
 
 Frankly no special training required to start using the console, but to get the full power of it you might need to go quickly throught this document. So, let's jump right into it!
 
+<a name="toolbar" />
 ## Toolbar
 Very basics functions of the console are available in the toolbar:
 
@@ -166,6 +168,11 @@ This feature shows it's real power when combined with the [alerting](/soundAlert
 Logging for this console will be suppressed until the auto-refresh stopped. To stop it you can press the button again (un-press it) or execute any sql in the same console: this will also disable the auto-refresh mode.
 
 There is a limitation: this option can only be used for a single result set queries.
+
+<a name="abap" />
+## ABAP Copy
+![refresh](https://www.rybafish.net/img/abap.png)
+
 
 ## Context Menu
 By the way, there is a context menu which is available on right mouse click in the area of SQL Console:
