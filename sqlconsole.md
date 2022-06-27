@@ -5,7 +5,7 @@
 * [Toolbar](#toolbar)
     * [Executing Statements](#execute)
       * [Main Execute](#execute) Statements Button
-      * [Error Highlighting](#errorhighlighting)
+      * [Errors Highlighting](#errorhighlighting)
       * [Execute Several](#executemany) Statements At Once
     * [Execute Without Parsing](#executenoparsing)
     * [Execute Leaving Results](#executeresults)
@@ -73,7 +73,7 @@ If you move the cursor to the line #5 and press the Execute button again, the _s
 Once again, you don't need to select the statement, just put the cursor somewhere inside.
 
 <a name="errorhighlighting" />
-### Error highlighting
+### Errors highlighting
 
 In case of syntax error during the processing of the statement the reported line/position will be highlighted with red background:
 
@@ -125,7 +125,7 @@ Every DBA has it's own collection of crafted over the years SQL statements. Ryba
 
 From this dialog you can insert the statement in current cursor position or open it in a new SQL console. Both actions will not use clipboard.
 
-If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. Extracting comments from all the files sometimes requres noticible amount of time, so to avoid freezing a background thread used. Comments will appear in the dialog as soon as background thread finishes. This thread runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
+If the file starts from a single-line comment (started from `--`) this comment will be displayed. As extracting comments from all the files might take some time, to avoid freezing of the dialog - a background thread used. Comments will appear in the dialog as soon as background thread finishes. This thread runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
 
 <a name="connect" />
 
@@ -171,7 +171,21 @@ There is a limitation: this option can only be used for a single result set quer
 
 <a name="abap" />
 ## ABAP Copy
-![refresh](https://www.rybafish.net/img/abap.png)
+![ABAP Copy](https://www.rybafish.net/img/abapcopy.png)
+
+This is a toggle-button that enables ABAP-style results copy, example:
+
+```
+----------------------------------------------
+|TIME                   |HOST      |PORT |CPU|
+|--------------------------------------------|
+|2022-06-27 11:20:18.727|atgvmls967|30007|  0|
+|2022-06-27 11:20:18.727|atgvmls967|30003|  1|
+|2022-06-27 11:20:08.7  |atgvmls967|30003|  1|
+|2022-06-27 11:20:08.7  |atgvmls967|30007|  0|
+|2022-06-27 11:19:58.672|atgvmls967|30007|  0|
+----------------------------------------------
+```
 
 
 ## Context Menu
