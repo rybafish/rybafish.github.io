@@ -2,6 +2,7 @@
 
 ### Table of contents
 * [Basics](#basics)
+* #Toolbar(#toolbar)
     * [Executing Statements](#execute)
       * [Main Execute](#execute) Statements Button
       * [Error Highlighting](#errorhighlighting)
@@ -25,8 +26,11 @@ SQL Console uses basic syntax highlighting for SQL keywords, comments and litera
 
 Important note: SQL Console does not have autocommit flag set. That meants any data-changing statemennts will not be visible for other transactions until explicit `commit` executed. There is [a request](https://github.com/rybafish/rybafish/issues/668) to make this configurable.
 
+Each tab in RybaFish has it's own 'indicator' in the status bar: small solid color square indicating the status of the console: is it connected, is it running, etc. We will be paying cttention to the indication during this documentation and you might start paying attention to it too. There is a [short reference](/indicator) on this topic.
+
 Frankly no special training required to start using the console, but to get the full power of it you might need to go quickly throught this document. So, let's jump right into it!
 
+## Toolbar
 Very basics functions of the console are available in the toolbar:
 
 ![toolbar](https://www.rybafish.net/img/sql_01_toolbar.png)
@@ -145,7 +149,7 @@ RybaFish does not have built in abortion mechanism due to several reasons, but t
 
 `alter system cancel session '304021'`
 
-The statement generated in the log area of console. It is ont executed, you need to execute it in the other console (because the current one most likely busy doing something, otherwise, why do you want to cancel it?).
+The statement generated in the log area of console. It is not executed, you need to copy it and execute  in the other console manually. Other console used because the current one is most likely busy doing something, otherwise, why do you want to cancel it?
 
 By the way, in some cases "cancel session" is not good enough and you might want to use "disconnect session" instead.
 
