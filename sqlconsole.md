@@ -120,13 +120,17 @@ From this dialog you can insert the statement in current cursor position or open
 If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. Extracting comments from all the files sometimes requres noticible amount of time, so to avoid freezing a background thread used. Comments will appear in the dialog as soon as background thread finishes. This thread runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
 
 <a name="#connect" />
+
 ### (re)Connect
+
 ![connect](https://www.rybafish.net/img/connect.png)
 
 This button connects console to the database when disconnected or reconnects when connected. If the console is not connected to the database and you try to execute an SQL - RybaFish will notify you and propose connecting, so this button is not the most often used one.
 
 <a name="#disconnect" />
+
 ### Disconnect
+
 ![disconnect](https://www.rybafish.net/img/disconnect.png)
 
 This button disconnects the console from the database. Might be useful when you want to make sure you close the session and release all the transaction-related things, for example. Also it is not the most often used button (because **Execute** is).
