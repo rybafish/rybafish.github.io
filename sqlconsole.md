@@ -10,6 +10,9 @@
     * [Execute Leaving Results](#executeresults)
     * [Beautify](#beautify) code
     * [SQL Browser](#sqlbrowser)
+    * [(re)Connect](#connect)
+    * [Disconnect](#disconnect)
+    * [Schedule Automatic Refresh](#refresh)
  * [Result Set](#resultset) Options
  * [Advanced](#advanced)
  * [Editor Hotkeys](#)
@@ -19,6 +22,8 @@
 To open an SQL Console you need to be already connected to the database, then: File &rarr; New SQL Console or `Alt+S`.
 
 SQL Console uses basic syntax highlighting for SQL keywords, comments and literals. Developed under heavy influence of Notepad++ editor there are additional highlighting features like brakets highlighting and words highlighting.
+
+Important note: SQL Console does not have autocommit flag set. That meants any data-changing statemennts will not be visible for other transactions until explicit `commit` executed. There is [a request](https://github.com/rybafish/rybafish/issues/668) to make this configurable.
 
 Frankly no special training required to start using the console, but to get the full power of it you might need to go quickly throught this document. So, let's jump right into it!
 
@@ -114,14 +119,53 @@ From this dialog you can insert the statement in current cursor position or open
 
 If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. Extracting comments from all the files sometimes requres noticible amount of time, so to avoid freezing a background thread used. Comments will appear in the dialog as soon as background thread finishes. This thread runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
 
+<a name="#connect" />
+![connect](https://www.rybafish.net/img/connect.png)
+### (re)Connect
+
+This button connects console to the database when disconnected or reconnects when connected. If the console is not connected to the database and you try to execute an SQL - RybaFish will notify you and propose connecting, so this button is not the most often used one.
+
+<a name="#disconnect" />
+![disconnect](https://www.rybafish.net/img/disconnect.png)
+### Disconnect
+
+This button disconnects the console from the database. Might be useful when you want to make sure you close the session and release all the transaction-related things, for example. Also it is not the most often used button (because **Execute** is).
+
+<a name="#abort" />
+![sqlBrowser](https://www.rybafish.net/img/abort.png)
+### Generate Cancel Sesson SQL
+
+RybaFish does not have built in abortion mechanism due to several reasons, but there is a button to help you preparing the ALTER statement for this. When pressed it generates cancel session statement related to the current console:
+
+`alter system cancel session '304021'`
+
+The statement generated in the log area of console. It is ont executed, you need to execute it in the other console (because the current one most likely busy doing something, otherwise, why do you want to cancel it?).
+
+By the way, in some cases "cancel session" is not good enough and you might want to use "disconnect session" instead.
+
+<a name="#refresh" />
+![refresh](https://www.rybafish.net/img/refresh.png)
+### Schedule Automatic Refresh
+
+Sometimes it might be required to have the result set updated by itself. For example you are waiting for some event or monitoring particular value. This is where automatic refresh might be useful. To get use of it you need to execute the statemen first and then press ![refresh](https://www.rybafish.net/img/refresh.png). RybaFish will request the refresh period:
+
+![Refresh](https://www.rybafish.net/img/sql_08_refresh.png)
+
+This feature shows it's real power when combined with the [alerting](/soundAlerts) functionality: RybaFish can play a sound when certain conditions met.
+
+Logging for this console will be suppressed until autorefresh stopped. To stop the auto-refresh you can press the button again (un-press it) or execute any sql in the same console: this will also disable the auto-refresh mode.
+
+There is a limitation: this option can only be used for a single result set queries.
+
 ### Context Menu
-There is a context menu which is available on right mouse click in the area of SQL Console:
+By the way, there is a context menu which is available on right mouse click in the area of SQL Console:
 
 ![Context Menu](https://www.rybafish.net/img/sql_07_contextmenu.png)
 
 This menu contains mostly the same functions that are available in toolbar except the Explain Plan.
 
 <a name="#resultset" />
+
 ## Result Set
 
 Result set related optiona are available in the context menu when the mouse is over a Results tab:
@@ -132,4 +176,5 @@ Result set related optiona are available in the context menu when the mouse is o
 Not yet, but we will cover:
 * autocommit (disabled by default)
 * autorefresh
+* explain plan
 * alerts
