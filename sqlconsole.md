@@ -106,13 +106,20 @@ RybaFish console has a simple autoformatting function that can be useful to make
 ## SQL Browser
 ![sqlBrowser](https://www.rybafish.net/img/sqlbrowser.png) `F11`
 
-Every DBA has it's own collection of crafted over the years SQL statements. RybaaFish gives an option to organize the stuff in a built-in library which is quickly available from the tool itself. The approach is very straight-forward: you keep all the SQLs in flat files on local or network harddrive and point RybaFish to the root folder of this collection. By default RybaFish uses `scripts` folder for that but this can be changed by setting the [scriptsFolder](https://www.rybafish.net/config#scriptsFolder) setting in config.yaml.
+Every DBA has it's own collection of crafted over the years SQL statements. RybaFish gives an option to organize the stuff in a built-in library which is quickly available from the tool itself. The approach is very straight-forward: you keep all the SQLs in flat files on local or network drive and point RybaFish to the root folder of this collection. By default RybaFish uses `scripts` folder for that, but this can be changed by setting the [scriptsFolder](https://www.rybafish.net/config#scriptsFolder) setting in config.yaml.
 
 ![sqlBrowser](https://www.rybafish.net/img/sql_06_browser.png)
 
-From this dialog you can insert the statement to current cursor position or open in new SQL console. Give it a try.
+From this dialog you can insert the statement in current cursor position or open it in a new SQL console. Both actions will not use clipboard.
 
-If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. To extract all the comments from all the files sometimes requred noticible amount of time, so to avoid freezing a background thread used. While this thread running - statements will not have comments loaded. This threads runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
+If the file starts from a SQL single line comment (started from `--`) this comment will be displayed in the SQL Browser. Extracting comments from all the files sometimes requres noticible amount of time, so to avoid freezing a background thread used. Comments will appear in the dialog as soon as background thread finishes. This thread runs only for the first dialog opening and following executions use cached values. If it is requred to reload the library without restart of RybaFish - there is a `Reload` button available.
+
+### Context Menu
+There is a context menu which is available on right mouse click in the area of SQL Console:
+
+![Context Menu](https://www.rybafish.net/img/sql_07_contextmenu.png)
+
+This menu contains mostly the same functions that are available in toolbar except the Explain Plan.
 
 <a name="#resultset" />
 ## Result Set
