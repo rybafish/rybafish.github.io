@@ -212,7 +212,7 @@ Optional path to context SQLs folder. Might be useful when several instances of 
 
 Optional path to sql scripts folder, thde default is local 'scripts'. Used in SQL Browser: menu -> SQL or F11.
 
-
+<a name="sqlConsoleToolbar" />
 ### sqlConsoleToolbar (v 0.91)
 `sqlConsoleToolbar: True`
 
