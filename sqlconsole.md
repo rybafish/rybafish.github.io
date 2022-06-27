@@ -125,7 +125,7 @@ If the file starts from a SQL single line comment (started from `--`) this comme
 
 ![connect](https://www.rybafish.net/img/connect.png)
 
-This button connects console to the database when disconnected or reconnects when connected. If the console is not connected to the database and you try to execute an SQL - RybaFish will notify you and propose connecting, so this button is not the most often used one.
+This button connects console to the database when disconnected and re-connects when connected. If you try to execute an SQL in disconnected console - RybaFish will notify you and propose connecting, so this button is not the most often used one.
 
 <a name="#disconnect" />
 
@@ -133,7 +133,7 @@ This button connects console to the database when disconnected or reconnects whe
 
 ![disconnect](https://www.rybafish.net/img/disconnect.png)
 
-This button disconnects the console from the database. Might be useful when you want to make sure you close the session and release all the transaction-related things, for example. Also it is not the most often used button (because **Execute** is).
+This button disconnects the console from the database. Might be useful when you want to make sure you close the session and release all the transaction-related things, for example. Not the most often used button either (because the **Execute** is).
 
 <a name="#abort" />
 ### Generate Cancel Sesson SQL
