@@ -215,17 +215,17 @@ Result set related options are available in the context menu when the mouse is o
 <a name="column"/>
 ## Copy Column(s)
 
-`<TBD>`
+You can select one or several columns and select this option. Column names will be copied into clipboard, comma-separated. If you are using this feature to create a column list to be listed in SQL statement, consider using [Insert Column Names](#insertcolumnnames) option.
 
 <a name="screen"/>
 ## Take a Screenshot
 
-`<TBD>`
+Very stright-forward: it puts a screen-shot of the visible area of the result set into clipboard to be used in presentation or email.
 
 <a name="insertcolumnnames" />
 ## Insert Column Names
 
-`<TBD>`
+This option puts comma-separated list of column names into current position of the cursor in SQL console. Clipboard is not used during this operation. It might be useful while composing SQL statement based on something like select * from ...
 
 <a name="generatefilter" />
 ## Generate Filter Condition
