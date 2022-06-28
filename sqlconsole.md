@@ -173,7 +173,7 @@ There is a limitation: this option can only be used for a single result set quer
 ## ABAP Copy
 ![ABAP Copy](https://www.rybafish.net/img/abapcopy.png)
 
-This is a toggle-button that enables ABAP-style results copy, example:
+This is a toggle-button that enables ABAP-style results copy which might be useful to extract the results to be pasted in text form. The output looks like this:
 
 ```
 ----------------------------------------------
@@ -186,7 +186,7 @@ This is a toggle-button that enables ABAP-style results copy, example:
 |2022-06-27 11:19:58.672|atgvmls967|30007|  0|
 ----------------------------------------------
 ```
-
+Make sure you use monospace font for that, like Courier or Consolas.
 
 ## Context Menu
 By the way, there is a context menu which is available on right mouse click in the area of SQL Console:
@@ -199,9 +199,9 @@ This menu contains mostly the same functions that are available in toolbar excep
 
 # Result Set
 
-Result set related optiona are available in the context menu when the mouse is over a Results tab:
+Result set related options are available in the context menu when the mouse is over a Results tab:
 
-(image)
+![Context Menu Results](https://www.rybafish.net/img/sql_09_contextresults.png)
 
 # Advanced
 Not yet, but we will cover:
