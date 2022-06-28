@@ -30,6 +30,8 @@
 
 ## Basics<a name="basics"></a>
 
+RybaFish Charts designed as a single-database client so it is not possible to open connection to two different databases. Single configuration used for charts and consoles. If you really need to open two different console connections - the only way is to start two RybaFish instances.
+
 To open an SQL Console you need to be already connected to the database, then: File &rarr; New SQL Console or `Alt+S`.
 
 SQL Console uses basic syntax highlighting for SQL keywords, comments and literals. Developed under heavy influence of Notepad++ editor there are additional highlighting features like brakets highlighting and words highlighting.
