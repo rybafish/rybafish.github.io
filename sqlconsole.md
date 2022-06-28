@@ -16,6 +16,15 @@
     * [Schedule Automatic Refresh](#refresh)
     * [ABAP Copy](#abap)
  * [Result Set](#resultset) Options
+   * [Copy Column](#column) Names
+   * [Take a Screenshot](#screen)
+   * [Insert Column Names](#insertcolumnnames)
+   * [Generate Filter Condition](#generatefilter)
+   * [Highlight Changes](#highlightchanges)
+   * [Highlight Value](#highlightchanges)
+   * Those two option duplicate toolbar functionality
+      * [ABAP-style Copy](#abap)
+      * [Schedule Automatic Refresh](#refresh)
  * [Advanced](#advanced)
  * [Editor Hotkeys](#)
 
@@ -203,6 +212,38 @@ Result set related options are available in the context menu when the mouse is o
 
 ![Context Menu Results](https://www.rybafish.net/img/sql_09_contextresults.png)
 
+<a name="column"/>
+## Copy Column(s)
+
+`<TBD>`
+
+<a name="screen"/>
+## Take a Screenshot
+
+`<TBD>`
+
+<a name="insertcolumnnames" />
+## Insert Column Names
+
+`<TBD>`
+
+<a name="generatefilter" />
+## Generate Filter Condition
+
+`<TBD>`
+
+<a name="highlightchanges" />
+
+## Highlight Changes
+
+`<TBD>`
+
+<a name="highlightchanges" />
+## Highlight Value
+
+`<TBD>`
+
+<a name="advanced"/>
 # Advanced
 Not yet, but we will cover:
 * autocommit (disabled by default)
