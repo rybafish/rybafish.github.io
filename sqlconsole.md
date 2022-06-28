@@ -15,7 +15,7 @@
     * [Disconnect](#disconnect)
     * [Schedule Automatic Refresh](#refresh)
     * [ABAP Copy](#abap)
- * [Result Set](#resultset) Options
+ * [Result Set](#resultset) Manipulations
    * [Copy Column](#column) Names
    * [Take a Screenshot](#screen)
    * [Insert Column Names](#insertcolumnnames)
@@ -206,7 +206,7 @@ This menu contains mostly the same functions that are available in toolbar excep
 
 <a name="resultset" />
 
-# Result Set
+# Result Set Manipulations
 
 Result set related options are available in the context menu when the mouse is over a Results tab:
 
