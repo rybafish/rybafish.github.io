@@ -215,7 +215,7 @@ Result set related options are available in the context menu when the mouse is o
 <a name="column"/>
 ## Copy Column(s)
 
-You can select one or several columns and select this option. Column names will be copied into clipboard, comma-separated. If you are using this feature to create a column list to be listed in SQL statement, consider using [Insert Column Names](#insertcolumnnames) option.
+You can select one or several columns and use this option. Column names will be copied into clipboard, comma-separated. If you are using this feature to create a column list to be listed in SQL statement, consider using [Insert Column Names](#insertcolumnnames) option instead to avoid clipboard manipulations.
 
 <a name="screen"/>
 ## Take a Screenshot
