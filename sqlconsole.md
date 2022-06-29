@@ -229,7 +229,7 @@ Very stright-forward: it puts a screen-shot of the visible area of the result se
 
 This option puts comma-separated list of column names into current position of the cursor in SQL console. Clipboard is not used during this operation. It might be useful while composing SQL statement based on something like select * from ...
 
-By default column names are upper-cased, I prefer lower-case when possible, there is a setting [lowercase-columns](https://www.rybafish.net/config#lowercase-columns) for that. When required (special characters, different case letters, etc), column names will be double-quoted according to SQL standard.
+By default column names are upper-cased, I prefer lower-case when possible, there is a setting [lowercase-columns](https://www.rybafish.net/config#lowercasecolumns) for that. When required (special characters, different case letters, etc), column names will be double-quoted according to SQL standard.
 
 <a name="generatefilter" />
 ## Generate Filter Condition
