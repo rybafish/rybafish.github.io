@@ -196,6 +196,7 @@ Optional path to credentials/connections file. The setting might be useful when 
 
 Optional path for to save screenshots. Might be useful when several instances of RybaFish Charts used.
 
+<a name="customKPIsFolder" />
 ### customKPIsFolder (v 0.91)
 `customKPIsFolder: 'C:\Users\somepath\sql'`
 
