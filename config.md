@@ -110,9 +110,10 @@ Sets light gray backgtound for LOB fields just to be aware
 
 Enables sql console to send keep alive dummy queries to avoid disconnection due to inactivity.
 
+<a name="lowercase-columns">
 `lowercase-columns: False`
 
-Lowercase column names when possible. We seriously think about the environment, lets save some ink when possible. Uppercase is bad for environment.
+Lowercase column names when possible. We seriously think about the environment, lets save some ink when we can, uppercase is bad for environment.
 
 #### maxResultSize
 `resultSize: 1000`
@@ -177,9 +178,6 @@ Updates will be checked every 7 days (default). You can set it to 0 in order to 
 `updatesCheckBeta: True`
 
 By default only major releases will be checked. You can set this parameter to True to also be notified about beta releases. Check period controlled by updatesCheckInterval.
-
-
-
 
 ### abap-length (v 0.91)
 `abap-length: 32`
