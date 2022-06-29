@@ -2,7 +2,7 @@
 
 ### Table of contents
 * [Basics](#basics)
-* [Toolbar](#toolbar)
+* [Console Toolbar](#toolbar)
     * [Executing Statements](#execute)
       * [Main Execute](#execute) Statements Button
       * [Errors Highlighting](#errorhighlighting)
@@ -20,8 +20,8 @@
    * [Take a Screenshot](#screen)
    * [Insert Column Names](#insertcolumnnames)
    * [Generate Filter Condition](#generatefilter)
+   * [Highlight Value](#highlightvalue)
    * [Highlight Changes](#highlightchanges)
-   * [Highlight Value](#highlightchanges)
    * Those two option duplicate toolbar functionality
       * [ABAP-style Copy](#abap)
       * [Schedule Automatic Refresh](#refresh)
@@ -43,7 +43,7 @@ Each tab in RybaFish has it's own 'indicator' in the status bar: small solid col
 Frankly no special training required to start using the console, but to get the full power of it you might need to go quickly throught this document. So, let's jump right into it!
 
 <a name="toolbar" />
-## Toolbar
+## Console Toolbar
 Very basics functions of the console are available in the toolbar:
 
 ![toolbar](https://www.rybafish.net/img/sql_01_toolbar.png)
@@ -232,18 +232,35 @@ This option puts comma-separated list of column names into current position of t
 <a name="generatefilter" />
 ## Generate Filter Condition
 
-`<TBD>`
+When you do free-style investigation it is often required to focus on particular subset of the result, meaning some filter conditions. Let's execute the same query:
 
-<a name="highlightchanges" />
+![Example Query](https://www.rybafish.net/img/sql_10_query.png)
 
-## Highlight Changes
+There is data on two ports 30003 and 30007 but let's say we are only interested in port number 30003. That meants we need to add `where port = 30003` to this statement but instead typing the full where clause we will only type 'where ' and right-mouse-click on any cell containing the required value (port 30003) and select **Generate Filter Condition** option. The condition `port = 30003`will be insetred at cursor position.
 
-`<TBD>`
+What is nice about this option - it keeps the clopboart intact and you can combine several columns. If you select time and port cells before using it the generated condition will be something like
+```sql
+time = '2022-06-29 09:01:26.517' and port = 30003
+```
+Literals or timestamp columns will be quoted, сonjunction ('and') used to combine values.
 
-<a name="highlightchanges" />
+You still need to type 'where' manually. 
+
+<a name="highlighvalue" />
 ## Highlight Value
 
-`<TBD>`
+This feature also helps tracking particular value in the result set but without modification of the query. Let's take the same example and use right-mouse-click &rarr; Highlight Value on the same 30003 port. Rows with this value will be highlighted:
+
+![Example Query](https://www.rybafish.net/img/sql_11_query_hl.png)
+
+## Highlight Changes
+<a name="highlightchanges" />
+
+This feature is very similar to the previous one but it highlights changes in certain column. In my practice this is most often useful to highlight timestamp changes. Let's take the same example but now right-mouse-click on the 'time' column and use **Highlight Changes** from the context menu:   
+
+![Example Query](https://www.rybafish.net/img/sql_12_query_hl.png)
+
+As you can see, rows highlighting changes with time value changes.
 
 <a name="advanced"/>
 # Advanced
