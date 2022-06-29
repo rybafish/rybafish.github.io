@@ -176,6 +176,7 @@ In case of DB exceptions, like syntax errors, HANA will report the line number o
 
 Updates will be checked every 7 days (default). You can set it to 0 in order to disable check of updates.
 
+<a name="updatesCheckBeta" />
 ### updatesCheckBeta: True
 `updatesCheckBeta: True`
 
