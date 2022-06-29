@@ -16,17 +16,6 @@
     * [Schedule Automatic Refresh](#refresh)
     * [ABAP Copy](#abap)
  * [Result Set](#resultset) Manipulations
-   * [Copy Column](#column) Names
-   * [Take a Screenshot](#screen)
-   * [Insert Column Names](#insertcolumnnames)
-   * [Generate Filter Condition](#generatefilter)
-   * [Highlight Value](#highlightvalue)
-   * [Highlight Changes](#highlightchanges)
-   * Those two option duplicate toolbar functionality
-      * [ABAP-style Copy](#abap)
-      * [Schedule Automatic Refresh](#refresh)
- * [Advanced](#advanced)
- * [Editor Hotkeys](#)
 
 ## Basics<a name="basics"></a>
 
@@ -209,6 +198,21 @@ This menu contains mostly the same functions that are available in toolbar excep
 <a name="resultset" />
 
 # Result Set Manipulations
+
+Result set tabs provide some options more related to the results than to sql console itself:
+
+   * [Copy Column](#column) Names
+   * [Take a Screenshot](#screen)
+   * [Insert Column Names](#insertcolumnnames)
+   * [Generate Filter Condition](#generatefilter)
+   * [Highlight Value](#highlightvalue)
+   * [Highlight Changes](#highlightchanges)
+   * Those two option duplicate toolbar functionality
+      * [ABAP-style Copy](#abap)
+      * [Schedule Automatic Refresh](#refresh)
+ * [Advanced](#advanced)
+ * [Editor Hotkeys](#)
+
 
 Result set related options are available in the context menu when the mouse is over a Results tab:
 
