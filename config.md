@@ -110,7 +110,7 @@ Sets light gray backgtound for LOB fields just to be aware
 
 Enables sql console to send keep alive dummy queries to avoid disconnection due to inactivity.
 
-<a name="lowercase-columns">
+<a name="lowercasecolumns">
 `lowercase-columns: False`
 
 Lowercase column names when possible. We seriously think about the environment, lets save some ink when we can, uppercase is bad for environment.
