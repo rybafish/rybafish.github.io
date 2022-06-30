@@ -3,14 +3,13 @@ Rybafish statusbar (most bottom line of the application window) has so-called in
 
 ![Indicators](https://www.rybafish.net/img/ind_00_example.png)
 
-In this case two tabs are open. Those indicators reflect status of RybaFish tabs: chart and SQL consoles.
+In this case four tabs are open. Those indicators reflect status of RybaFish tabs: chart and SQL consoles.
 
-By the way by clicking on the indicator itself you can change the active tab.
+By the way, by clicking on the indicator itself you can change the active tab.
 
-This reference (soon will be) describing available statuses and their meaning.
+This page describes available statuses and their meaning.
 
 #### ![Idle](https://www.rybafish.net/img/ind_01_idle.png) idle
-
 
 The console is connected and doing nothing.
 
