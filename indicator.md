@@ -9,13 +9,12 @@ By the way by clicking on the indicator itself you can change the active tab.
 
 This reference (soon will be) describing available statuses and their meaning.
 
-### idle
-![Idle](https://www.rybafish.net/img/ind_01_idle.png)
+#### ![Idle](https://www.rybafish.net/img/ind_01_idle.png) idle
+
 
 The console is connected and doing nothing.
 
-### sync
-![Sync](https://www.rybafish.net/img/ind_02_sync.png)
+### ![Sync](https://www.rybafish.net/img/ind_02_sync.png) sync
 
 The console is doing some king of sync-reauest. This means whole application UI is locked until the request finishes. In most cases you will see this one for the first tab (charts) because chart calls are 100% synchronous.
 
