@@ -4,12 +4,15 @@
 Update: 091 beta III should resolve this misunderstanding.
 
 # Upcoming Release
+Not yet
+[<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
 * Alt+Up/Down - to move highlighted point between KPIs. ~~Only regular KPIs supported for now~~ Regular+Multiline KPIs supported.
-* and Gantt as well now
+* and Gantt as well
 * beta versions will be checking for newly published betas, can be controlled by [updatesCheckBeta](/config#updatesCheckBeta): True/False.
 * SQL console syntax highlighter performance boost approx. 2 times
 * Configurable connectionsFile, screensFolder, customKPIsFolder, contextSQLsFolder [settings](/config#customKPIsFolder).
 * simple [SQL scripts organizer](/sqlconsole#sqlbrowser), menu->SQL or F11
+* SQL Console toolbar
 * finally, documentation on [sql console](/sqlconsole)
 
 [<b>091 beta III</b>](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) (2022-05-29)
