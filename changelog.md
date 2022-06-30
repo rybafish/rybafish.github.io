@@ -4,7 +4,9 @@
 Update: 091 beta III should resolve this misunderstanding.
 
 # Upcoming Release
-Not yet
+
+No changes yet
+
 [<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
 * Alt+Up/Down - to move highlighted point between KPIs. ~~Only regular KPIs supported for now~~ Regular+Multiline KPIs supported.
 * and Gantt as well
