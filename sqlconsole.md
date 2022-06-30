@@ -242,9 +242,9 @@ When you do free-style investigation it is often required to focus on particular
 
 ![Example Query](https://www.rybafish.net/img/sql_10_query.png)
 
-There is data on two ports 30003 and 30007 available but let's say we are only interested in port number 30003. That means we need to add `where port = 30003` to this statement but instead typing the full where clause we will only type 'where ' and right-mouse-click on any cell containing the required value (port 30003) and select **Generate Filter Condition** option. The rest of condition `port = 30003` will be insetred at cursor position.
+There is data on two ports 30003 and 30007 available but let's say we are only interested in port number 30003. That means we need to add `where port = 30003` to this statement but instead typing the full where clause we will only type 'where ' and right-mouse-click on any cell containing the required value (port 30003) and choose **Generate Filter Condition** from the context menu. The rest of condition `port = 30003` will be insetred at cursor position.
 
-What is nice about this option - it keeps the clopboart intact and you can combine several columns. If you select time and port cells before using it - the generated condition will be something like
+What is nice about this feature - it keeps the clipboart intact and you can combine several columns. If you select time and port cells before using it - the generated condition will be something like
 ```sql
 time = '2022-06-29 09:01:26.517' and port = 30003
 ```
