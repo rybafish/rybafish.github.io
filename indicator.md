@@ -39,7 +39,7 @@ This one means the console is not connected to the database.
 
 ### ![Alert](https://www.rybafish.net/img/ind_07_alert.png) alert
 
-Set when the console detected an alert, see the [alerting functionality](/alerts) page on this topic.
+Set when the console detected an alert, see the [alerting functionality](/soundAlerts) page on this topic.
 
 ### ![Autorefresh](https://www.rybafish.net/img/ind_08_refresh.png) autorefresh
 
