@@ -39,8 +39,8 @@ This one means the console is not connected to the database.
 
 ### ![Alert](https://www.rybafish.net/img/ind_07_alert.png) alert
 
-Set if the console detected an alert, see the [alerting functionality](/alerts) page on this topic.
+Set when the console detected an alert, see the [alerting functionality](/alerts) page on this topic.
 
 ### ![Autorefresh](https://www.rybafish.net/img/ind_08_refresh.png) autorefresh
 
-Set if the console switched into [auto-refresh](/sqlconsole#refresh) mode and no query is running at the moment. As soon as query will be triggered - indication will switch to 'Running' (![Running](https://www.rybafish.net/img/ind_03_running.png)).
+Set when the console switched into [auto-refresh](/sqlconsole#refresh) mode and no query is running at the moment. As soon as query will be triggered - indication will switch to 'Running' (![Running](https://www.rybafish.net/img/ind_03_running.png)).
