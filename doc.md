@@ -7,7 +7,7 @@ The time has come, when all is said and done. Finally we are working on user doc
   * [Gantt Chart](/customKPIgantt)
   * [Multiline](/multiline)
   * [Variables](/variables)
-* [SQL Console](/sqlconsole)
+* **[SQL Console](/sqlconsole)**
   * [Sound Alerts](/soundAlerts) in consoles
 * Common
   * [Indicators](/indicator)
