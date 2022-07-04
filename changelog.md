@@ -5,7 +5,8 @@ Update: 091 beta III resolves this misunderstanding, also, seems recent updates 
 
 # Upcoming Release
 
-No changes yet
+* Change KPI color dialog
+* LOB containing consoles will have own indication
 
 [<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
 * Alt+Up/Down - to move highlighted point between KPIs. ~~Only regular KPIs supported for now~~ Regular+Multiline KPIs supported.
