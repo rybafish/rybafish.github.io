@@ -9,6 +9,7 @@ Update: 091 beta III resolves this misunderstanding, also, seems recent updates 
 * LOB containing consoles will have own indication
 
 [<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
+* [MacOS](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) Intel Build now available.
 * Alt+Up/Down - to move highlighted point between KPIs. ~~Only regular KPIs supported for now~~ Regular+Multiline KPIs supported.
 * and Gantt as well
 * beta versions will be checking for newly published betas, can be controlled by [updatesCheckBeta](/config#updatesCheckBeta): True/False.
