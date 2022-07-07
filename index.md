@@ -25,7 +25,7 @@ The most recent beta builds available [here](/changelog). Note, "McAfee Endpoint
 
 **macOS**
 
-[091 beta IV](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) Intel Build.
+[091 beta IV](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) runs on Intel/ARM.
 
 **Linux**
 
