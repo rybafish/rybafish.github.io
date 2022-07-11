@@ -5,7 +5,7 @@ Update: 091 beta III resolves this misunderstanding, also, seems recent updates 
 
 # Upcoming Release
 
-* Change KPI color dialog
+* Change KPI color dialog (context menu in KPIs table).
 * LOB containing consoles will have own indication
 
 [<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
