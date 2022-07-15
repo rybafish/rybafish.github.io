@@ -11,7 +11,7 @@ RybaFish Charts is a stand-alone crass-platform application for monitoring of mu
 ### Download
 No installation required, just unzip it wherever you are planning to use it.
 
-**Windows**
+**Windows 10**
 
 The most recent beta builds available [here](/changelog). Note, "McAfee Endpoint Security Alert" reports false positeve malware on most recent betas, [beta III](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) should fix this.
 
@@ -20,6 +20,8 @@ The most recent beta builds available [here](/changelog). Note, "McAfee Endpoint
 [0.9 Paltus](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), <span style="color:blue">last major</span> release, 17.02.2022 ([changes](/changelog))
 
 [0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), previous major release, 22.07.2021
+
+**Windows 7** [0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z) Should work on older windows versions. Try this version if you have missing api-ms-win-core-path-l1-1-0.dll error.
 
 [Previous releases](/releases)
 
