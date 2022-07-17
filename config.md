@@ -219,3 +219,8 @@ Optional path to sql scripts folder, thde default is local 'scripts'. Used in [S
 `sqlConsoleToolbar: True`
 
 You can change it to False in config to manualy disable it. Similar can be acheive by menu -> Actions -> SQL Console Toolbar.
+
+### threadSafeLogging (v 0.91)
+`threadSafeLogging: False`
+
+In case you observe slow-downs or freezing duging loggings, try to disable this parameter (False) to avoid mutex usage during logging. The default is True - this should make logging thread safe (only since 0.91 beta 5)
