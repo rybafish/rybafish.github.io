@@ -196,6 +196,8 @@ This is a toggle-button that enables ABAP-style results copy which might be usef
 ```
 Make sure you use monospace font for that, like Courier or Consolas.
 
+Note: with 091 beta V the default format is slightly changed to support markdown formatting. This can be disabled by setting copy-markdown: False.
+
 ## Context Menu
 By the way, there is a context menu which is available on right mouse click in the area of SQL Console:
 
