@@ -7,6 +7,7 @@ Update: 091 beta III resolves this misunderstanding, also, seems recent updates 
 
 * Change KPI color dialog (context menu in KPIs table).
 * LOB containing consoles will have own indication
+* it is rather markdown and not ABAP-style copy now. can be disabled by copy-markdown: False
 
 [<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
 * [macOS](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) now available, runs on Intel/ARM.
