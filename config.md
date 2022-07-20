@@ -187,6 +187,11 @@ By default only major releases will be checked. You can set this parameter to Tr
 
 Number of characters limiting value length for ABAP style copy. The default value is 32.
 
+### abap-length (v 0.91)
+`copy-markdown: False`
+
+You can set copy-markdown to False to switch to pure ascii table formatting instead of markdown.
+
 ### connectionsFile (v 0.91)
 `connectionsFile: 'C:\Users\somepath\connections.yaml'`
 
