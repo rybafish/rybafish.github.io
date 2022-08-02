@@ -231,6 +231,7 @@ You can change it to False in config to manualy disable it. Similar can be achei
 In case you observe slow-downs or freezing duging loggings, try to disable this parameter (False) to avoid mutex usage during logging. The default is True - this should make logging thread safe (only since 0.91 beta 5)
 
 
+<a name="import_timezone_offset" />
 ### import_timezone_offset (v 0.91)
 `import_timezone_offset: 7200`  # CET summer time
 
