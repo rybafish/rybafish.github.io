@@ -229,3 +229,11 @@ You can change it to False in config to manualy disable it. Similar can be achei
 `threadSafeLogging: False`
 
 In case you observe slow-downs or freezing duging loggings, try to disable this parameter (False) to avoid mutex usage during logging. The default is True - this should make logging thread safe (only since 0.91 beta 5)
+
+
+### import_timezone_offset (v 0.91)
+`import_timezone_offset: 7200`  # CET summer time
+
+By default import of nameserver_history.trc file will display data in you local time zone. In most cases it is much more useful to have data in system time zone, this is where this parameter can help: it needs to be set in seconds as offset from the UTC. To get this value from  the source system you can execute: `select distinct key, value from m_host_information where key in ('timezone_offset')`. It is delta in seconds from UTC.
+
+Note: 0 and no value has very different meaning in this context: no value = your local timezone, 0 = UTC.
