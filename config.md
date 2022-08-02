@@ -233,8 +233,10 @@ In case you observe slow-downs or freezing duging loggings, try to disable this 
 
 <a name="import_timezone_offset" />
 ### import_timezone_offset (v 0.91)
-`import_timezone_offset: 7200`  # CET summer time
+`import_timezone_offset: 7200  # CET summer time`
 
-By default import of nameserver_history.trc file will display data in you local time zone. In most cases it is much more useful to have data in system time zone, this is where this parameter can help: it needs to be set in seconds as offset from the UTC. To get this value from  the source system you can execute: `select distinct key, value from m_host_information where key in ('timezone_offset')`. It is delta in seconds from UTC.
+By default import of the nameserver_history.trc file will display data in your local time zone. In most cases it is much more useful to have data in the system time zone, this is where this parameter can help. Unfortunatelly the trace does not contain this information but you can manually define the trace timezone in seconds as an offset from the UTC. To get this value from the source system you can execute: `select distinct key, value from m_host_information where key in ('timezone_offset')`. It is delta in seconds from UTC.
 
 Note: 0 and no value has very different meaning in this context: no value = your local timezone, 0 = UTC.
+
+The parameter needs to be set before you start the import.
