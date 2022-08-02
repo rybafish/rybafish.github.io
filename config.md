@@ -214,12 +214,14 @@ Optional path to custom KPIs folder. Might be useful when several instances of R
 Optional path to context SQLs folder. Might be useful when several instances of RybaFish Charts used.
 
 <a name="scriptsFolder" />
+
 ### scriptsFolder (v 0.91)
 `scriptsFolder: 'C:\Users\somepath\scripts'`
 
 Optional path to sql scripts folder, thde default is local 'scripts'. Used in [SQL Browser](/sqlconsole#sqlbrowser): menu -> SQL or F11.
 
 <a name="sqlConsoleToolbar" />
+
 ### sqlConsoleToolbar (v 0.91)
 `sqlConsoleToolbar: True`
 
@@ -232,6 +234,7 @@ In case you observe slow-downs or freezing duging loggings, try to disable this 
 
 
 <a name="import_timezone_offset" />
+
 ### import_timezone_offset (v 0.91)
 `import_timezone_offset: 7200  # CET summer time`
 
