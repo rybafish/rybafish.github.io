@@ -243,3 +243,5 @@ By default import of the nameserver_history.trc file will display data in your l
 Note: 0 and no value has very different meaning in this context: no value = your local timezone, 0 = UTC.
 
 The parameter needs to be set before you start the import.
+
+The alternative way to manually specify the file time zone is to have filename postfix like '_utc7200.trc', it will have the same effect. When the negative shift required - just use the 'minus' sign between 'utc' and number of seconds. Example: namserver_history_utc-3600.trc. File naming UTC shift has higher priority than configuration setting.
