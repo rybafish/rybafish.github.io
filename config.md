@@ -236,7 +236,7 @@ In case you observe slow-downs or freezing duging loggings, try to disable this 
 <a name="import_timezone_offset" />
 
 ### import_timezone_offset (v 0.91)
-`import_timezone_offset: 7200  # CET summer time`
+`import_timezone_offset: 7200  # CET summer time (CEsT)`
 
 By default import of the nameserver_history.trc file will display data in your local time zone. In most cases it is much more useful to have data in the system time zone, this is where this parameter can help. Unfortunatelly the trace does not contain this information but you can manually define the trace timezone in seconds as an offset from the UTC. To get this value from the source system you can execute: `select distinct key, value from m_host_information where key in ('timezone_offset')`. It is delta in seconds from UTC.
 
@@ -244,4 +244,6 @@ Note: 0 and no value has very different meaning in this context: no value = your
 
 The parameter needs to be set before you start the import.
 
-The alternative way to manually specify the file time zone is to have filename postfix like '_utc7200.trc', it will have the same effect. When the negative shift required - just use the 'minus' sign between 'utc' and number of seconds. Example: namserver_history_utc-3600.trc. File naming UTC shift has higher priority than configuration setting.
+The alternative way to manually specify the file time zone is to have filename postfix like '_utc7200.trc', it will have the same effect. When the negative shift required - just use the 'minus' sign between 'utc' and number of seconds. Examples: EST (UTC-5) namserver_history_utc-18000.trc, CEsT namserver_history_utc7200.trc
+
+File naming UTC shift has higher priority than configuration setting.
