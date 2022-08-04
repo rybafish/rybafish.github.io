@@ -1,13 +1,14 @@
 ## TODO
 ### Short Term
 * server processing time support for sql console
-* proper ddl/commits handling in sql console
+* proper ddl/commits handling in sql console (partialy done)
 
 ## Long Term
 * Major Output/Logs cleanup
-* MacOS and Linux builds (help needed!)
-* "Save the connection details" option
-* Save the encripted passwords
+* ~~MacOS build~~ - done in 091 betas
+* Linux build
+* ~~"Save the connection details" option~~ done in 091 betas
+* ~~Save the encripted passwords~~ - done in 091 betas
 * Single-point event markers (star, round, arrow, etc)
 * Asynchronous network calls for charts
 
