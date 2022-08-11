@@ -1,9 +1,8 @@
-### McAfee Statement
-2022-05-27: Some versions of McAfee Antivirus detect RybaFish Charts as a treat (facepalm). This was a false-positive detection, affected versions were 091 beta I-II. Sorry for that, you can contact your anti-virus vendor and report this issue.
-
-Update: 091 beta III resolves this misunderstanding, also, seems recent updates of McAfee don't have this issue.
-
 # Upcoming Release
+not yet
+
+# Last version is 091 Sig
+[<b>091 Sig</b>](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z) (2022-08-12)
 
 * Change KPI color dialog (context menu in KPIs table).
 * LOB containing consoles will have own indication
