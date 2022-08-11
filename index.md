@@ -13,11 +13,11 @@ No installation required, just unzip it wherever you are planning to use it.
 
 **Windows 10**
 
-The most recent beta builds available [here](/changelog). Note, "McAfee Endpoint Security Alert" reports false positeve malware on most recent betas, [beta III](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) should fix this.
+The most recent beta builds available [here](/changelog). 
 
-[091 beta IV](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z), <span style="color:blue">current beta</span> build (2022-06-30).
+[091 Sig](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z), <span style="color:blue">last major</span> build, 12.08.2022.
 
-[0.9 Paltus](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), <span style="color:blue">last major</span> release, 17.02.2022 ([changes](/changelog))
+[0.9 Paltus](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), <span style="color:blue">previous major</span> release, 17.02.2022 ([changes](/changelog))
 
 [0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), previous major release, 22.07.2021
 
