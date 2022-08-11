@@ -1,7 +1,4 @@
-# Upcoming Release
-not yet
-
-# Last version is 091 Sig
+# Current Major Release
 [<b>091 Sig</b>](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z) (2022-08-12)
 
 * Change KPI color dialog (context menu in KPIs table).
@@ -36,7 +33,7 @@ not yet
 * automatic updates checker, set updatesCheckInterval: 0 to disable
 * Screen DPI awareness (DPIAwareness: False to disable)
 
-# Current Major Release
+# Previous Release
 [<b>0.9 Paltus</b>](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z) (2022-02-17)
 
 ## Paltus Changelog
