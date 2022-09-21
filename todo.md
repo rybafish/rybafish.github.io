@@ -1,5 +1,5 @@
 ## TODO
-### In prigress
+### In progress
 * Linux build
 
 ### Short Term
