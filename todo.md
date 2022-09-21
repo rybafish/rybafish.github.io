@@ -1,7 +1,11 @@
 ## TODO
+### In prigress
+* Linux build
+
 ### Short Term
 * server processing time support for sql console
 * proper ddl/commits handling in sql console (partialy done)
+* SSL support
 
 ## Long Term
 * Major Output/Logs cleanup
