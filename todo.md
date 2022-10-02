@@ -5,7 +5,7 @@
 ### Short Term
 * server processing time support for sql console
 * proper ddl/commits handling in sql console (partialy done)
-* SSL support
+* ~~SSL support,~~ 092betaI (2022-10-02)
 
 ## Long Term
 * Major Output/Logs cleanup
