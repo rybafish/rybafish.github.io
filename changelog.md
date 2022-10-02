@@ -9,7 +9,8 @@
 * LOB containing consoles will have own indication
 * it is rather markdown and not ABAP-style copy now. can be disabled by copy-markdown: False
 * import of nameserver_history.trc update for newer formats
-* suppotr of timezone for nameserver_history.trc import: [import_timezone_offset](/config#import_timezone_offset).
+* supporr of timezone for nameserver_history.trc import: [import_timezone_offset](/config#import_timezone_offset).
+* countdown secods before triggering autorefresh now displayed
 
 [<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
 * [macOS](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) now available, runs on Intel/ARM.
