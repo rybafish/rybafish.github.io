@@ -1,5 +1,5 @@
 # Upcoming build
-<b>092 beta I</b>
+[<b>092 beta I</b>](https://github.com/rybafish/rybafish/releases/download/092betaI/RybaFish_092betaI.7z) (2022-10-02)
 * SSL support
 
 # Current Major Release
