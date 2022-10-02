@@ -1,3 +1,7 @@
+# Upcoming build
+<b>092 beta I</b>
+* SSL support
+
 # Current Major Release
 [<b>091 Sig</b>](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z) (2022-08-12)
 
