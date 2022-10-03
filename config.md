@@ -15,9 +15,9 @@ Integer. Font size for the chart labels.
 Scale graphics and fonts according to system display settings. Enabled by default.
 
 #### locale
-`locale: 'fr_FR'`
+`locale: 'en_gb'`
 
-By default system locale used for number formatting: decimal and thousands separators. This can be changed by enforsing different locale. Examples: en_US, fr_FR, etc.
+By default the system locale used for number formatting: decimal and thousands separators. This can be changed by enforsing different locale. To get the list of available locales you can set some garbage value and in this case list of available locales will be written into the log file. To me honest, it is easier to change your system setting to have proper number formatting. Unfortunately, locales stuff is not very flexible.
 
 #### color-bg
 `color-bg: '#FFF'`
