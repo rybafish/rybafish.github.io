@@ -33,6 +33,13 @@ Enforce thouthands separator character. In this case non-breaking space code pro
 
 Enforce decimal point character.
 
+<a name="newNumbersFormatting" />
+
+### newNumbersFormatting
+`newNumbersFormatting: False`
+
+Disable new improved numbers formatting routines (and use the legacy ones)
+
 #### color-bg
 `color-bg: '#FFF'`
 
