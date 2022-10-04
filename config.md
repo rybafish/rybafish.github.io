@@ -19,6 +19,20 @@ Scale graphics and fonts according to system display settings. Enabled by defaul
 
 By default the system locale used for number formatting: decimal and thousands separators. This can be changed by enforsing different locale. To get the list of available locales you can set some garbage value and in this case list of available locales will be written into the log file. To me honest, it is easier to change your system setting to have proper number formatting. Unfortunately, locales stuff is not very flexible.
 
+<a name="thousandsSeparator" />
+
+### thousandsSeparator
+`thousandsSeparator: "\u00a0"`
+
+Enforce thouthands separator character. In this case non-breaking space code provided. This setting overrides locale. Make sure you use double-quotes for this one.
+
+<a name="decimalPoint" />
+
+### decimalPoint
+`decimalPoint: "."`
+
+Enforce decimal point character.
+
 #### color-bg
 `color-bg: '#FFF'`
 
