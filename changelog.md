@@ -1,6 +1,7 @@
 # Upcoming build
-* improved number formatting performance, can switch off by [newNumbersFormatting](/config#newNumbersFormatting): False
+* improved number formatting performance, can switch off by setting [newNumbersFormatting](/config#newNumbersFormatting): False
 * enforce [thousandsSeparator](/config#thousandsSeparator) and [decimalPoint](/config#decimalPoint) - work only for newNumbersFormatting
+* minor editor bugfixes
 
 # Last beta
 [<b>092 beta I</b>](https://github.com/rybafish/rybafish/releases/download/092betaI/RybaFish_092betaI.7z) (2022-10-02)
