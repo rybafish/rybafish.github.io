@@ -1,10 +1,10 @@
 # Upcoming build
 * improved number formatting performance, can switch off by setting [newNumbersFormatting](/config#newNumbersFormatting): False
 * enforce [thousandsSeparator](/config#thousandsSeparator) and [decimalPoint](/config#decimalPoint) - work only for newNumbersFormatting
-* minor editor bugfixes
+* minor editor (crashable) bugfixes
+* web infrastructure moved to amazon s3+cf
 
 # Last beta
-* web infrastructure moved to amazon s3+cf
 
 [<b>092 beta I</b>](https://github.com/rybafish/rybafish/releases/download/092betaI/RybaFish_092betaI.7z) (2022-10-02)
 * SSL support
