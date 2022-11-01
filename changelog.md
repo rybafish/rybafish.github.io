@@ -1,15 +1,20 @@
+<!--
 # Upcoming build
+not yet
+-->
+
+# 091 Sig/ssl
+
+[<b>091 Sig/ssl</b>](https://github.com/rybafish/rybafish/releases/download/092sigssl/RybaFish_092sigssl.7z) (2022-11-01)
 * improved number formatting performance, can switch off by setting [newNumbersFormatting](/config#newNumbersFormatting): False
 * enforce [thousandsSeparator](/config#thousandsSeparator) and [decimalPoint](/config#decimalPoint) - work only for newNumbersFormatting
 * minor editor (crashable) bugfixes
 * web infrastructure moved to amazon s3+cf
 
-# Last beta
-
 [<b>092 beta I</b>](https://github.com/rybafish/rybafish/releases/download/092betaI/RybaFish_092betaI.7z) (2022-10-02)
 * SSL support
 
-# Current Major Release
+## Sig Changelog
 [<b>091 Sig</b>](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z) (2022-08-12)
 
 * Change KPI color dialog (context menu in KPIs table).
