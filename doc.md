@@ -2,7 +2,7 @@
 
 The time has come, when all is said and done. Finally we are working on user documentation.
 
-* Charts: the root page is not ready
+* Charts: the root page is not ready, but:
   * [Custom KPI](/customKPI)
   * [Gantt Chart](/customKPIgantt)
   * [Multiline](/multiline)
