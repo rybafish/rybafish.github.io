@@ -2,6 +2,7 @@
 
 * Did you know? You can switch tabs by clicking on indicators (right bottom corner of the window).
 * since 091 beta II it's possible to switch tabs by Alt+1, Alt+2...
+* by the way, there is a [documentation](/doc) chapter, currently mostly the SQL console covered
 
 ### Charts
 * Ctrl + mouse wheel makes zoom-in/zoom-out while in chart area
@@ -24,6 +25,7 @@
 * Right mouse click in the chart area shows some potentiously useful options, try it!
   * for example you can copy the exact timestamp in sql ready format
   * even more: if yo already have timestamp in the clipboard you can compse beween predicate (v09)
+* using right mouse click in the KPIs table you can adjust the KPIs color
  
 
 ### SQL Console
