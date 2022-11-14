@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://www.rybafish.net/</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/doc</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/config</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/tips</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/todo</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/changelog</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/faq</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/about</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/customKPIgantt</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/releases</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/doc.html</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/customKPI</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/variables</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/sqlconsole</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/soundAlerts</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/indicator</loc>
+	<lastmod>2022-11-14T18:19:31+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/config.html</loc>
+	<lastmod>2022-11-14T18:19:33+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/tips.html</loc>
+	<lastmod>2022-11-14T18:19:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/todo.html</loc>
+	<lastmod>2022-11-14T18:19:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/changelog.html</loc>
+	<lastmod>2022-11-14T18:19:34+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/customMultiline</loc>
+	<lastmod>2022-11-14T18:19:35+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/contextSQLs</loc>
+	<lastmod>2022-11-14T18:19:35+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/faq.html</loc>
+	<lastmod>2022-11-14T18:19:35+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/about.html</loc>
+	<lastmod>2022-11-14T18:19:35+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/customKPIgantt.html</loc>
+	<lastmod>2022-11-14T18:19:36+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/releases.html</loc>
+	<lastmod>2022-11-14T18:19:36+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/customKPI.html</loc>
+	<lastmod>2022-11-14T18:19:36+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/variables.html</loc>
+	<lastmod>2022-11-14T18:19:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/sqlconsole.html</loc>
+	<lastmod>2022-11-14T18:19:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/soundAlerts.html</loc>
+	<lastmod>2022-11-14T18:19:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/indicator.html</loc>
+	<lastmod>2022-11-14T18:19:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/contextSQLs.html</loc>
+	<lastmod>2022-11-14T18:19:37+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://www.rybafish.net/customMultiline.html</loc>
+	<lastmod>2022-11-14T18:19:38+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+</urlset>
