@@ -5,6 +5,7 @@ RybaFish Charts is a stand-alone crass-platform application for SAP HANA monitor
 
 ### Key Features
 * Online performance load charts with scale-out and multi-tenant support.
+* Powerful and flexible [sqlconsole](sql console).
 * [customKPI](СustomKPIs) support: put your own data on the chart!
 * [Gantt KPIs](/customKPIgantt): whatever having start and stop times - can be put on the chart.
 
