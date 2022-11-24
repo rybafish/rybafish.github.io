@@ -10,8 +10,6 @@ not yet
 * enforce [thousandsSeparator](/config#thousandsSeparator) and [decimalPoint](/config#decimalPoint) - work only for newNumbersFormatting
 * minor editor (crashable) bugfixes
 * web infrastructure moved to amazon s3+cf
-
-[<b>092 beta I</b>](https://github.com/rybafish/rybafish/releases/download/092betaI/RybaFish_092betaI.7z) (2022-10-02)
 * SSL support
 
 ## Sig Changelog
