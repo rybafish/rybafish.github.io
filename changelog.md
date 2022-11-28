@@ -1,7 +1,10 @@
-<!--
+# Beta testers needed
+The next build will have major changes so extended beta-testing phase will take place. If you are using RybaFish Charts regularily and willing to support and test new features before the release - [let me know](mailto:rybafishcharts@gmail.com).
+
 # Upcoming build
-not yet
--->
+
+* SQLite support
+* multiple data providers support
 
 # 091 Sig/ssl
 
