@@ -5,6 +5,7 @@ The next build will have major changes so extended beta-testing phase will take 
 
 * SQLite support
 * multiple data providers support
+* CSV import wizard
 * linux build
 
 # 091 Sig/ssl
