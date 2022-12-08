@@ -7,6 +7,7 @@ The next build will have major changes so extended beta-testing phase will take 
 * multiple data providers support
 * CSV import wizard (only timestamp, integer and varchar supported for now)
 * linux build
+* safe thread exceptions handling now
 
 # 091 Sig/ssl
 
