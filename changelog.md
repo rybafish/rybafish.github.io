@@ -5,7 +5,7 @@ The next build will have major changes so extended beta-testing phase will take 
 
 * SQLite support
 * multiple data providers support
-* CSV import wizard
+* CSV import wizard (only timestamp, integer and varchar supported for now)
 * linux build
 
 # 091 Sig/ssl
