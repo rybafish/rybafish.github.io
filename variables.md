@@ -8,7 +8,8 @@
 
 Starting 091 beta 1 (not released yet) RybaFish supports "variables" in custom KPIs.
 
-Variables are placeholders that will be replaced by actual values before usage. Variables defined in the custom KPI yaml file. Let's take [expensive statements](/customKPIgantt) custom KPI definition exp_st.yaml and add variables:
+Variables are placeholders that will be replaced by actual values before usage. At the same time, values can be changed from the RybaFish UI.
+Variables defined in the custom KPI yaml file. Let's take [expensive statements](/customKPIgantt) custom KPI definition exp_st.yaml and add variables:
 
 ```
 variables: 'y1: 10, y2: 50, threshold: 30, user: %'
