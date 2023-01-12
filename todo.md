@@ -3,20 +3,30 @@
 * Linux build
 
 ### Short Term
-* server processing time support for sql console
+* extract server processing time for sql console executions (pyhdb mod)
 * proper ddl/commits handling in sql console (partialy done)
 * ~~SSL support,~~ 092betaI (2022-10-02)
+* eliminate most of "experimental" stuff (move to defaults)
 
 ## Long Term
 * Major Output/Logs cleanup
 * ~~MacOS build~~ - done in 091 betas
-* Linux build
+* Linux build (we almost there)
 * ~~"Save the connection details" option~~ done in 091 betas
 * ~~Save the encripted passwords~~ - done in 091 betas
 * Single-point event markers (star, round, arrow, etc)
 * Asynchronous network calls for charts
 
 ## Changelog
+#### 0.9 Sig (17.07.2021)
+* ssl support (091)
+* change KPI color UI
+* macOS build
+* Linux build (on request)
+* SQL scripts organizer
+* connections manager
+* screen DPI awareness
+
 #### 0.8 Plotva (17.07.2021)
 * switch to statistis server telemetry feature (ess)
 * result set autorefresh feature (experimental)
