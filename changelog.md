@@ -1,7 +1,7 @@
 # Beta testers needed
 The next build will have major changes so extended beta-testing phase will take place. If you are using RybaFish Charts regularily and willing to support and test new features before the release - [let me know](mailto:rybafishcharts@gmail.com).
 
-Links for most recent macOS builds available [here]([url](https://github.com/rybafish/rybafish/issues/771))
+Links for most recent macOS builds available [here](https://github.com/rybafish/rybafish/issues/771).
 
 # Upcoming build
 
