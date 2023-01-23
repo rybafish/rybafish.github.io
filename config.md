@@ -2,6 +2,8 @@ Note: for custom KPIs documentation go to the [customKPI](customKPI) page.
 
 ## Configuration options description
 
+The configuration defined in config.yaml file. Some of the settings can be applied without restart by executing Actions -> Reload Config, but some require restart of the application.
+
 ### Main Stuff
 
 #### fontSize
