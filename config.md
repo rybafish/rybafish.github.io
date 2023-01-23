@@ -274,4 +274,4 @@ File naming UTC shift has higher priority than configuration setting.
 ### verifyGroupUnits (v 0.93)
 `verifyGroupUnits: True`
 
-This setting disables check of sUnit/dUnit kpi description integrity. In case same scaling group has inconsistent sUnid/dUnit defined - an exception will be generated. The check is enabled by default, can be disabled in case of issues.
+This setting disables check of sUnit/dUnit kpi description integrity. In case same scaling group has inconsistent sUnit/dUnit - an exception will be generated. The check is enabled by default, can be disabled in case of issues.
