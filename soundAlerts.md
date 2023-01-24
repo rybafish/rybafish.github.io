@@ -35,9 +35,11 @@ alertAutoPopup: True
 alertDisconnected: 'disconnected.wav'
 ```
 
-Two alert sounds come with RybaFish itelf: default.wav an warning.wav. Those files part of the build and can be used without any additional actions.
+Two alert sounds come with RybaFish itelf: default.wav an warning.wav. Those files are part of the build and can be used without any additional actions.
 
 If you want to use your own sound you can create 'snd' folder and copy custom sound files there. In this case no path required when you define the alertSound setting.
+
+**v0.91**
 
 It is also possible to specificly define the alert sound in the runtime, in this case you need to compose the output string like this:
 
