@@ -5,7 +5,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 
-* SQLite support
+* SQLite support (experimental mode only)
 * multiple data providers support
 * CSV import wizard (only timestamp, integer and varchar supported for now)
 * linux build
