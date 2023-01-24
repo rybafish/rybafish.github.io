@@ -33,6 +33,8 @@ The most recent beta builds available [here](/changelog).
 
 [091 beta IV](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) runs on Intel/ARM.
 
+Most recent betas for macOS [here](https://github.com/rybafish/rybafish/issues/771).
+
 **Linux**
 
 Work in progress: let me know if you can test a build, I will provide it.
