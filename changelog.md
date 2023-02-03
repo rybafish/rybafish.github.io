@@ -6,10 +6,10 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 # Upcoming build
 
 * SQLite support (experimental mode only)
-* multiple data providers support
-* CSV import wizard (only timestamp, integer and varchar supported for now)
+* multiple data providers support  (experimental mode only)
+* CSV import wizard: timestamp, integer and varchar types supported for now
 * linux build
-* safe thread exceptions handling now
+* safe thread exceptions handling
 
 # 091 Sig/ssl
 
