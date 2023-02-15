@@ -35,7 +35,8 @@ During this time whole application UI is locked, so no interraction possible.
 
 ### ![Disconnected](https://www.rybafish.net/img/ind_06_disconnected.png) disconnected
 
-This one means the console is not connected to the database.
+This ine changed in 092 and became dark gray instead of this redish.
+It means the console is not connected to the database.
 
 ### ![Alert](https://www.rybafish.net/img/ind_07_alert.png) alert
 
