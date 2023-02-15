@@ -2,6 +2,8 @@
 
 The time has come, when all is said and done. Finally we are working on user documentation.
 
+There is a [youtube video](https://youtu.be/7dm4MtOXavc) with tool introduction.
+
 * Charts: the root page is not ready, but:
   * [Custom KPI](/customKPI)
   * [Gantt Chart](/customKPIgantt)
