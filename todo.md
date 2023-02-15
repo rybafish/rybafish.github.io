@@ -1,12 +1,13 @@
 ## TODO
 ### In progress
 * Linux build
+* SQLite support (available in 093 beta 0)
+* CSV import (available in 093 beta 0)
 
 ### Short Term
 * extract server processing time for sql console executions (pyhdb mod)
 * proper ddl/commits handling in sql console (partialy done)
 * ~~SSL support,~~ 092betaI (2022-10-02)
-* eliminate most of "experimental" stuff (move to defaults)
 
 ## Long Term
 * Major Output/Logs cleanup
