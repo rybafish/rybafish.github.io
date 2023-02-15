@@ -2,7 +2,10 @@ Single KPI selected in the example below:
 
 ![demo screen](http://rybafish.github.io/multilineKPI.png)
 
-The "component" column used to split values into several lines on the chart. It is not really docummented, but come on, it is quite straight-forward:
+The "component" column used to split values into several lines on the chart.
+It is not really docummented, but come on, it is quite straight-forward.
+
+There is a separate page documenting [variables](/variables).
 
 ```
 kpis: [
