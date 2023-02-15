@@ -1,6 +1,6 @@
 ## Chart
 ### Why such colours selected, can I change them?
-Colors and line styles provided by the database. It is not possible to change them, at least for now.
+Colors and line styles provided by the database. You can manually change the color by right-mouse-click in the KPIs table.
 
 ### Why same KPIs have same colour for the different tenants/hosts?
 First, see the previous question. Second, it is actually a good thing: CPU is always red and memory is always green.
@@ -22,10 +22,14 @@ It is client-side measurement. Therefore it includes: prepare, execute and fetch
 
 ### Is it possible to enable auto-commit?
 At the moment - no. You need to do explicit "commit" if you need to persist your changes.
+Let me know if you need this auto-commit feature, it can be implemened short term (if eeded).
 
 ### What status bar indicator colors mean?
-* Gray: connected, waiting.
+There is a [separate page](/indicator) on that, but in a nutshell:
+* Light ray: connected, waiting.
+* Dark gray: disconnected.
 * Blue: synchronous call is running: usually connection or keep-alive execution.
-* Green: asynchronous call is running. You can click on the indicator to see current runtime.
+* Bright green: asynchronous call is running. You can click on the indicator to see current runtime.
+* Light green: the console is in auto-refresh mode.
 * White: rendering the result.
-* Red: error or disconnected.
+* Red: error.
