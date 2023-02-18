@@ -1,4 +1,4 @@
-# * Connection Manager
+# Connection Manager
 
 Rybafish has a little connection manager allowing you to configure and save several connections to several data sources.
 
