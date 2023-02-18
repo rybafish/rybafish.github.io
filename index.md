@@ -34,7 +34,7 @@ No installation required, just unzip it wherever you are planning to use it.
 
 **Windows 7** [0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z) should work on older windows versions. Try this build if you have missing api-ms-win-core-path-l1-1-0.dll error, there is [an issue](https://github.com/rybafish/rybafish/issues/600) for this.
 
-[Previous releases](/releases)
+[Previous releases](/changelog)
 
 **macOS**
 
