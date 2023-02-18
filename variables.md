@@ -82,11 +82,11 @@ If something unusual or not clear happens to variables usage you can:
 * reload the config (Actions -> Reload config)
 * reproduce the issue and check the .log file, may be you will be able to see unexpected variables values or something like that
 
-One more way to reset things to defaults is just deleta variables definition in KPIs table, set it to empty string. This should reset variables do the defaults defined in custom KPI yaml file.
+One more way to reset things to defaults is just delete variables definition in KPIs table, set it to empty string. This should reset variables do the defaults defined in custom KPI yaml file.
 
 And anothe one:
 * stop RybaFish
 * delete "variables" from the layout.yaml
 * start the tool again
 
-By doing so you reload default values from the custom KPI file definition so hopefuly you get th eexpected values.
+By doing so you reload default values from the custom KPI file definition so hopefuly you get the expected values.
