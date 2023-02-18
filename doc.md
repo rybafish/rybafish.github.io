@@ -8,7 +8,7 @@ Introduction video:
 {% include youtube.html id="7dm4MtOXavc" %}
 
 ## Documentation topics
-* [Connection manager](/connect)
+<!-- * [Connection manager](/connect) -->
 * Charts: the root page is not ready, but:
   * [Custom KPI](/customKPI)
   * [Gantt Chart](/customKPIgantt)
