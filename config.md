@@ -273,9 +273,15 @@ The alternative way to manually specify the file time zone is to have filename p
 
 File naming UTC shift has higher priority than configuration setting.
 
-## internal stuff
+## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
 `verifyGroupUnits: True`
 
 This setting disables check of sUnit/dUnit kpi description integrity. In case same scaling group has inconsistent sUnit/dUnit - an exception will be generated. The check is enabled by default, can be disabled in case of issues.
+
+### bug795 (v 0.93)
+`bug795: True`
+
+This one returns the old chart grid rendering that seems to be buggy, see details in corresponding [issue on github](https://github.com/rybafish/rybafish/issues/795).
+
