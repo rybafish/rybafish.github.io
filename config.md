@@ -215,6 +215,8 @@ Number of characters limiting value length for ABAP style copy. The default valu
 
 You can set copy-markdown to False to switch to pure ascii table formatting instead of markdown.
 
+<a name = "connectionsFile" />
+
 ### connectionsFile (v 0.91)
 `connectionsFile: 'C:\Users\somepath\connections.yaml'`
 

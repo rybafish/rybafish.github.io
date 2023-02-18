@@ -10,7 +10,7 @@ To init the connection manager you just go File -> Connect or Alt+C
 
 Note: connection type selection is only available for versions above 093beta0 and experimental: True in config.yaml, see below.
 
-Connections are saved in file connections.yaml.
+Connections are saved in file connections.yaml. The default loaction is current RybaFIsh instance folder, but in can be configured by setting [connectionsFile](/config#connectionsFile).
 
 Passwords are stored in encripted form in the same file.
 
