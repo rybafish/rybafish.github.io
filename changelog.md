@@ -9,6 +9,10 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux build
+not yet
+
+# 093 beta 1
+originally 2023-04-12, delayed
 * async multiline mode
 * Timezones management, [link](/timezones)
 * trace import fix: data might be loaded just partially in some cases
