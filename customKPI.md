@@ -1,3 +1,7 @@
+---
+title: RybaFish Custom KPIs
+---
+
 # Custom KPIs
 Since v 0.45 RybaFish Charts supports regular custom KPI metrics.
 
