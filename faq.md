@@ -1,3 +1,7 @@
+---
+title: RybaFish FAQ
+---
+
 ## Chart
 ### Why such colours selected, can I change them?
 Colors and line styles provided by the database. You can manually change the color by right-mouse-click in the KPIs table.
