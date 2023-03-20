@@ -28,7 +28,7 @@ No installation required, just unzip it wherever you are planning to use it.
 
 <!-- The most recent beta builds available [here](/changelog).  -->
 
-[093 beta I](https://github.com/rybafish/rybafish/releases/download/093betaI/RybaFish_093betaI.7z), last <span style="color:blue">beta</span> build, 12.04.2023.
+[093 beta II](https://github.com/rybafish/rybafish/releases/download/093betaII/RybaFish_093betaII.7z), last <span style="color:blue">beta</span> build, 18.05.2023.
 
 [091 Sig](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z), <span style="color:blue">last major</span> build, 12.08.2022.
 
