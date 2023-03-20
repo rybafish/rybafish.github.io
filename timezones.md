@@ -6,7 +6,7 @@ There are two time-related settings per data provider:
 
 **Timestamp shift** actually introduces the shift of timestamps compared to what is coming from the data source.
 
-### 5 minutes demo
+### system demo (5 minutes)
 
 {% include youtube.html id="wpem3IfAnE8" %}
 
