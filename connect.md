@@ -1,3 +1,7 @@
+---
+title: RybaFish Connection Manager
+---
+
 # Connection Manager
 
 <span style="color:blue">Draft version</span>
