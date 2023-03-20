@@ -2,7 +2,7 @@
 There are two time-related settings per data provider:
 "Time Zone Delta" and "Timestamp shift".
 
-**Time Zone Delta** is a difference between local and system timestamp. It only affects the chart grid, but not data.
+**Time Zone Delta** is a difference between local and system timestamps. It only affects the chart grid, but not the data.
 
 **Timestamp shift** actually introduces the shift of timestamps compared to what is coming from the data source.
 
