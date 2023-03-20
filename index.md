@@ -1,7 +1,9 @@
-## Get HANA monitoring visual with RybaFish Charts.2
+## Get HANA monitoring visual with RybaFish Charts.3
 ![demo screen](/demoscreen07.png)
 
-@def title = "RybaFish Charts"
++++
+title = "RybaFish Charts"
++++
 
 RybaFish Charts is a stand-alone crass-platform application for SAP HANA monitoring. It provides HANA Performance Load Graph functionality with tenants support. RybaFish is an open source software not affiliated with SAP. For more details please check the [about page](/about) and [planned](/todo) features list.
 
