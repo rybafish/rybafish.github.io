@@ -1,3 +1,7 @@
+---
+title: RybaFish Configuration
+---
+
 Note: for custom KPIs documentation go to the [customKPI](customKPI) page.
 
 ## Configuration options description
