@@ -15,6 +15,8 @@ Step-by-step guide for delta merges gantt chart:
 
 {% include youtube.html id="BCVW2asUgqk" %}
 
+### Expensive statements explained
+
 file: sql/gantt/01_exp_st.yaml
 ```
 kpis: [
