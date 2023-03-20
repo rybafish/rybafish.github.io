@@ -1,4 +1,4 @@
-# Documentation
+# Rybafish Documentation
 
 The time has come, when all is said and done. Finally we are working on user documentation.
 
