@@ -8,9 +8,8 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * linux build
 
 # 093 beta III
-
-(to be released soon)
-
+[<b>093 beta III</b>](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z) (2023-07-02)
+* updated delta merges KPI from [this](https://youtu.be/BCVW2asUgqk) tutorial
 * stack upgrade (3.10 -> 3.11)
 
 # 093 beta II
