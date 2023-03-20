@@ -1,5 +1,5 @@
 ---
-title: Tips and ticks
+title: RybaFish Tips and ticks
 ---
 
 ## Tips and Tricks
