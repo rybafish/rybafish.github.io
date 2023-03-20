@@ -2,7 +2,8 @@
 title: SAP HANA Gantt Chart Custom KPIs
 ---
 
-# Custom KPIs with gantt subtype
+Custom KPIs with gantt subtype
+
 Since v 0.6 RybaFish Charts supports custom KPI metrics with subtype gantt.
 ![gantt chart](http://rybafish.github.io/gantt09.png)
 
