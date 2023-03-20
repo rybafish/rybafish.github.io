@@ -2,8 +2,6 @@
 title: Tips and ticks
 ---
 
-test: {{ page.title }}
-
 ## Tips and Tricks
 
 * Did you know? You can switch tabs by clicking on indicators (right bottom corner of the window).
