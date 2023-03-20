@@ -51,3 +51,6 @@ sql: >
 When True - all the rest data will be summed into a single line named "Others".
 
 Possible orderby values: "avg", "max", "deviation" and "name".
+
+### async
+Initialy multiline KPIs were invented to split data from the exactly same timestamp into different lines. This is very tipical for statistics collected by the statistics server. But sometimes data can be put into the same table in a bit different timestamps, in this case the default approach creates very noise and unreadable picture. v0.93 beta I.
