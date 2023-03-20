@@ -20,9 +20,6 @@ Check out the introduction video:
 
 {% include youtube.html id="7dm4MtOXavc" %}
 
-### Beta testing
-Currently the project going through major changes. If you are able/willing to support the project by using beta versions, please contact me by email rybafishcharts@gmail.com. I will provide the details on recent changes and where the potential issues might be experienced.
-
 ### Download
 No installation required, just unzip it wherever you are planning to use it.
 
