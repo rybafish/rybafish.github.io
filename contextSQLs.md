@@ -1,3 +1,7 @@
+---
+title: RybaFish Console: context SQLs
+---
+
 Sinve v0.9 RybaFish supports context SQLs.
 
 This means you can define a custom sql that can be invoked from the right mouse click menu in the results area.
