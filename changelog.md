@@ -11,6 +11,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * linux build
 * async multiline mode
 * Timezones management, [link](/timezones)
+* trace import fix: data might be loaded just partially in some cases
 
 
 
