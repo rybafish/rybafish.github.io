@@ -3,6 +3,9 @@ title: RybaFish FAQ
 ---
 
 ## Chart
+### Is BTP/HANA Cloud supported?
+Basically, I don't know. Probably not. If you can share an account/connection that I can test and/or develop an extention for BTP/HANA Cloud - I can check this.
+
 ### Why such colours selected, can I change them?
 Colors and line styles provided by the database. You can manually change the color by right-mouse-click in the KPIs table.
 

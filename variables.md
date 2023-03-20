@@ -4,6 +4,10 @@
 
 **Limitation:** Variable names **or values** cannot contain coma characters. Never. This will brake parsing. But... there are replacements possible, see below.
 
+**Before we start...**
+
+There is a [section](https://youtu.be/BCVW2asUgqk?t=1092) on this topic in the ultimate Gantt KPI guide that covers variables, you can check it to have the quick understanding on that.
+
 **Okay, now start**
 
 Starting 091 beta 1 RybaFish supports "variables" in custom KPIs.
