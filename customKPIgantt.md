@@ -17,7 +17,6 @@ kpis: [
     {'type': 'service',
         subtype: 'gantt',
         name: 'exp_st',
-        sqlname: 'dasd',
         color: '#BDF',
         width: 8,
         shift: 2,
