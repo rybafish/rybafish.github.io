@@ -1,5 +1,5 @@
 ---
-title: RybaFish Console: context SQLs
+title: "RybaFish Console: context SQLs"
 ---
 
 Sinve v0.9 RybaFish supports context SQLs.
