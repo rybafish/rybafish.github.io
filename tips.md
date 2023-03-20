@@ -1,8 +1,8 @@
 ---
-food: pizza
+title: Tips and ticks
 ---
 
-test: {{ page.food }}
+test: {{ page.title }}
 
 ## Tips and Tricks
 
