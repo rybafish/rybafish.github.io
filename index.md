@@ -1,3 +1,7 @@
+---
+title: RybaFish Charts
+---
+
 ## Get HANA monitoring visual with RybaFish Charts
 ![demo screen](/demoscreen07.png)
 
