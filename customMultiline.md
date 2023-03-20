@@ -1,3 +1,7 @@
+---
+title: "RybaFish Custom KPIs: Multiline"
+---
+
 Single KPI selected in the example below:
 
 ![demo screen](http://rybafish.github.io/multilineKPI.png)
