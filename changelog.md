@@ -10,6 +10,9 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 # Upcoming build
 * linux build
 * async multiline mode
+* Timezones management, [link](/timezones)
+
+
 
 # 093 beta 0
 [<b>093 beta 0</b>](https://github.com/rybafish/rybafish/releases/download/093beta0/RybaFish_093beta0.7z) (2023-02-16)
