@@ -9,7 +9,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux build
-* automatic log truncation, [logMaxSize](/config#logMaxSize)
+* new log file, automatic log truncation, [logMaxSize](/config#logMaxSize)
 not yet
 
 # 093 beta I
