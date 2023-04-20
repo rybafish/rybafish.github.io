@@ -19,5 +19,6 @@ Introduction video:
 * Common
   * [Indicators](/indicator)
   * [Configuration](/config)
+  * CSV [import wizard](https://youtu.be/Q1kp02MtZHg)
 
 Currently the user-guide on [SQL Console](/sqlconsole) is being worked upon. Charts and [custom KPIs](/customKPI) are on the way.
