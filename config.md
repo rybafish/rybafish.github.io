@@ -277,6 +277,16 @@ The alternative way to manually specify the file time zone is to have filename p
 
 File naming UTC shift has higher priority than configuration setting.
 
+### logSizeMax (v 0.93 beta II)
+`logSizeMax: 10485760`
+
+This parameter limits maximum log file size. When this size reached, the log file will be truncated to logSizeTarget bytes.
+
+`logSizeTarget: 1048576`
+This is target log size after truncation. By default sizes are 10 MB and 1 MB: this means after .log file reaches 10 MB it will be truncated to 1 MB. This allows very seldom file truncation execution.
+
+The truncation check is part of starup routine.
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
