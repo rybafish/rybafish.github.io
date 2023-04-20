@@ -10,7 +10,8 @@
 * ~~SSL support,~~ 092betaI (2022-10-02)
 
 ## Long Term
-* Major Output/Logs cleanup
+* Logs cleanup
+* Slack notifications
 * ~~MacOS build~~ - done in 091 betas
 * Linux build (we almost there)
 * ~~"Save the connection details" option~~ done in 091 betas
