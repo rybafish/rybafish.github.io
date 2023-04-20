@@ -288,6 +288,8 @@ This parameter limits maximum log file size. When this size reached, the log fil
 
 This is target log size after truncation. By default sizes are 10 MB and 1 MB: this means after .log file reaches 10 MB it will be truncated to 1 MB. This allows very seldom file truncation execution.
 
+Note: lofSizeTarget must be smaller than logSizeMax. Recommended range is 10-30% of loSizeMax.
+
 The truncation check is part of starup routine.
 
 ## internal stuff, bugs
