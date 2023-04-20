@@ -19,6 +19,9 @@
 * Asynchronous network calls for charts
 
 ## Changelog
+
+This is outdated changelog, check the new one on [/changelog](/changelog).
+
 #### 0.9 Sig (17.07.2021)
 * ssl support (091)
 * change KPI color UI
