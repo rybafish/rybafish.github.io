@@ -277,6 +277,8 @@ The alternative way to manually specify the file time zone is to have filename p
 
 File naming UTC shift has higher priority than configuration setting.
 
+<a name="logSizeMax" />
+
 ### logSizeMax (v 0.93 beta II)
 `logSizeMax: 10485760`
 
