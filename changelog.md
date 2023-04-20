@@ -22,7 +22,7 @@ not yet
 [<b>093 beta 0</b>](https://github.com/rybafish/rybafish/releases/download/093beta0/RybaFish_093beta0.7z) (2023-02-16)
 * SQLite support (experimental mode only)
 * multiple data providers support  (experimental mode only)
-* CSV import wizard: timestamp, integer and varchar types supported for now
+* CSV [import wizard](https://youtu.be/Q1kp02MtZHg): timestamp, integer and varchar types supported for now
 * safe thread exceptions handling
 
 # 091 Sig/ssl
