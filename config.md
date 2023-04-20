@@ -283,6 +283,7 @@ File naming UTC shift has higher priority than configuration setting.
 This parameter limits maximum log file size. When this size reached, the log file will be truncated to logSizeTarget bytes.
 
 `logSizeTarget: 1048576`
+
 This is target log size after truncation. By default sizes are 10 MB and 1 MB: this means after .log file reaches 10 MB it will be truncated to 1 MB. This allows very seldom file truncation execution.
 
 The truncation check is part of starup routine.
