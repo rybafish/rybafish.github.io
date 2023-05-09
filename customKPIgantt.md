@@ -39,6 +39,7 @@ sql: >
         add_seconds(start_time, duration_microsec/1000000) "STOP",
         db_user || '/' || app_user entity,
         -- memory_size gradient, -- uncomment for GRADIENT: True
+        -- to_varchar(to_int(memory_size/1024/1024/1024)) || ' GB' title, -- uncomment for Title: True
         to_varchar(to_integer(memory_size/1024/1024/1024)) || ' GB, ' || to_integer(duration_microsec/1000000) || ' sec, ' || operation || ': '
         || to_varchar(start_time, 'HH24:MI:SS.FF3') || ' - ' || to_varchar(add_seconds(start_time, duration_microsec/1000000), 'HH24:MI:SS.FF3') || '\n'
         || REPLACE_REGEXPR('[\n|\r]' in substr(statement_string, 0, 128) with '  ' OCCURRENCE ALL) details
