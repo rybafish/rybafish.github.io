@@ -16,6 +16,8 @@ RybaFish Charts is a stand-alone crass-platform application for SAP HANA monitor
 * [Custom KPIs](/customKPI) support: put your own data on the chart!
 * [Gantt KPIs](/customKPIgantt): whatever having start and stop times - can be put on the chart.
 
+Check out the introduction video:
+
 {% include youtube.html id="7dm4MtOXavc" %}
 
 ### Beta testing
