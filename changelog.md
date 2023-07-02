@@ -6,6 +6,11 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux build
+
+# 093 beta III
+
+(to be released soon)
+
 * stack upgrade (3.10 -> 3.11)
 
 # 093 beta II
