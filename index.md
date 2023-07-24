@@ -27,7 +27,7 @@ No installation required, just unzip it wherever you are planning to use it.
 
 <!-- The most recent beta builds available [here](/changelog).  -->
 
-[093 beta II](https://github.com/rybafish/rybafish/releases/download/093betaII/RybaFish_093betaII.7z), last <span style="color:blue">beta</span> build, 18.05.2023.
+[093 beta III](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z), last <span style="color:blue">beta</span> build, 02.07.2023.
 
 [091 Sig](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z), <span style="color:blue">last major</span> build, 12.08.2022.
 
@@ -35,7 +35,9 @@ No installation required, just unzip it wherever you are planning to use it.
 
 <!-- [0.8 Plotva](https://github.com/rybafish/rybafish/releases/download/08/RybaFish_08Plotva.7z), previous major release, 22.07.2021 -->
 
-**Windows 7** [0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z) should work on older windows versions. Try this build if you have missing api-ms-win-core-path-l1-1-0.dll error, there is [an issue](https://github.com/rybafish/rybafish/issues/600) for this.
+**Windows 7** 
+
+[0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z) should work on older windows versions. Try this build if you have missing api-ms-win-core-path-l1-1-0.dll error, there is [an issue](https://github.com/rybafish/rybafish/issues/600) for this.
 
 [Previous releases](/changelog)
 
