@@ -15,7 +15,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # 093 beta II
 [<b>093 beta II</b>](https://github.com/rybafish/rybafish/releases/download/093betaII/RybaFish_093betaII.7z) (2023-05-18)
-* new log file, automatic log truncation, [logMaxSize](/config#logMaxSize)
+* new log file, automatic log truncation, [logSizeMax](/config#logSizeMax)
 * multiple [variables](/variables) bugfixes
 
 # 093 beta I
