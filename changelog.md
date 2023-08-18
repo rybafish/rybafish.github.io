@@ -6,6 +6,9 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux build
+
+# 095 Ishkhan
+[<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) (2023-08-17)
 * warning in sql consoles of prodution db
 
 # 093 beta III
