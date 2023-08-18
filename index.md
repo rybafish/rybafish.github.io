@@ -31,7 +31,7 @@ No installation required, just unzip it wherever you are planning to use it.
 
 <!-- [093 beta III](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z), last <span style="color:blue">beta</span> build, 02.07.2023. -->
 
-[091 Sig](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z), previous build, 12.08.2022.
+[091 Sig/ssl](https://github.com/rybafish/rybafish/releases/download/092sigssl/RybaFish_092sigssl.7z), previous build, 01.11.2022.
 
 <!-- [0.9 Paltus](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), <span style="color:blue">previous major</span> release, 17.02.2022 ([changes](/changelog)) -->
 
