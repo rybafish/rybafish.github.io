@@ -10,7 +10,11 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 # 095 Ishkhan
 [<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) (2023-08-17)
 * warning in sql consoles of prodution db
-* all the rest changes are listed below in 093 bets
+* log rotation feature, [logSizeMax](/config#logSizeMax)
+* Experimental (you need to set experimental: True in congig.yaml to use those)
+** SQLite support both for charts and sql consoles
+** Secondary connection / Multiple data providers
+
 
 # 093 beta III
 [<b>093 beta III</b>](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z) (2023-07-02)
