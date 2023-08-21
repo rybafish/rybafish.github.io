@@ -9,12 +9,20 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # 095 Ishkhan
 [<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) (2023-08-17)
-* warning in sql consoles of prodution db
+* warning in sql consoles for prodution db
 * log rotation feature, [logSizeMax](/config#logSizeMax)
-* Experimental (you need to set experimental: True in congig.yaml to use those)
-** SQLite support both for charts and sql consoles
-** Secondary connection / Multiple data providers
-
+* [async](/customMultiline#async) multiline mode
+* Timezones management, [link](/timezones)
+* CSV [import wizard](https://youtu.be/Q1kp02MtZHg): timestamp, integer and varchar types supported for now
+* updated delta merges KPI, made in [this](https://youtu.be/BCVW2asUgqk) tutorial
+* multiple [variables](/variables) bugfixes
+* minor performance improvements
+* stack upgrade (3.10 -> 3.11)
+* major internal structures/interfaces rework
+* **Experimental** (you need to set `experimental: True` in congig.yaml to use those), extremely powerful features:
+    * SQLite support for charts: if m_load_history* tables detected in SQLite database - standard SAP HANA KPIs will work
+    * SQLite support for sql consoles
+    * Secondary connection / Multiple data providers: now you can show charts from two or more HANA/non-HANA sources on the same chart
 
 # 093 beta III
 [<b>093 beta III</b>](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z) (2023-07-02)
