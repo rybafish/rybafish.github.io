@@ -8,7 +8,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * linux build
 
 # 095 Ishkhan
-[<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) (2023-08-17)
+[<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) major build, 2023-08-12
 * warning in sql consoles for prodution db
 * log rotation feature, [logSizeMax](/config#logSizeMax)
 * [async](/customMultiline#async) multiline mode
@@ -23,6 +23,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
     * SQLite support for charts: if m_load_history* tables detected in SQLite database - standard SAP HANA KPIs will work
     * SQLite support for sql consoles: you can just use RybaFish to work with SQLite databases
     * Secondary connection / Multiple data providers: now you can show charts from two or more HANA/non-HANA sources on the same chart
+    * Smile, stay well and efficient
 
 # 093 beta III
 [<b>093 beta III</b>](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z) (2023-07-02)
