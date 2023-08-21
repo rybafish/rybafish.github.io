@@ -21,7 +21,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * major internal structures/interfaces rework
 * **Experimental** (you need to set `experimental: True` in congig.yaml to use those), extremely powerful features:
     * SQLite support for charts: if m_load_history* tables detected in SQLite database - standard SAP HANA KPIs will work
-    * SQLite support for sql consoles
+    * SQLite support for sql consoles: you can just use RybaFish to work with SQLite databases
     * Secondary connection / Multiple data providers: now you can show charts from two or more HANA/non-HANA sources on the same chart
 
 # 093 beta III
