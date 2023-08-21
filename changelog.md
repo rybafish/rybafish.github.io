@@ -5,10 +5,10 @@ title: Changelog
 Links for most recent macOS builds available [here](https://github.com/rybafish/rybafish/issues/771).
 
 # Upcoming build
-* linux build
+* linux, macOS builds for Ishkhan
 
 # 095 Ishkhan
-[<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) major build, 2023-08-12
+[<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) last major build, 2023-08-12
 * warning in sql consoles for prodution db
 * log rotation feature, [logSizeMax](/config#logSizeMax)
 * [async](/customMultiline#async) multiline mode
