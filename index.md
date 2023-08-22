@@ -27,7 +27,7 @@ No installation required, just unzip it wherever you are planning to use it.
 
 <!-- The most recent beta builds available [here](/changelog).  -->
   
-[095 Ishkhan](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) <span style="color:blue">last major</span> build, 17.08.2023.
+[095 Ishkhan](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) last major build, 17.08.2023 ([changes](/changelog)).
 
 <!-- [093 beta III](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z), last <span style="color:blue">beta</span> build, 02.07.2023. -->
 
