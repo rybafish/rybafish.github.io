@@ -45,6 +45,8 @@ No installation required, just unzip it wherever you are planning to use it.
 
 **macOS**
 
+[095 Ishkhan](https://ryba-fish.s3.eu-west-1.amazonaws.com/master_2023-09-19.zip) 12.08.2023, Build on M1 with Rosetta.
+
 [091 beta IV](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) runs on Intel/ARM.
 
 Most recent betas for macOS [here](https://github.com/rybafish/rybafish/issues/771).
