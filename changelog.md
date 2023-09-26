@@ -9,6 +9,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * fix of [scriptsFolder](/config#scriptsFolder) setting bug
 * ctrl+mouse wheel to increase/decrease font in SQL consoles and resultsets
 * to_date('') --> exception instead NULL, pyhdb bug fix.
+* server processing time for SQL consoles
 
 # 095 Ishkhan
 [<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) last major build, 2023-08-12
