@@ -292,6 +292,13 @@ Note: lofSizeTarget must be smaller than logSizeMax. Recommended range is 10-30%
 
 The truncation check is part of starup routine.
 
+<a name="reconnectTimer" />
+
+### reconnectTimer (v.095 beta I)
+`reconnectTimer: 60`
+
+When set - autorefresh consoles will try to reconnect after defined number of seconds and keep trying. Use it carefully as the user might be locked due to number of connecto attempts. But very useful when combined with [alerting](/soundAlerts).
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
