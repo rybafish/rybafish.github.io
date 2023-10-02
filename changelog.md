@@ -11,6 +11,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * to_date('') --> exception instead NULL, pyhdb bug fix.
 * server processing time for SQL consoles
 * time scale 8 hours (experimental)
+* ess legend crash fix
 * [reconnectTimer](/config#reconnectTimer)
 
 # 095 Ishkhan
