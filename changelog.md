@@ -10,6 +10,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * ctrl+mouse wheel to increase/decrease font in SQL consoles and resultsets
 * to_date('') --> exception instead NULL, pyhdb bug fix.
 * server processing time for SQL consoles
+* time scale 8 hours (experimental)
 * [reconnectTimer](/config#reconnectTimer)
 
 # 095 Ishkhan
