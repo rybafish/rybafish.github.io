@@ -4,7 +4,7 @@ title: About RybaFish Charts
 
 [RybaFish Charts](/) is an open source cross-platform software for monitoring of SAP HANA DB. RybaFish is not affiliated with SAP. It provides HANA load graph functionay for multi-tenant installations.
 
-Only one installation can be monitored: connection to two or more servers in parallel is not supported. But the same server can be connected by several SQL consoles.
+~~Only one installation can be monitored~~: connection to two or more servers in parallel was not supported before 0.95 Ishkhan which has experimental support of multiple data provisers (HANA/non-HANA). Anyway, several SQL consoles were always supported.
 
 ## Key Features
 * Multitenant HANA MDC Support

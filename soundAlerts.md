@@ -52,7 +52,7 @@ This will play warning.wav and not the default.wav.
 Even on top of that you can modify the volume lavel of the alert played:
 
 ```SQL
-select '{alert:warning:30}' from dummy;
+select '{alert:warning!30}' from dummy;
 ```
 
 This will play _warning_ sound with only 30% of volume.
