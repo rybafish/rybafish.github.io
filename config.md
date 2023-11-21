@@ -294,7 +294,7 @@ The truncation check is part of starup routine.
 
 <a name="reconnectTimer" />
 
-### reconnectTimer (v.095 beta I)
+### reconnectTimer (v.096 beta I)
 `reconnectTimer: 60`
 
 When set - autorefresh consoles will try to reconnect after defined number of seconds and keep trying. Use it carefully as the user might be locked due to number of connecto attempts. But very useful when combined with [alerting](/soundAlerts).

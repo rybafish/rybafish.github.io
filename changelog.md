@@ -6,6 +6,8 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux, macOS builds for Ishkhan
+* advanced [highlighter](/highlight) (experimental)
+* databar feature: right-mouse click in ressult set column with numbers
 * fix of [scriptsFolder](/config#scriptsFolder) setting bug
 * ctrl+mouse wheel to increase/decrease font in SQL consoles and resultsets
 * to_date('') --> exception instead NULL, pyhdb bug fix.
