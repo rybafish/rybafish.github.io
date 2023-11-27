@@ -14,7 +14,7 @@ d6fd6678833f9a2e25e7b53239c50e9a: Statistics service wrapper call
 de4d08b0863b6076896dc1334e2592f4: TREXviaDBSL
 ```
 
-By default, RybaFish includes this file located in "highlights/statement_hash/standard.html."
+By default, RybaFish includes this file located in "highlights/statement_hash/standard.html"
 
 Here's an example of how the result might appear:
 
