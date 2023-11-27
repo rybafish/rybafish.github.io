@@ -5,7 +5,7 @@
 * CSV import (available in 093 beta 0)
 
 ### Short Term
-* extract server processing time for sql console executions (pyhdb mod)
+* extract server processing time for sql console executions (pyhdb mod, available in 096 beta I)
 * proper ddl/commits handling in sql console (partialy done)
 * ~~SSL support,~~ 092betaI (2022-10-02)
 
