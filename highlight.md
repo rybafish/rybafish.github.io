@@ -2,6 +2,8 @@
 title: Console results highlighting
 ---
 
+Note: currently this feature only works in [experimental](/config#experimental) mode.
+
 # Overview
 It is sometimes beneficial to emphasize specific values in the result set. A good example is the "statement_hash" values. Certain statements may reoccur during system monitoring/analysis, but remembering values like "de4d08b0863b6076896dc1334e2592f4" can be challenging.
 
@@ -13,6 +15,8 @@ All you need to do is create a file with the following (or similar) content:
 d6fd6678833f9a2e25e7b53239c50e9a: Statistics service wrapper call
 de4d08b0863b6076896dc1334e2592f4: TREXviaDBSL
 ```
+
+On mouse hover the comment text will be displayed as a hint.
 
 By default, RybaFish includes this file located in "highlights/statement_hash/standard.html"
 
