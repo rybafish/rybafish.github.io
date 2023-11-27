@@ -2,8 +2,6 @@
 title: Console results highlighting
 ---
 
-Note: currently this feature only works in [experimental](/config#experimental) mode.
-
 # Overview
 It is sometimes beneficial to emphasize specific values in the result set. A good example is the "statement_hash" values. Certain statements may reoccur during system monitoring/analysis, but remembering values like "de4d08b0863b6076896dc1334e2592f4" can be challenging.
 
@@ -28,3 +26,9 @@ Feel free to enhance it or create an additional; the filename is not critical. H
 
 ## TODO:
 Make the hilighting color configurable.
+
+## Availability
+
+Available since 096 beta I.
+
+Currently this feature only works in [experimental](/config#experimental) mode.
