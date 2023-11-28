@@ -14,6 +14,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * server processing time for SQL consoles
 * time scale 8 hours (experimental)
 * ess legend crash fix
+* daylight saving warning
 * [reconnectTimer](/config#reconnectTimer)
 
 # 095 Ishkhan
