@@ -299,6 +299,13 @@ The truncation check is part of starup routine.
 
 When set - autorefresh consoles will try to reconnect after defined number of seconds and keep trying. Use it carefully as the user might be locked due to number of connecto attempts. But very useful when combined with [alerting](/soundAlerts).
 
+<a name="servertz" />
+
+### serverTZ (v.096 beta I)
+`serverTZ: True`
+
+Makes explicit server timezone active. Set it to False to get the old behaviour (with some errors during daylight saving events).
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
