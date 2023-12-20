@@ -12,9 +12,9 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * ctrl+mouse wheel to increase/decrease font in SQL consoles and resultsets
 * to_date('') --> exception instead NULL, pyhdb bug fix.
 * server processing time for SQL consoles
-* time scale 8 hours (experimental)
+* time scale 8 and 12 hours, experimental
 * ess legend crash fix
-* daylight saving fix (?), can disable by setting [serverTZ](/config#servertz): False
+* **warning:** daylight saving fix (?), set [serverTZ](/config#servertz): False to disable
 * [reconnectTimer](/config#reconnectTimer)
 
 # 095 Ishkhan
