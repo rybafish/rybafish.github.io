@@ -7,10 +7,10 @@ title: RybaFish FAQ
 Kind of. With default settings login will terminated with the some error ID, and if you check the details...
 
 ```
-SELECT * FROM SYS.AUTHENTICATION_ERROR_DETAILS WHERE CORRELATION_ID = '...'
+select * from sys.authentication_error_details where correlation_id = '...'
 ```
 
-will contain details like: "No password set for the user <user_name>".
+will contain details like: "No password set for the user ...".
 
 This happens because the default authentication method in HANA Cloud restricted to pbkdf2, which currently not supported by PyHDB driver in RybaFish.
 
