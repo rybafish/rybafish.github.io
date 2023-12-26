@@ -4,7 +4,19 @@ title: RybaFish FAQ
 
 ## Chart
 ### Is BTP/HANA Cloud supported?
-Basically, I don't know. Probably not. If you can share an account/connection that I can test and/or develop an extention for BTP/HANA Cloud - I can check this.
+Kind of. With default settings login will terminated with the error "No password set for the user <user_name>".
+
+This happens because the default authentication method in HANA Cloud restricted to pbkdf2, which currently not supported.
+
+But you can enable old-style authentication by updating the config:
+
+```
+alter system alter configuration ('global.ini', 'system') set ('authentication', 'password_hash_methods') = 'pbkdf2,sha256' with reconfigure;
+```
+
+**And update the user password** in order to generate old-style sha256 password hash on HANA side. This is to be done after the configuration change.
+
+With those settings RynaFish should run fine in HANA Cloud, pbkdf2 [in progress]([url](https://github.com/rybafish/rybafish/issues/931)).
 
 ### Why such colours selected, can I change them?
 Colors and line styles provided by the database. You can manually change the color by right-mouse-click in the KPIs table.
@@ -25,7 +37,9 @@ If "to:" is empty,  the most recent data selected and displayed. If you want to 
 ## SQL Console
 
 ### How the statement execution time measured?
-It is client-side measurement. Therefore it includes: prepare, execute and fetch. Highly depends on the network and the result size.
+Before 0.96 beta I it was client-side measurement. Including: prepare, execute and fetch. Highly depends on the network and the result size.
+
+Since 0.96 beta I two values provided for each execution, client-side, and server side.
 
 ### Is it possible to enable auto-commit?
 At the moment - no. You need to do explicit "commit" if you need to persist your changes.
