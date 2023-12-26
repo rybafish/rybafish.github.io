@@ -4,9 +4,15 @@ title: RybaFish FAQ
 
 ## Chart
 ### Is BTP/HANA Cloud supported?
-Kind of. With default settings login will terminated with the error "No password set for the user <user_name>".
+Kind of. With default settings login will terminated with the some error ID, and if you check the details...
 
-This happens because the default authentication method in HANA Cloud restricted to pbkdf2, which currently not supported.
+```
+SELECT * FROM SYS.AUTHENTICATION_ERROR_DETAILS WHERE CORRELATION_ID = '...'
+```
+
+will contain details like: "No password set for the user <user_name>".
+
+This happens because the default authentication method in HANA Cloud restricted to pbkdf2, which currently not supported by PyHDB driver in RybaFish.
 
 But you can enable old-style authentication by updating the config:
 
