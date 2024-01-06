@@ -6,6 +6,9 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux, macOS builds for Ishkhan
+
+# 096 beta I
+[<b>096 beta I</b>](https://github.com/rybafish/rybafish/releases/download/096bi/RybaFish_096betaI.7z) (2023-12-12)
 * advanced [highlighter](/highlight) (experimental)
 * databar feature: right-mouse click in ressult set column with numbers
 * fix of [scriptsFolder](/config#scriptsFolder) setting bug
@@ -14,8 +17,8 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * server processing time for SQL consoles
 * time scale 8 and 12 hours, experimental
 * ess legend crash fix
-* **warning:** daylight saving fix (?), set [serverTZ](/config#servertz): False to disable
-* [reconnectTimer](/config#reconnectTimer)
+* **warning:** daylight saving fix (?), set [serverTZ](/config#servertz): False to revert
+* [reconnectTimer](/config#reconnectTimer) setting
 
 # 095 Ishkhan
 [<b>095 Ishkhan</b>](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) last major build, 2023-08-12
