@@ -6,6 +6,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux, macOS builds for Ishkhan
+* BTP connections support (Temporary experimental)
 
 # 096 beta I
 [<b>096 beta I</b>](https://github.com/rybafish/rybafish/releases/download/096bi/RybaFish_096betaI.7z) (2023-12-12)
