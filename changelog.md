@@ -41,23 +41,25 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
     * Smile and stay well.
 
 # 093 beta III
-[<b>093 beta III</b>](https://github.com/rybafish/rybafish/releases/download/093betaIII/RybaFish_093betaIII.7z) (2023-07-02)
+093 beta III (2023-07-02)
 * updated delta merges KPI from [this](https://youtu.be/BCVW2asUgqk) tutorial
 * stack upgrade (3.10 -> 3.11)
 
 # 093 beta II
-[<b>093 beta II</b>](https://github.com/rybafish/rybafish/releases/download/093betaII/RybaFish_093betaII.7z) (2023-05-18)
+093 beta II (2023-05-18)
 * new log file, automatic log truncation, [logSizeMax](/config#logSizeMax)
 * multiple [variables](/variables) bugfixes
 
 # 093 beta I
-[<b>093 beta I</b>](https://github.com/rybafish/rybafish/releases/download/093betaI/RybaFish_093betaI.7z) (2023-04-12)
+093 beta I (2023-04-12)
 * async multiline mode
 * Timezones management, [link](/timezones)
 * trace import fix: data might be loaded just partially in some cases
 
 # 093 beta 0
-[<b>093 beta 0</b>](https://github.com/rybafish/rybafish/releases/download/093beta0/RybaFish_093beta0.7z) (2023-02-16)
+
+093 beta 0 (2023-02-16)
+
 * SQLite support (experimental mode only)
 * multiple data providers support  (experimental mode only)
 * CSV [import wizard](https://youtu.be/Q1kp02MtZHg): timestamp, integer and varchar types supported for now
@@ -73,6 +75,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * SSL support
 
 ## Sig Changelog
+
 [<b>091 Sig</b>](https://github.com/rybafish/rybafish/releases/download/091sig/RybaFish_091sig.7z) (2022-08-12)
 
 * Change KPI color dialog (context menu in KPIs table).
@@ -82,7 +85,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * support of timezone for nameserver_history.trc import: [import_timezone_offset](/config#import_timezone_offset).
 * countdown secods before triggering autorefresh now displayed
 
-[<b>091 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_091betaIV.7z) (2022-06-30)
+091 beta IV (2022-06-30)
 * [macOS](https://github.com/rybafish/rybafish/releases/download/091betaIV/RybaFish_MacOS_091betaIV.zip) now available, runs on Intel/ARM.
 * Alt+Up/Down - to move highlighted point between KPIs. ~~Only regular KPIs supported for now~~ Regular+Multiline KPIs supported.
 * and Gantt as well
@@ -93,15 +96,15 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * SQL Console toolbar
 * finally, documentation on [sql console](/sqlconsole)
 
-[<b>091 beta III</b>](https://github.com/rybafish/rybafish/releases/download/091betaIII/RybaFish_091betaIII.7z) (2022-05-29)
+091 beta III (2022-05-29)
 * "McAfee Endpoint Security Alert" RybaFish detected as a malware for no reason, beta III should fix this issue.
 
-[<b>091 beta II</b>](https://github.com/rybafish/rybafish/releases/download/091betaII/RybaFish_091betaII.7z) (2022-05-06)
+091 beta II (2022-05-06)
 * Alt+N to switch tabs
 * multiline KPIs have 'others' property: single entry to include everything else
 * profiler to track expensive calls, useProfiler: True.
 
-[<b>091 beta I</b>](https://github.com/rybafish/rybafish/releases/download/beta/RybaFish_091betaI.7z) (2022-04-24)
+091 beta I (2022-04-24)
 * [variables](variables) support
 * simple connections manager, save encrypted passwords
 * DB interface introduced: can implement alternative connection protocols now
@@ -113,7 +116,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 ## Paltus Changelog
 
-[<b>0.9 beta XI</b>](https://github.com/rybafish/rybafish/releases/download/09betaXI/RybaFish09betaXI.7z) (2022-01-26)
+0.9 beta XI (2022-01-26)
 * legendTenantName and legendServiceName configuration options
 * explain plan for sql plan cache entry now works in console
 * manual scales in KPIs table are blue. If you post an empty value manual scale --> autoscale itself!
@@ -122,27 +125,27 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * config option _chartWidth_ for cases when the default 1 is not thick enough.
 * it is possible now to set Y range other than from 0 to something. To achieve this put, for example, 2000-5000 in Y-Scale.
 
-[<b>0.9 beta 9</b>](https://github.com/rybafish/rybafish/releases/download/09beta9/RybaFish_09beta9.7z) (2021-12-23) 
+0.9 beta 9 (2021-12-23) 
 * bugfix affecting multiple resultsets
 * last available beta is now reported in the About dialog
 
-<b>0.9 beta 8</b> (2021-12-21), <span style="color:blue">withdrawn</span>.
+9 beta 8 (2021-12-21), <span style="color:blue">withdrawn</span>.
 * [gantt](/customKPIgantt) bars can have titles: little text labels right inside the bar
 * there is no 32k limit anymore (bug [#181](https://github.com/rybafish/rybafish/issues/181))
 
-[<b>0.9 beta 7</b>](https://github.com/rybafish/rybafish/releases/download/09beta7/RybaFish_09beta7.7z) (2021-11-24)
+0.9 beta 7 (2021-11-24)
 * avg value is now reported in KPIs table
 * basic [alerting](/soundAlerts) functionality
 * hosts table enriched with service name and tenant information
 * numerous bugfixes…
 
-<b>0.9 beta 5</b> (2021-09-30), <span style="color:blue">withdrawn</span>.
+0.9 beta 5 (2021-09-30), <span style="color:blue">withdrawn</span>.
 * ABAP-style results copy: right mouse click in results
 * Colorize KPIs option: Actions menu -> Colorize
 * sql console parser fix: first statement was not recognized correctly in beta4.
 * tenant name and revision reported in the window title
 
-<b>0.9 beta 4</b> (2021-09-14), <span style="color:blue">withdrawn</span>.
+0.9 beta 4 (2021-09-14), <span style="color:blue">withdrawn</span>.
 * Ctrl+Shift+O auto-formats the SQL
 * Ctrl+Shift+X explains plan of the selected statement
 * error line now highlighted
@@ -156,7 +159,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
   * syntax highlighter now forced on paste
   * undo/redo queue cleaned up
 
-[0.9 beta](https://github.com/rybafish/rybafish/releases/download/09beta/RybaFish09beta.7z) (2021-08-15)
+0.9 beta (2021-08-15)
 * [Context SQLs](/contextSQLs): right mouse click on PLAN_ID column in results
 * autocomplete in SQL Console (Ctrl+Space)
 * shift highlighted point inside KPI (Alt+Left/Right)
