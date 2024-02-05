@@ -6,7 +6,9 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux, macOS builds for Ishkhan
-* menu Layout -> Save/Restore selected KPIs feature
+* menu Layout - Save/Restore selected KPIs feature
+* trimming spaces during import feature
+* m_load_history* tables structure validation during connection to SQLite DBs
 * **Cloud/BTP connections support** (Temporary experimental)
 
 # 096 beta I
