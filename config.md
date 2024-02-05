@@ -313,6 +313,11 @@ Makes explicit server timezone active. Set it to False to get the old behaviour 
 
 Set default authentication method for HANA connection different from the default one (sh256). Note: sha256/pbkdf2 defined internally as SCRAMSHA256/SCRAMPBKDF2SHA256. pbkdf2 will be used automatically when HANA Cloud connection type used, because it is enforsed by BTP HANA Cloud connections (subject to change, see password_hash_methods HANA configuration parameter. Temporary experimental.
 
+### importTrim (v.096 beta II)
+`importTrim: False`
+
+Set to False to disable values trimming from whitespaces in import dialog. The default is True.
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
