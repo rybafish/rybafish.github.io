@@ -30,6 +30,7 @@ title: RybaFish Tips and ticks
   * for example you can copy the exact timestamp in sql ready format
   * even more: if yo already have timestamp in the clipboard you can compse beween predicate (v09)
 * using right mouse click in the KPIs table you can adjust the KPIs color
+* start typing in KPIs table: KPIs will be filtered, status bar shows the filter. ESC to reset.
  
 
 ### SQL Console
