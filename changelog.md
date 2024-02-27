@@ -9,6 +9,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * menu Layout - Save/Restore selected KPIs feature
 * trimming spaces during import feature
 * m_load_history* tables structure validation during connection to SQLite DBs
+* Ctrl+Shift+L to hide/show gantt labels
 * **Cloud/BTP connections support** (Temporary experimental)
 
 # 096 beta I
