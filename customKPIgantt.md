@@ -119,6 +119,13 @@ DETAILS: column providing additional information to be displayed when the entry 
 
 All of those are mandatory columns.
 
+<a name="manual_color" />
+## Manual Color management
+
+This feature available since 096 beta II.
+
+Sometimes you may need to assign specific colors to entries in the Gantt chart based on certain criteria. For instance, highlighting failed ABAP jobs in red for better visibility of KPIs would be beneficial. This is where the manual_color feature comes in handy. Enabling this feature requires setting it to True, along with providing a "color" column in #RGB form. For a practical demonstration, refer to the 12_abap_jobs.yaml file in recent builds.
+
 ## placeholders
 ### $duration (v 0.9)
 
