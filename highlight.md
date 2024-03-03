@@ -24,11 +24,16 @@ Here's an example of how the result might appear:
 
 Feel free to enhance it or create an additional; the filename is not critical. However, the folder name must correspond to the column where the values are checked, and it's not case-sensitive.
 
-## TODO:
-Make the hilighting color configurable.
+## color:
+You can adjust highlighting color by including the following line in the yaml:
+
+```
+color: '#fee'
+```
+The default highlighting color is #dfe.
 
 ## Availability
 
-Available since 096 beta I.
+Available since 096 beta II.
 
 Currently this feature only works in [experimental](/config#experimental) mode.
