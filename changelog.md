@@ -11,6 +11,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * m_load_history* tables structure validation during connection to SQLite DBs
 * Ctrl+Shift+L to hide/show gantt labels
 * in-line filtering in KPIs table: just start typing, ESC to reset
+* [manual_color](/customKPIgantt#manual_color) feature for Gantt charts
 * **Cloud/BTP connections support** (Temporary experimental)
 
 # 096 beta I
