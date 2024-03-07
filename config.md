@@ -306,6 +306,11 @@ When set - autorefresh consoles will try to reconnect after defined number of se
 
 Makes explicit server timezone active. Set it to False to get the old behaviour (with some errors during daylight saving events).
 
+### Notification sound volume (c.096 beta II)
+`notificationVolume: 50`
+
+By adjusting this value you can manage the volume of the notification sound played when the SQL finishes. You need to enable this using toolbar button in SQL consoles first.
+
 <a name="hanaAuth" />
 
 ### hanaAuth (v.096 beta II)
