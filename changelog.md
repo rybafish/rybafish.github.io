@@ -6,12 +6,14 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux, macOS builds for Ishkhan
-* menu Layout - Save/Restore selected KPIs feature
+
+# 096 beta II
+[<b>096 beta II</b>](https://github.com/rybafish/rybafish/releases/download/096bii/RybaFish_096betaII.7z) (2024-03-13)
+* KPIs presets: menu Layout -> Presets
+* in-line filtering in KPIs table: just start typing, ESC to reset
 * trimming spaces during import feature
 * m_load_history* tables structure validation during connection to SQLite DBs
 * Ctrl+Shift+L to hide/show gantt labels
-* in-line filtering in KPIs table: just start typing, ESC to reset
-* KPIs presets: menu Layout -> Presets
 * sql console toolbar button: sound notification on SQL termination
 * [manual_color](/customKPIgantt#manual_color) feature for Gantt charts
 * **Cloud/BTP connections support** (Temporary experimental)
