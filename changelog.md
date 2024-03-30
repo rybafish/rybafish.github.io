@@ -6,6 +6,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming build
 * linux, macOS builds for Ishkhan
+* initial password reset supported now
 
 # 096 beta II
 [<b>096 beta II</b>](https://github.com/rybafish/rybafish/releases/download/096bii/RybaFish_096betaII.7z) (2024-03-13)
