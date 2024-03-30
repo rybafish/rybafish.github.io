@@ -5,7 +5,7 @@ title: Changelog
 Links for most recent macOS builds available [here](https://github.com/rybafish/rybafish/issues/771).
 
 # Upcoming build
-* linux, macOS builds for Ishkhan
+* linux, macOS builds for 096
 * initial password reset support
 
 # 096 beta II
