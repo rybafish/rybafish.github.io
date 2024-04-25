@@ -29,7 +29,7 @@ No installation required, just unzip it wherever you are planning to use it.
   
 [095 Ishkhan](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) last major build, 12.08.2023 ([changes](/changelog)).
 
-[096 beta I](https://github.com/rybafish/rybafish/releases/download/096bi/RybaFish_096betaI.7z), last <span style="color:blue">beta</span> build, 12.12.2023.
+[096 beta II](https://github.com/rybafish/rybafish/releases/download/096bii/RybaFish_096betaII.7z), last <span style="color:blue">beta</span> build, 13.03.2024.
 
 [091 Sig/ssl](https://github.com/rybafish/rybafish/releases/download/092sigssl/RybaFish_092sigssl.7z), previous build, 01.11.2022.
 
