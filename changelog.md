@@ -8,6 +8,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * linux, macOS builds for 096
 * initial password reset support
 * password change dialog added (file menu)
+* file save dialog fix
 
 # 096 beta II
 [<b>096 beta II</b>](https://github.com/rybafish/rybafish/releases/download/096bii/RybaFish_096betaII.7z) (2024-03-13)
