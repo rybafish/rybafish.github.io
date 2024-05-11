@@ -335,3 +335,7 @@ This setting disables check of sUnit/dUnit kpi description integrity. In case sa
 
 This one returns the old chart grid rendering that seems to be buggy, see details in corresponding [issue on github](https://github.com/rybafish/rybafish/issues/795).
 
+### dataBarSelected (v 096 beta iv)
+`dataBarSelected: False`
+
+This will disable databar manual render of selected cells. Normally it is True, but you can disable in case of issues.
