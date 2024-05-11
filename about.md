@@ -1,10 +1,10 @@
 ---
-title: About RybaFish Charts
+title: best SAP HANA monitoring tool
 ---
 
-[RybaFish Charts](/) is an open source cross-platform software for monitoring of SAP HANA DB. RybaFish is not affiliated with SAP. It provides HANA load graph functionay for multi-tenant installations.
+[RybaFish Charts](/) is an independent, open-source solution for SAP HANA DB monitoring, operating without affiliation to SAP. It delivers SAP HANA load graph capabilities optimized for both multi-tenant and scale-out environments. It also provides quite powerful [SQL-console](/sqlconsole).
 
-~~Only one installation can be monitored~~: connection to two or more servers in parallel was not supported before 0.95 Ishkhan which has experimental support of multiple data provisers (HANA/non-HANA). Anyway, several SQL consoles were always supported.
+~~Only one installation can be monitored~~: connection to two or more servers in parallel was not supported before 0.95 Ishkhan which has experimental support of multiple data provisers (HANA/non-HANA). Multiple SQL consoles were always supported.
 
 ## Key Features
 * Multitenant HANA MDC Support
@@ -15,18 +15,7 @@ title: About RybaFish Charts
 * powerful [SQL Console](/sqlconsole)
 * Check some minor little things on [Tips and Tricks](/tips) page
 
-## Known Limitations
-### Limitations
-* Charts: chart network calls are synchronous
-* SQL console: bind variables are not supported, only literals
-
-### Bugs
-* KPI highlighting feature is not perfect yet - but you can move highligted point by Alt+Left/Right/Up/Down
-* console: ~~32000 output rows limit (PyHDB bug)~~ - fixed in v0.9 Paltus
-
-You can also review future plans in [TODO](/todo) list.
-
-To see the rest of the bugs or report some - check the project's [issues](https://github.com/rybafish/rybafish/issues) page.
+To see development plans/progress or report issues - check out the project's [issues](https://github.com/rybafish/rybafish/issues) page.
 
 ### License
 RybaFish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind, you can use it at your own risk.
