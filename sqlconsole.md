@@ -184,13 +184,13 @@ When the console is in auto refresh mode it has 'autorefresh' indicator: ![Autor
 This is a toggle-button that enables ABAP-style results copy which might be useful to extract the results to be pasted in text form. The output looks like this:
 
 ```
-----------------------------------------------
-|TIME                   |HOST      |PORT |CPU|
-|--------------------------------------------|
-|2022-06-27 11:20:18.727|atgvmls967|30007|  0|
-|2022-06-27 11:20:18.727|atgvmls967|30003|  1|
-|2022-06-27 11:20:08.7  |atgvmls967|30003|  1|
-|2022-06-27 11:20:08.7  |atgvmls967|30007|  0|
+---------------------------------------------
+|TIME                   |HOST     |PORT |CPU|
+|-------------------------------------------|
+|2022-06-27 11:20:18.727|mdfmk2022|30007|  0|
+|2022-06-27 11:20:18.727|mdfmk2022|30003|  1|
+|2022-06-27 11:20:08.7  |mdfmk2022|30003|  1|
+|2022-06-27 11:20:08.7  |mdfmk2022|30007|  0|
 |2022-06-27 11:19:58.672|atgvmls967|30007|  0|
 ----------------------------------------------
 ```
