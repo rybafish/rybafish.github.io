@@ -17,5 +17,9 @@ title: best SAP HANA monitoring tool
 
 To see development plans/progress or report issues - check out the project's [issues](https://github.com/rybafish/rybafish/issues) page.
 
+Check out the introduction video:
+
+{% include youtube.html id="7dm4MtOXavc" %}
+
 ### License
 RybaFish Charts is free open source software released under GPLv3 license. The software provided "as is" without warranty of any kind, you can use it at your own risk.
