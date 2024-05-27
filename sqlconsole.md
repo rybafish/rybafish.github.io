@@ -191,7 +191,7 @@ This is a toggle-button that enables ABAP-style results copy which might be usef
 |2022-06-27 11:20:18.727|mdfmk2022|30003|  1|
 |2022-06-27 11:20:08.7  |mdfmk2022|30003|  1|
 |2022-06-27 11:20:08.7  |mdfmk2022|30007|  0|
-|2022-06-27 11:19:58.672|atgvmls967|30007|  0|
+|2022-06-27 11:19:58.672|mdfmk2022|30007|  0|
 ----------------------------------------------
 ```
 Make sure you use monospace font for that, like Courier or Consolas.
