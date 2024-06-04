@@ -323,6 +323,13 @@ Set default authentication method for HANA connection different from the default
 
 Set to False to disable values trimming from whitespaces in import dialog. The default is True.
 
+<a name="parseAutorefresh" />
+
+### parseAutorefresh (v.096 beta IV)
+`parseAutorefresh: False`
+
+Set to false to disable automatich autorefresh feature. Automatic autorefresh means if you have a single-line comment like '-- autorefresh 90' before some SQL, in this case on F8 autorefresh with 90 seconds will be enabled for this console.
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
