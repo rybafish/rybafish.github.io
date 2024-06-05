@@ -23,7 +23,7 @@ alter system alter configuration ('global.ini', 'system') set ('authentication',
 
 **And update the user password** in order to generate old-style sha256 password hash on HANA side. This is to be done after the configuration change.
 
-With those settings RynaFish should run fine in HANA Cloud, pbkdf2 [in progress]([url](https://github.com/rybafish/rybafish/issues/931)).
+With those settings RynaFish should run fine in HANA Cloud, pbkdf2 [done](https://github.com/rybafish/rybafish/issues/931).
 
 ### Why such colours selected, can I change them?
 Colors and line styles provided by the database. You can manually change the color by right-mouse-click in the KPIs table.
