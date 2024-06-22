@@ -14,7 +14,7 @@
     * [(re)Connect](#connect)
     * [Disconnect](#disconnect)
     * [Schedule Automatic Refresh](#refresh)
-    * [ABAP Copy](#abap)
+    * [ASCII Copy](#abap)
  * [Result Set](#resultset) Manipulations
 
 ## Basics<a name="basics"></a>
@@ -178,10 +178,10 @@ There is a limitation: this option can only be used for a single result set quer
 When the console is in auto refresh mode it has 'autorefresh' indicator: ![Autorefresh](https://www.rybafish.net/img/ind_08_refresh.png).
 
 <a name="abap" />
-## ABAP Copy
+## ASCII Copy
 ![ABAP Copy](https://www.rybafish.net/img/abapcopy.png)
 
-This is a toggle-button that enables ABAP-style results copy which might be useful to extract the results to be pasted in text form. The output looks like this:
+This is a toggle-button that enables ASCII results copy which might be useful to extract the results to be pasted in text form. The output looks like this:
 
 ```
 ---------------------------------------------
