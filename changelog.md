@@ -7,8 +7,11 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 # Upcoming build
 * linux, macOS builds for 096
 * alt+click in SQL console result set will highlight the row
+* ctrl+alt+click in SQL console result set will highlight value
+* ctrl+shift+click in SQL console result set will highlight changes
+* you can change order of selected KPIs: right mouse click in KPIs table or Alt+Up/Down
 
- (Real, real rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z))
+ (Real, true rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z))
 
 # 096 beta III
 [<b>096 beta III</b>](https://github.com/rybafish/rybafish/releases/download/096biii/RybaFish_096betaIII.7z) (2024-04-27)
