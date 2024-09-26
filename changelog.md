@@ -10,6 +10,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * ctrl+alt+click in SQL console result set will highlight value
 * ctrl+shift+click in SQL console result set will highlight changes
 * you can change order of selected KPIs: right mouse click in KPIs table or Alt+Up/Down
+* option to temporary hide KPIs from chart, migh be useful to make clean screenshot, RMC on chart. Multiline supported.
 
  True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only</span>)
 
