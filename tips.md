@@ -49,3 +49,4 @@ title: RybaFish Tips and ticks
 * when the column resized to 0 width it will be skipped in result copy (v09)
 * with 091 beta IV there is a SQL Browser available, give it a try! Menu -> SQL (F11)
 * alt+click in SQL console result set will highlight the row (096 beta iv)
+* alt+click on result set column header to instant hide it (096 beta iv)
