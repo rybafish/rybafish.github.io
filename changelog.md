@@ -13,6 +13,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * option to temporary hide KPIs from chart, migh be useful to make clean screenshot, RMC on chart. Multiline supported.
 * alt+click on result set column header to instant hide it (width -> 0)
 * [legendGanttDetails](/config#legendGanttDetails) setting to report gantt KPI stats on legend
+* move gantt chart KPI just with mouse ([spoiler video](https://www.youtube.com/watch?v=rl3Fax6YQ6M)).
 
  True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only</span>)
 
