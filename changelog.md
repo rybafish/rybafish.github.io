@@ -4,8 +4,10 @@ title: Changelog
 
 Links for most recent macOS builds available [here](https://github.com/rybafish/rybafish/issues/771).
 
-# Upcoming build
-* linux, macOS builds for 096
+# Upcoming major build
+* linux, macOS builds
+
+# Upcoming beta build
 * alt+click in SQL console result set will highlight the row
 * ctrl+alt+click in SQL console result set will highlight value
 * ctrl+shift+click in SQL console result set will highlight changes
@@ -14,8 +16,9 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * alt+click on result set column header to instant hide it (width -> 0)
 * [legendGanttDetails](/config#legendGanttDetails) setting to report gantt KPI stats on legend
 * move gantt chart KPI just with mouse ([spoiler video](https://www.youtube.com/watch?v=rl3Fax6YQ6M)).
+* number of crashes fixed
 
- True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only</span>)
+ True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only!</span>)
 
 # 096 beta III
 [<b>096 beta III</b>](https://github.com/rybafish/rybafish/releases/download/096biii/RybaFish_096betaIII.7z) (2024-04-27)
