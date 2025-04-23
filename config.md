@@ -333,6 +333,7 @@ Set to false to disable automatich autorefresh feature. Automatic autorefresh me
 <a name="legendGanttDetails" />
 ### legendGanttDetails (v.096 beta IV)
 `legendGanttDetails: True`
+
 Report on chart legend number of entities and number of entries for each gantt KPI.
 
 ## internal stuff, bugs
