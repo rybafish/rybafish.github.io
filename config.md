@@ -330,6 +330,11 @@ Set to False to disable values trimming from whitespaces in import dialog. The d
 
 Set to false to disable automatich autorefresh feature. Automatic autorefresh means if you have a single-line comment like '-- autorefresh 90' before some SQL, in this case on F8 autorefresh with 90 seconds will be enabled for this console.
 
+<a name="legendGanttDetails" />
+### legendGanttDetails (v.096 beta IV)
+`legendGanttDetails: True`
+Report on chart legend number of entities and number of entries for each gantt KPI.
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
