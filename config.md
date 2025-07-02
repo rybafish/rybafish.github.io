@@ -352,3 +352,8 @@ This one returns the old chart grid rendering that seems to be buggy, see detail
 `dataBarSelected: False`
 
 This will disable databar manual render of selected cells. Normally it is True, but you can disable in case of issues.
+
+### aboutFolders (v 096 beta iv)
+`aboutFolders: 2`
+
+It controls number of subfolders reported in the About dialog. Set it to 0 to not report at all.
