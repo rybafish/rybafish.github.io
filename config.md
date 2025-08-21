@@ -336,6 +336,12 @@ Set to false to disable automatich autorefresh feature. Automatic autorefresh me
 
 Report on chart legend number of entities and number of entries for each gantt KPI.
 
+<a name="asyncChartConnect" />
+### asyncChartConnect (v.096 beta IV)
+`asyncChartConnect: True`
+
+Works only in experimental mode now: async initial charts connect and reconnect. Set it to False to disable if you encounter any issues.
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
