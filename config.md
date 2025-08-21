@@ -364,8 +364,9 @@ This will disable databar manual render of selected cells. Normally it is True, 
 
 It controls number of subfolders reported in the About dialog. Set it to 0 to not report at all.
 
-```
-- end of file
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
@@ -412,4 +413,13 @@ It controls number of subfolders reported in the About dialog. Set it to 0 to no
 
 
 
-```
+
+
+
+
+
+
+
+
+
+  
