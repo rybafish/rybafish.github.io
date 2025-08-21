@@ -363,3 +363,53 @@ This will disable databar manual render of selected cells. Normally it is True, 
 `aboutFolders: 2`
 
 It controls number of subfolders reported in the About dialog. Set it to 0 to not report at all.
+
+```
+- end of file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
