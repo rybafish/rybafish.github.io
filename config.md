@@ -342,6 +342,11 @@ Report on chart legend number of entities and number of entries for each gantt K
 
 Works only in experimental mode now: async initial charts connect and reconnect. Set it to False to disable if you encounter any issues.
 
+### exitConfirmation (v.096 beta IV)
+`exitConfirmation: False`
+
+It is False by default, make it True to get warned on Alt+Q.
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
