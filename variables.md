@@ -83,6 +83,7 @@ sql> ...
 # Troubleshooting
 If something unusual or not clear happens to variables usage you can:
 * open the config.yaml, set the loglevel to 5
+* add variables to the list of logging components: log_components: ['variables']
 * reload the config (Actions -> Reload config)
 * reproduce the issue and check the .log file, may be you will be able to see unexpected variables values or something like that
 
