@@ -8,6 +8,10 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * linux, macOS builds
 
 # Upcoming beta build
+* master password
+
+# 096 beta IV
+[<b>096 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/096iv/RybaFish_096betaIV.7z) (2025-09-01)
 * alt+click in SQL console result set will highlight the row
 * ctrl+alt+click in SQL console result set will highlight value
 * ctrl+shift+click in SQL console result set will highlight changes
