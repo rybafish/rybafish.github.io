@@ -8,6 +8,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * linux, macOS builds
 
 # Upcoming beta build
+* warning on exit, proper application close processing
 * master password
 
 # 096 beta IV
