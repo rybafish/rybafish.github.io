@@ -345,7 +345,7 @@ Works only in experimental mode now: async initial charts connect and reconnect.
 ### exitConfirmation (v.096 beta IV)
 `exitConfirmation: False`
 
-It is False by default, make it True to get warned on Alt+Q.
+It is True by default, set it to False to get the old behaviour (no warning).
 
 ## internal stuff, bugs
 
