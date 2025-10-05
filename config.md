@@ -369,6 +369,11 @@ This will disable databar manual render of selected cells. Normally it is True, 
 
 It controls number of subfolders reported in the About dialog. Set it to 0 to not report at all.
 
+### pwdDecoder (v 096 beta v)
+`pwdDecoder: True`
+
+Set this to True to unhide password encoder-decoder dialog in File menu.
+
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
