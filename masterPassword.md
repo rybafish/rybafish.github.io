@@ -1,8 +1,8 @@
 ## Why Master Password
 
-If you don’t set a master password, RybaFish still encodes stored passwords — but it uses a generic algorithm, meaning the RybaFish instance itself can decode them.
+If you don’t set a master password, RybaFish still encodes stored passwords — but it uses a generic algorithm, meaning any RybaFish can decode them. If your connections.yaml file is compromised, attackers will have access to your passwords.
 
-When you set a master password, RybaFish derives a unique encryption key from it. Without this master password, it’s impossible to decrypt the contents of connections.yaml.
+When you set a master password, RybaFish derives a unique encryption key from it. Without this master password, it’s impossible to decrypt stored passwords.
 
 This provides a proper level of security for stored passwords. Using a master password is the recommended setup, especially in shared environments such as virtual machines or multi-user systems.
 
