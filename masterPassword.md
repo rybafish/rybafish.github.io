@@ -1,3 +1,6 @@
+
+**Note:** this is a last <span style="color:red">draught documentation</span>, the feature is not released yet even for beta usage.
+
 ## Why Master Password
 
 If you don’t set a master password, RybaFish still encodes stored passwords — but it uses a generic algorithm, meaning any RybaFish can decode them. If your connections.yaml file is compromised, attackers will have access to your passwords.
