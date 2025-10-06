@@ -19,7 +19,7 @@ This is a 32-byte hexadecimal string used to make the encoded passwords unique t
 
 If you choose not to use a master password, this value will be explicitly set to an empty string.
 
-## How To Not use it
+## How To Not Use It, Please?
 
 Option one is just reply "Don't set" when RybaFish asks for master password for the first time.
 
