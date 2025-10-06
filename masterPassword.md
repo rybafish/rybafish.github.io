@@ -1,5 +1,5 @@
 
-**Note:** this is a last <span style="color:red">draught documentation</span>, the feature is not released yet even for beta usage.
+**Note:** this is just a <span style="color:red">draught documentation page</span>, the feature is not released yet even for beta usage.
 
 ## Why Master Password
 
@@ -29,3 +29,5 @@ Option one is just reply "Don't set" when RybaFish asks for master password for 
 Option two is manually adjust connections.yaml and set `__salt__: ''` which should be equal to option one.
 
 Option three is set `disableMasterPassword: True` in config.yaml
+
+**Note again:** this is just a <span style="color:red">draught documentation page</span>, the feature is not released yet even for beta usage.
