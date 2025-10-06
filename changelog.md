@@ -9,7 +9,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 
 # Upcoming beta build
 * warning on exit, proper application close processing
-* [master password]/(masterPassword)
+* [master password](/masterPassword)
 
 # 096 beta IV
 [<b>096 beta IV</b>](https://github.com/rybafish/rybafish/releases/download/096iv/RybaFish_096betaIV.7z) (2025-09-01)
