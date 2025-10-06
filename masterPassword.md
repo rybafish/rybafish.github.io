@@ -18,3 +18,11 @@ If you choose to use a master password, connections.yaml will also contain a `__
 This is a 32-byte hexadecimal string used to make the encoded passwords unique to your RybaFish instance and to make brute-force attacks more difficult.
 
 If you choose not to use a master password, this value will be explicitly set to an empty string.
+
+## How To Not use it
+
+Option one is just reply "Don't set" when RybaFish asks for master password for the first time.
+
+Option two is manually adjust connections.yaml and set `__salt__: ''` which should be equal to option one.
+
+Option three is set `disableMasterPassword: True` in config.yaml
