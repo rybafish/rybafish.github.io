@@ -32,4 +32,7 @@ Option two is manually adjust connections.yaml and set `__salt__: ''` which shou
 
 Option three is set `disableMasterKey: True` in config.yaml
 
+## Settings
+You can enable Encoder/Decoder dialog by setting `pwdDecoder: True` in config.yaml, it will be in File menu.
+
 **Note again:** this is just a <span style="color:red">draught documentation page</span>, the feature is not released yet even for beta usage.
