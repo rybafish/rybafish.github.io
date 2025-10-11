@@ -7,7 +7,10 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 # Upcoming major build
 * linux, macOS builds
 
-# Upcoming beta build
+True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only!</span>)
+
+# 096 beta V
+[<b>096 beta V</b>](https://github.com/rybafish/rybafish/releases/download/096v/RybaFish_096betaV.7z) (2025-10-11)
 * warning on exit, proper application close processing
 * [master key](/masterKey)
 
@@ -25,9 +28,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 * **experimental** asyncronus chart connects: [asyncChartConnect](/config#asyncChartConnect), [promo](https://www.youtube.com/shorts/yiW8GqFd3Cw).
 * number of crashes fixed
 
- True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only!</span>)
-
-# 096 beta III
+ # 096 beta III
 [<b>096 beta III</b>](https://github.com/rybafish/rybafish/releases/download/096biii/RybaFish_096betaIII.7z) (2024-04-27)
 * initial password reset support
 * password change dialog added (file menu)
