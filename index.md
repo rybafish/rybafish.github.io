@@ -33,9 +33,9 @@ No installation required, just unzip wherever you intend to run it.
   
 [095 Ishkhan](https://github.com/rybafish/rybafish/releases/download/095/RybaFish_095Ishkhan.7z) last major build, 12.08.2023 ([changes](/changelog)).
 
-[096 beta III](https://github.com/rybafish/rybafish/releases/download/096biii/RybaFish_096betaIII.7z), last <span style="color:blue">beta</span> build, 27.04.2024.
+[096 beta V](https://github.com/rybafish/rybafish/releases/download/096v/RybaFish_096betaV.7z), last <span style="color:blue">beta</span> build, 11.10.2025.
 
-[091 Sig/ssl](https://github.com/rybafish/rybafish/releases/download/092sigssl/RybaFish_092sigssl.7z), previous build, 01.11.2022.
+<!-- [091 Sig/ssl](https://github.com/rybafish/rybafish/releases/download/092sigssl/RybaFish_092sigssl.7z), previous build, 01.11.2022. -->
 
 <!-- [0.9 Paltus](https://github.com/rybafish/rybafish/releases/download/09paltus/RybaFish_09Paltus.7z), <span style="color:blue">previous major</span> release, 17.02.2022 ([changes](/changelog)) -->
 
@@ -43,7 +43,7 @@ No installation required, just unzip wherever you intend to run it.
 
 **Windows 7** 
 
-[0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z) should work on older windows versions. Try this build if you have missing api-ms-win-core-path-l1-1-0.dll error, there is [an issue](https://github.com/rybafish/rybafish/issues/600) for this.
+[0.6 EVH](https://github.com/rybafish/rybafish/releases/download/06/RybaFish06evh.7z) works on old windows versions. Try this build if you have "missing api-ms-win-core-path-l1-1-0.dll" error, there is [an issue](https://github.com/rybafish/rybafish/issues/600) for this.
 
 [Previous releases](/changelog)
 
