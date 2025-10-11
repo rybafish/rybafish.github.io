@@ -1,5 +1,5 @@
 
-**Note:** this is just a <span style="color:red">draught documentation page</span>, the feature is not released yet even for beta usage.
+**Note:** this is just a <span style="color:red">draught documentation page</span>, the feature released in v096 beta V (2025-10-11) for beta usage.
 
 ## Why Master Password
 
@@ -35,4 +35,4 @@ Option three is set `disableMasterKey: True` in config.yaml
 ## Settings
 You can enable Encoder/Decoder dialog by setting `pwdDecoder: True` in config.yaml, it will be in File menu.
 
-**Note again:** this is just a <span style="color:red">draught documentation page</span>, the feature is not released yet even for beta usage.
+**Note again:** this is just a <span style="color:red">draught documentation page</span>, the feature released in v096 beta V (2025-10-11) for beta usage.
