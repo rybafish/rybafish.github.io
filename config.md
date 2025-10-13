@@ -347,6 +347,26 @@ Works only in experimental mode now: async initial charts connect and reconnect.
 
 It is True by default, set it to False to get the old behaviour (no warning).
 
+### dataBarSelected (v 096 beta iv)
+`dataBarSelected: False`
+
+This will disable databar manual render of selected cells. Normally it is True, but you can disable in case of issues.
+
+### aboutFolders (v 096 beta iv)
+`aboutFolders: 2`
+
+It controls number of subfolders reported in the About dialog. Set it to 0 to not report at all.
+
+### disableMasterKey (v 096 beta v)
+`disableMasterKey: False`
+
+Set it to False to leverage [Master Key](/masterKey) feature.
+
+### pwdDecoder (v 096 beta v)
+`pwdDecoder: True`
+
+Set this to True to unhide password encoder-decoder dialog in File menu.
+
 ## internal stuff, bugs
 
 ### verifyGroupUnits (v 0.93)
@@ -359,56 +379,9 @@ This setting disables check of sUnit/dUnit kpi description integrity. In case sa
 
 This one returns the old chart grid rendering that seems to be buggy, see details in corresponding [issue on github](https://github.com/rybafish/rybafish/issues/795).
 
-### dataBarSelected (v 096 beta iv)
-`dataBarSelected: False`
-
-This will disable databar manual render of selected cells. Normally it is True, but you can disable in case of issues.
-
-### aboutFolders (v 096 beta iv)
-`aboutFolders: 2`
-
-It controls number of subfolders reported in the About dialog. Set it to 0 to not report at all.
-
-### pwdDecoder (v 096 beta v)
-`pwdDecoder: True`
-
-Set this to True to unhide password encoder-decoder dialog in File menu.
-
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
