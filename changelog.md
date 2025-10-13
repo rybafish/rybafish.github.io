@@ -12,7 +12,7 @@ True rybafish junkies can try rybafish [nightly build](https://files.rybafish.ne
 # 096 beta V
 [<b>096 beta V</b>](https://github.com/rybafish/rybafish/releases/download/096v/RybaFish_096betaV.7z) (2025-10-11)
 * warning on exit, proper application close processing
-* [master key](/masterKey)
+* [master key](/masterKey), you can set `disableMasterKey: False` if you want to start using it
 
 # 096 beta IV
 <b>096 beta IV</b> (2025-09-01) <span style="color:red">withdrawn</span>.
