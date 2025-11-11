@@ -14,7 +14,7 @@ True rybafish junkies can try rybafish [nightly build](https://files.rybafish.ne
 
 <b>096 beta V</b> (2025-10-11) ~~withdrawn~~.
 * warning on exit, proper application close processing
-* [master key](/masterKey), you can set `disableMasterKey: False` if you want to start using it
+* [master key](/masterKey), you can set disableMasterKey: True to ignore it
 
 # 096 beta IV
 <b>096 beta IV</b> (2025-09-01) <span style="color:red">withdrawn</span>.
