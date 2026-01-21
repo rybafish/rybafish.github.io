@@ -5,7 +5,9 @@ title: Changelog
 Links for most recent macOS builds available [here](https://github.com/rybafish/rybafish/issues/771).
 
 # Upcoming major build
-* linux, macOS builds
+* linux, macOS builds < but for real this time!
+* sum of selected values in result set reported into status line
+* [secret](/hdbuserstore) hdbuserstore config export
 
 True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only!</span>)
 
