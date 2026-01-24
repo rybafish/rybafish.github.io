@@ -1,6 +1,6 @@
 ### hdbuserstore
 
-RybaFish does not support hdbuserstore as a password storage mechanism.
+RybaFish does not support hdbuserstore as it's password storage mechanism.
 
 However, if you are using hdbuserstore on the same machine for any reason, it is possible to export a single configuration from RybaFish to hdbuserstore.
 
@@ -14,6 +14,6 @@ hdbuserstore -i set "cfgname" "host:port" "username"
 
 The password will be passed in the background automatically.
 
-The result will be shown in the dialog status line. For detailed information, refer to the rybafish.log file.
+The result will be shown in the dialog status line. For step by step details you may check rybafish.log file.
 
-You need RybaFish 097 beta vi to use this feature.
+You need RybaFish 0.97 beta vi to use this feature.
