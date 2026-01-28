@@ -16,4 +16,4 @@ The password will be passed in the background automatically.
 
 The result will be shown in the dialog status line. For step by step details you may check rybafish.log file.
 
-You need RybaFish 0.97 beta vi to use this feature.
+You need RybaFish 0.96 beta vi to use this feature.
