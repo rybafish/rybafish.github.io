@@ -47,6 +47,12 @@ sql: >
         component
     order by server_timestamp desc, component_size desc
 ```
+### multicolor
+Set to true to assign colors based on "raduga" colors list from config.yaml
+
+### hashColorIndex
+False by default. Set it true so the KPI color defined based on splitby value. This ensures consistent KPI coloring regardless of the orderby clause, as colors are mapped to the KPI name..
+
 ### others
 When True - all the rest data will be summed into a single line named "Others".
 
