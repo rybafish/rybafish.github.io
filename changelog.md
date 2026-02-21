@@ -12,7 +12,7 @@ Links for most recent macOS builds available [here](https://github.com/rybafish/
 True rybafish junkies can try rybafish [nightly build](https://files.rybafish.net/keira/rybafish_knightly.7z) (<span style="color:blue">executable only!</span>)
 
 # 096 beta VI
-* hashColorIndex feature for multiline multicolor custom KPIs
+* [hashColorIndex](/customMultiline) feature for multiline multicolor custom KPIs
   
 # 096 beta V
 [<b>096 beta V</b>](https://github.com/rybafish/rybafish/releases/download/096v/RybaFish_096betaV.7z) (2025-11-11)
