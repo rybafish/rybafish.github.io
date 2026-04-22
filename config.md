@@ -379,6 +379,10 @@ This setting disables check of sUnit/dUnit kpi description integrity. In case sa
 
 This one returns the old chart grid rendering that seems to be buggy, see details in corresponding [issue on github](https://github.com/rybafish/rybafish/issues/795).
 
+### bug795 (v 0.96)
+`bug795: False`
+
+Set this to revert to text rld button for charts.
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
